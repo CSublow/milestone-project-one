@@ -429,21 +429,24 @@ figure figcaption {
 -------------------------------------------------- */
 #news-article-1-image {
     width: 200px;
-    height: 113px;
     margin: 20px auto;
     display: block;
 }
-
 #news-article-2-image {
-    float: left;
-    margin: 0 10px 0 0;
+    float: none;
+    width: 213px;
+    margin: 0 auto 10px;
+    display: block;
+}
+#news-article-3-image {
+    margin: 0 auto;
+    display: block;
 }
 
 @media (min-width: 480px) {
     #news-article-1-image {
         /*increase the size of the image on larger screens*/
         width: 400px;
-        height: 225px;
     }
 }
 
@@ -451,7 +454,24 @@ figure figcaption {
     #news-article-1-image {
         /*increase the size of the image on larger screens*/
         width: 600px;
-        height: 338px;
+    }
+    #news-article-2-image {
+        float: left;
+        margin: 0 10px 10px 0;
+        /*make image full width on larger screens*/
+        width: auto;
+    }
+}
+
+@media (min-width: 1020px) {
+    #news-article-3-image {
+        width: 500px;
+    }
+}
+
+@media (min-width: 1328px) {
+    #news-article-3-image {
+        width: 800px;
     }
 }
 
