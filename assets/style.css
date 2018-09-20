@@ -1,6 +1,5 @@
 /* GOOGLE FONTS
 -------------------------------------------------- */
-/*@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP:400,700');*/
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP:200,400,700|Spirax');
 
 /* --- STRUCTURAL
@@ -270,7 +269,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .feature-media-container img,
-.media-cover-container img {
+.media-cover-container img,
+.subpage-media-cover-container img {
    border: 1px solid black; 
 }
 .feature-media-container h3 {
