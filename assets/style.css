@@ -338,7 +338,7 @@ footer li {
 /* INDEX HISTORY SECTION
 -------------------------------------------------- */
 .band-history p {
-    margin: 0 57px;
+    margin: 9px 57px;
 }
 
 #history-show-hide-btn {
@@ -381,7 +381,7 @@ figure figcaption {
 @media (min-width: 900px) {
     /*reset the p margin and apply it to the whole div on larger screens for proper layout*/
     .band-history p {
-        margin: 0;
+        margin: 12px 0;
     }
     .band-history {
         margin: 0 57px;
