@@ -259,7 +259,11 @@ footer li {
     margin: 0 auto;
     display: block;
     width: 300px;
-    border: 1px solid black;
+}
+
+.feature-media-container img,
+.media-cover-container img {
+   border: 1px solid black; 
 }
 
 .feature-media-container h3 {
