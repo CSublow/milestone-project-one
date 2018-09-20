@@ -258,7 +258,7 @@ h1, h2, h3, h4, h5, h6 {
     pointer-events: none;
 }
 
-/* --- INDEX ALBUM SECTION
+/* --- MEDIA STYLES
 -------------------------------------------------- */
 .feature-media-cover-container {
     /*this centres the album cover within its container*/
@@ -718,6 +718,7 @@ figure figcaption {
     /*display: block and margin: auto centers the images on smaller screens*/
     display: block;
     margin: 0 auto;
+    border: 1px solid black;
 }
 
 .lightgallery-heading {
