@@ -85,9 +85,7 @@
             <div class="row margin-top-30">
                 <!-- Featured Video -->
                 <div class="feature-media-container">
-                    <!--<div class="feature-media-cover-container">-->
                     <iframe class="video-player"src="https://www.youtube.com/embed/xvqeSJlgaNk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                    <!--<div id="daydreamBeliever" class="video-player"></div>-->
                     <h3>Daydream Believer - Official Music Video</h3>
                 </div>
             </div>
@@ -143,24 +141,6 @@
         </ul>
     </footer>
     
-    <!-- YouTube player script -->
-    <script>
-    // 2. This code loads the IFrame Player API code asynchronously.
-      var tag = document.createElement('script');
-
-      tag.src = "https://www.youtube.com/iframe_api";
-      var firstScriptTag = document.getElementsByTagName('script')[0];
-      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-      
-    // 3. This function creates an <iframe> (and YouTube player)
-      //    after the API code downloads.
-      var player;
-      function onYouTubeIframeAPIReady() {
-        player = new YT.Player('daydreamBeliever', {
-          videoId: 'xvqeSJlgaNk',
-        });
-      }
-    </script>
 </body>
 
 </html>
