@@ -40,91 +40,95 @@
 </head>
 
 <body>
-    <!--using container-fluid so the header moves with the viewport size-->
-    <header class="container-fluid">
-        <nav class="text-center navbar">
-            <!--Logo -->
-            <div class="row">
-                <a href="index.html"><img src="../assets/images/logo.png" alt="The Monkees" id="main-logo"></a>
-            </div>
-            <!--Hamburger Icon -->
-            <div>
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+    <div class="wrapper">
+        <!--using container-fluid so the header moves with the viewport size-->
+        <header class="container-fluid">
+            <nav class="text-center navbar">
+                <!--Logo -->
+                <div class="row">
+                    <a href="index.html"><img src="../assets/images/logo.png" alt="The Monkees" id="main-logo"></a>
+                </div>
+                <!--Hamburger Icon -->
+                <div>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-            </div>
-            <!--Navbar -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="../index.html">Home</a></li>
-                    <li><a href="../news.html">News</a></li>
-                    <li><a href="../tour.html">Tour</a></li>
-                    <li><a href="../book-us.html">Book Us</a></li>
-                    <li><a href="../music.html">Music</a></li>
-                    <li><a href="../featured-video.html">Video</a></li>
-                    <li><a href="../photo-gallery.html">Photo Gallery</a></li>
-                </ul>
-            </div>
-        </nav>
-        <ul class="list-inline social-links text-center">
-            <li><a target="_blank" href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
-            <li><a target="_blank" href="https://www.twitter.com/"><i class="fab fa-twitter-square"></i></a></li>
-            <li><a target="_blank" href="https://www.youtube.com/"><i class="fab fa-youtube-square"></i></a></li>
-        </ul>
-    </header>
+                </div>
+                <!--Navbar -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="../index.html">Home</a></li>
+                        <li><a href="../news.html">News</a></li>
+                        <li><a href="../tour.html">Tour</a></li>
+                        <li><a href="../book-us.html">Book Us</a></li>
+                        <li><a href="../music.html">Music</a></li>
+                        <li><a href="../featured-video.html">Video</a></li>
+                        <li><a href="../photo-gallery.html">Photo Gallery</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <ul class="list-inline social-links text-center">
+                <li><a target="_blank" href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
+                <li><a target="_blank" href="https://www.twitter.com/"><i class="fab fa-twitter-square"></i></a></li>
+                <li><a target="_blank" href="https://www.youtube.com/"><i class="fab fa-youtube-square"></i></a></li>
+            </ul>
+        </header>
 
-    <main class="container-fluid main-wrapper">
-        <div class="row page-title text-center">
-            <h1>Forever</h1>
-            <!--commented out for now but can just probably delete, design decision-->
-            <!--<h3>12th August 2018</h3>-->
-        </div>
-        <!-- Subpage Navigation -->
-        <div class="subpage-navigation text-center">
-            <a class="invisible" href="/">Previous</a>
-            <a href="../music.html">All Music</a>
-            <a href="more-of-the-monkees.html">Next</a>
-        </div>
-        <!-- Main Section -->
-        <section>
-            <div class="row">
-                <div class="col-md-3 col-md-offset-2 min-width-album-fix">
-                    <div class="subpage-media-cover-container">
-                        <img src="../assets/images/album-covers/forever-cover.jpg" alt="The Monkees - Forever album cover" class="subpage-album-cover">
+        <main class="container-fluid main-wrapper">
+            <div class="row page-title text-center">
+                <h1>Forever</h1>
+                <!--commented out for now but can just probably delete, design decision-->
+                <!--<h3>12th August 2018</h3>-->
+            </div>
+            <!-- Subpage Navigation -->
+            <div class="subpage-navigation text-center">
+                <a class="invisible" href="/">Previous</a>
+                <a href="../music.html">All Music</a>
+                <a href="more-of-the-monkees.html">Next</a>
+            </div>
+            <!-- Main Section -->
+            <section>
+                <div class="row">
+                    <div class="col-md-3 col-md-offset-2 min-width-album-fix">
+                        <div class="subpage-media-cover-container">
+                            <img src="../assets/images/album-covers/forever-cover.jpg" alt="The Monkees - Forever album cover" class="subpage-album-cover">
+                        </div>
+                    </div>
+                    <div class="col-md-5 music-description">
+                        <h3>Release date: 14th June 201X</h3>
+                        <p>Forever Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus dolor sollicitudin elit rutrum, non venenatis nisi pulvinar. Integer vitae fermentum ex. Curabitur tempus, est nec pretium pharetra, ipsum enim sodales
+                            est, eget dapibus lorem quam eu nunc. Suspendisse euismod mi velit, eu consequat mauris eleifend eu.</p>
+                        <a href="https://www.amazon.com/">
+                            <h4 class="text-center margin-top-30">Buy Now!</h4>
+                        </a>
                     </div>
                 </div>
-                <div class="col-md-5 music-description">
-                    <h3>Release date: 14th June 201X</h3>
-                    <p>Forever Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus dolor sollicitudin elit rutrum, non venenatis nisi pulvinar. Integer vitae fermentum ex. Curabitur tempus, est nec pretium pharetra, ipsum enim sodales est,
-                        eget dapibus lorem quam eu nunc. Suspendisse euismod mi velit, eu consequat mauris eleifend eu.</p>
-                    <a href="https://www.amazon.com/"><h4 class="text-center margin-top-30">Buy Now!</h4></a>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <iframe class="spotify-player" src="https://open.spotify.com/embed/album/13dRyx9FBYNrxm50BHl4GK" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
                 </div>
+            </section>
+            <!-- Bottom of Page News Navigation -->
+            <div class="bottom-subpage-navigation text-center">
+                <a class="invisible" href="/">Previous</a>
+                <a href="../news.html">All Music</a>
+                <a href="news-article-2.html">Next</a>
             </div>
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <iframe class="spotify-player" src="https://open.spotify.com/embed/album/13dRyx9FBYNrxm50BHl4GK" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                </div>
-            </div>
-        </section>
-        <!-- Bottom of Page News Navigation -->
-        <div class="bottom-subpage-navigation text-center">
-            <a class="invisible" href="/">Previous</a>
-            <a href="../news.html">All Music</a>
-            <a href="news-article-2.html">Next</a>
-        </div>
-    </main>
+        </main>
 
-    <footer>
-        <ul class="list-inline text-center">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
-            <li><a href="https://www.twitter.com/" target="_blank">Twitter</a></li>
-            <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
-        </ul>
-    </footer>
+        <footer>
+            <ul class="list-inline text-center">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://www.twitter.com/" target="_blank">Twitter</a></li>
+                <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+            </ul>
+        </footer>
+    </div>
 </body>
 
 </html>

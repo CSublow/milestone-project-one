@@ -34,83 +34,85 @@
 </head>
 
 <body>
-    <!--using container-fluid so the header moves with the viewport size-->
-    <header class="container-fluid">
-        <nav class="text-center navbar">
-            <!--Logo -->
-            <div class="row">
-                <a href="index.html"><img src="assets/images/logo.png" alt="The Monkees" id="main-logo"></a>
-            </div>
-            <!--Hamburger Icon -->
-            <div>
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+    <div class="wrapper">
+        <!--using container-fluid so the header moves with the viewport size-->
+        <header class="container-fluid">
+            <nav class="text-center navbar">
+                <!--Logo -->
+                <div class="row">
+                    <a href="index.html"><img src="assets/images/logo.png" alt="The Monkees" id="main-logo"></a>
+                </div>
+                <!--Hamburger Icon -->
+                <div>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-            </div>
-            <!--Navbar -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="news.html">News</a></li>
-                    <li><a href="tour.html">Tour</a></li>
-                    <li><a href="book-us.html">Book Us</a></li>
-                    <li><a href="music.html">Music</a></li>
-                    <li><a href="featured-video.html">Video</a></li>
-                    <li><a href="photo-gallery.html">Photo Gallery</a></li>
-                </ul>
-            </div>
-        </nav>
-        <ul class="list-inline social-links text-center">
-            <li><a target="_blank" href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
-            <li><a target="_blank" href="https://www.twitter.com/"><i class="fab fa-twitter-square"></i></a></li>
-            <li><a target="_blank" href="https://www.youtube.com/"><i class="fab fa-youtube-square"></i></a></li>
-        </ul>
-    </header>
+                </div>
+                <!--Navbar -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="tour.html">Tour</a></li>
+                        <li><a href="book-us.html">Book Us</a></li>
+                        <li><a href="music.html">Music</a></li>
+                        <li><a href="featured-video.html">Video</a></li>
+                        <li><a href="photo-gallery.html">Photo Gallery</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <ul class="list-inline social-links text-center">
+                <li><a target="_blank" href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
+                <li><a target="_blank" href="https://www.twitter.com/"><i class="fab fa-twitter-square"></i></a></li>
+                <li><a target="_blank" href="https://www.youtube.com/"><i class="fab fa-youtube-square"></i></a></li>
+            </ul>
+        </header>
 
-    <div class="container-fluid main-wrapper">
-        <div class="row page-title text-center">
-            <h1>Book Us</h1>
+        <div class="container-fluid main-wrapper">
+            <div class="row page-title text-center">
+                <h1>Book Us</h1>
+            </div>
+            <p class="text-center book-us-description">The Monkees are available for private hire, able to perform at weddings, christmas parties and other events. Please use the form below to get in touch.</p>
+            <!-- Contact Form -->
+            <form class="form-horizontal book-us-form" action="/action-page.html">
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="name">Contact Name:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="name" placeholder="Enter name" name="name" maxlength="50" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="email">Contact Email:</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" maxlength="70" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="message">Your Message:</label>
+                    <div class="col-sm-10">
+                        <textarea class="form-control" id="message" placeholder="Enter your message..." name="message" rows="8" required></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </div>
+                </div>
+            </form>
         </div>
-        <p class="text-center book-us-description">The Monkees are available for private hire, able to perform at weddings, christmas parties and other events. Please use the form below to get in touch.</p>
-        <!-- Contact Form -->
-        <form class="form-horizontal book-us-form" action="/action-page.html">
-            <div class="form-group">
-                <label class="control-label col-sm-2" for="name">Contact Name:</label>
-                <div class="col-sm-10">
-                    <input type="text" class="form-control" id="name" placeholder="Enter name" name="name" maxlength="50" required>
-                </div>
-            </div>
-            <div class="form-group">
-                <label class="control-label col-sm-2" for="email">Contact Email:</label>
-                <div class="col-sm-10">
-                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" maxlength="70" required>
-                </div>
-            </div>
-            <div class="form-group">
-                <label class="control-label col-sm-2" for="message">Your Message:</label>
-                <div class="col-sm-10">
-                    <textarea class="form-control" id="message" placeholder="Enter your message..." name="message" rows="8" required></textarea>
-                </div>
-            </div>
-            <div class="form-group">
-                <div class="text-center">
-                    <button type="submit" class="btn btn-default">Submit</button>
-                </div>
-            </div>
-        </form>
-    </div>
 
-    <footer>
-        <ul class="list-inline text-center">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
-            <li><a href="https://www.twitter.com/" target="_blank">Twitter</i></i></a></li>
-            <li><a href="https://www.youtube.com/" target="_blank">YouTube</i></i></a></li>
-        </ul>
-    </footer>
+        <footer>
+            <ul class="list-inline text-center">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://www.twitter.com/" target="_blank">Twitter</i></i></a></li>
+                <li><a href="https://www.youtube.com/" target="_blank">YouTube</i></i></a></li>
+            </ul>
+        </footer>
+    </div>
 </body>
 
 </html>

@@ -16,6 +16,9 @@ body {
     font-family: 'Noto Serif JP', sans-serif;
     background-image: url(/assets/images/full-bloom-even-lighter.png);
 }
+body a {
+    color: #000000;
+}
 
 .wrapper {
     max-width: 1904px;
@@ -33,7 +36,6 @@ footer {
     background-color: #f5f5f5;
     font-size: 1em;
 }
-
 /*target the individual icons*/
 footer li {
     margin: 0 1% 0 1%;
@@ -84,7 +86,6 @@ footer li {
     display: block;
     text-align: center;
 }
-
 .navbar-nav>li {
     display: block;
     float: none;
@@ -265,7 +266,6 @@ footer li {
 .media-cover-container img {
    border: 1px solid black; 
 }
-
 .feature-media-container h3 {
     /*overwrite default bootstrap margin, too much for the album h2*/
     margin-top: 10px;
@@ -274,6 +274,10 @@ footer li {
 .feature-album-cover {
     width: 300px;
     height: 300px;
+}
+
+.album-buy-now a {
+    margin: 0 10px 0 10px;
 }
 
 @media (min-width: 768px) {
@@ -300,10 +304,6 @@ footer li {
         width: 400px;
         height: 400px;
     }
-}
-
-.album-buy-now a {
-    margin: 0 10px 0 10px;
 }
 
 /* INDEX NEWS SECTION
@@ -465,10 +465,6 @@ figure figcaption {
     max-width: 72%;
 }
 
-/*#message {*/
-/*    line-height: 4em;*/
-/*}*/
-
 /* MUSIC STYLES
 -------------------------------------------------- */
 .media-cover-container {
@@ -477,7 +473,6 @@ figure figcaption {
     margin: 46px auto;
     display: block;
 }
-    
 .media-cover-container h4 {
     text-align: center;
 }
@@ -641,7 +636,6 @@ figure figcaption {
 .thumbnail-wrapper {
     position: absolute;
 }
-
 .thumbnail-wrapper .glyphicon {
     /*position the play glyphicon correctly*/
     position: absolute;
@@ -712,6 +706,7 @@ figure figcaption {
     max-width: 90%;
     margin: 0 auto;
 }
+
 .lightgallery-thumbnail-link img {
     /*display: block and margin: auto centers the images on smaller screens*/
     display: block;
