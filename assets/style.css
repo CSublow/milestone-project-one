@@ -439,10 +439,16 @@ figure figcaption {
     display: block;
 }
 #news-article-3-image {
-    margin: 0 auto;
+    margin: 10px auto 0;
     display: block;
+    width: 239px;
 }
 
+@media (min-width: 435px) {
+    #news-article-3-image {
+        width: 300px;
+    }
+}
 @media (min-width: 480px) {
     #news-article-1-image {
         /*increase the size of the image on larger screens*/
@@ -450,6 +456,11 @@ figure figcaption {
     }
 }
 
+@media (min-width: 551px) {
+    #news-article-3-image {
+        width: 450px;;
+    }
+}
 @media (min-width: 992px) {
     #news-article-1-image {
         /*increase the size of the image on larger screens*/
