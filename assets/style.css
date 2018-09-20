@@ -1,0 +1,757 @@
+/* GOOGLE FONTS
+-------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP:400,700');
+
+/* --- STRUCTURAL
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /*leave room for footer*/
+    margin-bottom: 60px;
+    min-width: 266px;
+    font-family: 'Noto Serif JP', sans-serif;
+    background-image: url(/assets/images/full-bloom-even-lighter.png);
+}
+
+.wrapper {
+    max-width: 1904px;
+    margin: 0 auto;
+    background-image: url(/assets/images/flowers-bg.png), url('/assets/images/flowers-bg-right.png');
+    background-repeat: no-repeat;
+    background-position: 0% 0%, 100% 0%;
+    background-size: 98px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    font-size: 1em;
+}
+
+/*target the individual icons*/
+footer li {
+    margin: 0 1% 0 1%;
+    font-size: 0.8em;
+}
+
+.margin-top-30 {
+    margin-top: 30px
+}
+.margin-top-30-fix {
+    /*reduces the space between featured album and album rows on music page*/
+    margin-top: 0;
+}
+
+.margin-top-60 {
+    margin-top: 60px;
+}
+
+.row-margin-bottom {
+    margin-bottom: 20px;
+}
+
+.main-wrapper {
+    max-width: 1904px;
+}
+
+@media (min-width: 768px) {
+    .wrapper {
+        /*adjust the size of the background images on larger screens*/
+        background-size: 216px;
+    }
+    .margin-top-30-fix {
+        /*grants the correct space on larger screens*/
+        margin-top: 30px;
+    }
+}
+
+/* --- HEADER AND NAVIGATION
+-------------------------------------------------- */
+#main-logo {
+    width: 125px;
+    height: 66px;    
+}
+
+.navbar-nav {
+    float: none;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav>li {
+    display: block;
+    float: none;
+    /*limit the size of the border*/
+    max-width: 131px;
+    /*center align the items, max-width makes them align left*/
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+}
+
+.icon-bar {
+    background-color: black;
+}
+
+.navbar-toggle {
+    /*this moves the nav hamburger icon to the desired place next to the header*/
+    top: 10px;
+    right: 10px;
+    /*this overwrites bootstrap's default position: relative. Needed to get the social links to line up properly underneath the nav*/
+    position: absolute;
+    /*style the button*/
+    background-color: white;
+    border: 4px solid black;
+}
+
+/*target the social icons in the header*/
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    /*give the icons more room to breathe*/
+    padding: 12px 0;
+    /*adjust the size and position of the icons*/
+    line-height: 7px;
+    font-size: 1.7em;
+    /*center the font (icons) within the container div*/
+    text-align: center;
+    /*the icons touch each other when stacked vertically on smaller screen sizes. This fixes this*/
+    margin-top: 10px;
+    color: #000000;
+}
+
+.page-title {
+    margin-bottom: 20px;
+}
+
+.subpage-navigation {
+    margin: 15px 0 25px 0;
+}
+
+.bottom-subpage-navigation {
+    margin: 38px 0 0 0;
+}
+
+.subpage-navigation a,
+.bottom-subpage-navigation a {
+    /*allows the nav buttons to line up evenly*/
+    width: 70px;
+    display: inline-block;
+}
+
+@media (min-width: 768px) {
+    .social-links li a i {
+        /*increase the size of the social links on larger screens*/
+        font-size: 2em;
+    }
+    /*increase the size of the logo on larger screens*/
+    #main-logo {
+        width: 300px;
+        height: 157px;
+    }
+    .navbar-nav>li {
+        /*make the nav items into a row on larger screens*/
+        display: inline-block;
+        /*correct border effect on larger screens*/
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 0;
+    }
+    .navbar-nav>li:last-child {
+        border-right: 1px solid black;    
+    }
+}
+
+/* --- JSSOR SLIDER CSS
+-------------------------------------------------- */
+#slider1_container {
+    border: 1px solid black;
+    visibility: hidden; 
+    position: relative;
+    margin: 0 auto;
+    top: 0px; 
+    left: 0px; 
+    width: 1300px; 
+    height: 500px; 
+    overflow: hidden;
+}
+
+/* jssor slider loading skin spin css */
+.jssorl-009-spin img {
+    animation-name: jssorl-009-spin;
+    animation-duration: 1.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes jssorl-009-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.jssorb031 {
+    position: absolute;
+}
+.jssorb031 .i {
+    position: absolute;
+    cursor: pointer;
+}
+.jssorb031 .i .b {
+    fill: #000;
+    fill-opacity: 0.5;
+    stroke: #fff;
+    stroke-width: 1200;
+    stroke-miterlimit: 10;
+    stroke-opacity: 0.3;
+}
+.jssorb031 .i:hover .b {
+    fill: #fff;
+    fill-opacity: .7;
+    stroke: #000;
+    stroke-opacity: .5;
+}
+.jssorb031 .iav .b {
+    fill: #fff;
+    stroke: #000;
+    fill-opacity: 1;
+}
+.jssorb031 .i.idn {
+    opacity: .3;
+}
+
+/* #region Arrow Navigator Skin Begin */
+.jssora051 {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+}
+.jssora051 .a {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 360;
+    stroke-miterlimit: 10;
+}
+.jssora051:hover {
+    opacity: .8;
+}
+.jssora051.jssora051dn {
+    opacity: .5;
+}
+.jssora051.jssora051ds {
+    opacity: .3;
+    pointer-events: none;
+}
+
+/* --- INDEX ALBUM SECTION
+-------------------------------------------------- */
+.feature-media-cover-container {
+    /*this centres the album cover within its container*/
+    margin: 0 auto;
+    display: block;
+    width: 300px;
+    border: 1px solid black;
+}
+
+.feature-media-container h3 {
+    /*overwrite default bootstrap margin, too much for the album h2*/
+    margin-top: 10px;
+    text-align: center;
+}
+.feature-album-cover {
+    width: 300px;
+    height: 300px;
+}
+
+@media (min-width: 768px) {
+    /*make the album cover bigger and bolder on larger screens*/
+    .feature-media-cover-container {
+        margin: 0 auto;
+        display: block;
+        width: 315px;
+    }
+    .feature-album-cover {
+        width: 315px;
+        height: 315px;
+    }
+}
+
+@media (min-width: 1200px) {
+    /*make the album cover even bigger and bolder on the largest screens*/
+    .feature-media-cover-container {
+        margin: 0 auto;
+        display: block;
+        width: 400px;
+    }
+    .feature-album-cover {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+.album-buy-now a {
+    margin: 0 10px 0 10px;
+}
+
+/* INDEX NEWS SECTION
+-------------------------------------------------- */
+.index-news-wrapper {
+    /*centre the news items within their container*/
+    display: table;
+    margin: 0 auto;
+}
+
+.news-list,
+.news-list-container {
+    list-style: none;
+    padding: 0 10px 0 0;
+    text-align: center;
+}
+
+.latest-news-h1 {
+    /*reset margin-top so the heading is more snug with the hero slider*/
+    margin-top: 0;
+}
+
+/*align the news items left on larger screens*/
+
+@media (min-width: 992px) {
+    .news-list,
+    .news-list-container {
+        text-align: left;
+    }
+}
+
+/* INDEX HISTORY SECTION
+-------------------------------------------------- */
+.band-history p {
+    margin: 0 57px;
+}
+
+#history-show-hide-btn {
+    margin: 12px auto;
+    display: block;
+}
+
+#history-text {
+    max-width: 991px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+figure {
+    /*stops messy layout of text next to image on smaller screens*/
+    display: block;
+    margin: 15px 0 10px 0;
+}
+figure img {
+    /*ensures divs collapsed on smaller screens*/
+    margin: 0 auto;
+    display: block;
+    border: 1px solid black;
+}
+figure figcaption {
+    text-align: center;
+    font-style: italic;
+    max-width: 245px;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    #history-text {
+        /*this ensures the text always shows on larger screens*/
+        height: inherit!important;
+        display: block!important;
+    }
+}
+
+@media (min-width: 900px) {
+    /*reset the p margin and apply it to the whole div on larger screens for proper layout*/
+    .band-history p {
+        margin: 0;
+    }
+    .band-history {
+        margin: 0 57px;
+    }
+    figure {
+        margin: 0 20px 0 0;
+    }
+    figure img {
+        vertical-align: top;        
+    }
+    .left-float-history-figure {
+        float: left;
+        margin: 10px 10px 0 0;
+    }
+    .right-float-history-figure {
+        float: right;
+        margin: 10px 0 0 0;
+        padding: 0 0 0 20px;
+    }
+}
+
+/* NEWS PAGE
+-------------------------------------------------- */
+.news-article {
+    margin: 0 auto;
+    display: block;
+    max-width: 1000px;
+    /*remove bootstrap's default float property to properly center the news article*/
+    float: none;
+}
+
+/* NEWS PAGE IMAGES
+-------------------------------------------------- */
+#news-article-1-image {
+    width: 200px;
+    height: 113px;
+    margin: 20px auto;
+    display: block;
+}
+
+@media (min-width: 480px) {
+    #news-article-1-image {
+        /*increase the size of the image on larger screens*/
+        width: 400px;
+        height: 225px;
+    }
+}
+
+@media (min-width: 992px) {
+    #news-article-1-image {
+        /*increase the size of the image on larger screens*/
+        width: 600px;
+        height: 338px;
+    }
+}
+
+/* TOUR STYLES
+-------------------------------------------------- */
+.tour-date {
+    margin-bottom: 10px;
+}
+
+.tour-location {
+    margin-bottom: 10px;
+}
+
+.buy-tickets-btn {
+    margin-bottom: 10px;
+}
+
+/* BOOK US STYLES
+-------------------------------------------------- */
+.book-us-form {
+    max-width: 904px;
+    margin: 20px auto;
+}
+
+.book-us-description {
+    margin: 0 auto;
+    display: block;
+    max-width: 72%;
+}
+
+/*#message {*/
+/*    line-height: 4em;*/
+/*}*/
+
+/* MUSIC STYLES
+-------------------------------------------------- */
+.media-cover-container {
+    height: 330px;
+    width: 300px; 
+    margin: 46px auto;
+    display: block;
+}
+    
+.media-cover-container h4 {
+    text-align: center;
+}
+
+.media-cover-container-fix {
+    /*fixes layout issues with the uppermost container on the 2nd row*/
+    margin: -60px auto 0;
+}
+
+.album-cover {
+    height: 300px;
+    width: 300px;
+}
+
+@media (min-width: 768px) {
+    .media-cover-container {
+        /*fixes margin on larger screens for proper grid layout effect*/
+        margin: 0 auto;
+        height: 230px;
+        width: 200px;  
+    }
+    .margin-top-25 {
+        /*acts similiar to generic margin-top-30 class for proper layout*/
+        margin-top: 25px
+    }
+    .album-cover {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media (min-width: 1291px) {
+    .album-cover {
+        /*increase the size of the album covers on larger screens*/
+        height: 300px;
+        width: 300px;
+    }
+    .media-cover-container {
+        height: 330px;
+        width: 300px; 
+    }
+}
+
+/* MUSIC SUBPAGE STYLES */
+.subpage-media-cover-container {
+    /*this centres the album cover within its container*/
+    margin: 0 auto 25px;
+    display: block;
+    width: 250px;
+}
+
+.subpage-album-cover {
+    width: 250px;
+    height: 250px;
+}
+
+.music-description {
+    padding-left: 30px;
+    margin: 0 35px;
+}
+.music-description h3 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.spotify-player {
+    margin: 15px auto;
+    display: block;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    /*make the album cover bigger and bolder on larger screens*/
+    .subpage-media-cover-container {
+        /*center the album cover when columns collapse*/
+        /*margin: 0 auto 20px;*/
+        display: block;
+        width: 315px;
+    }
+    .subpage-album-cover {
+        width: 315px;
+        height: 315px;
+    }
+    .min-width-album-fix {
+        /*this prevents description and album cover overlapping*/
+        min-width: 315px;
+    }
+}
+
+@media (min-width: 992px) {
+    .subpage-media-cover-container {
+        /*album cover left aligned on larger screens*/
+        margin: 0;
+    }
+    .music-description {
+        width: 36.3%;
+        margin: 0;
+        text-align: left;
+    }
+    .music-description h3 {
+        text-align: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    /*make the album cover even bigger and bolder on the largest screens*/
+    .subpage-media-cover-container {
+        margin: 0;
+        display: block;
+        width: 400px;
+    }
+    .subpage-album-cover {
+        width: 400px;
+        height: 400px;
+    }
+    
+    .min-width-album-fix {
+        /*this prevents description and album cover overlapping*/
+        min-width: 400px;
+    }
+    .music-description {
+        /*control the width of the music description p to stop overflow*/
+        width: 33.3% ;
+    }
+}
+
+@media (min-width: 1526px) {
+    .music-description {
+        width: 38.3% ;
+    }
+}
+
+/* VIDEO STYLES
+-------------------------------------------------- */
+.video-player {
+    margin: 0 auto;
+    display: block;
+    width: 300px;
+    height: 183px;
+}
+
+.video-thumbnail {
+    height: 200px;
+    width: 267px;
+}
+
+.video-cover-container {
+    height: 200px;
+    /*old value*/
+    /*height: 245px;*/
+    width: 267px; 
+    margin: 46px auto;
+    display: block;
+}
+
+.video-heading {
+    text-align: center;
+    margin: 10px auto 55px;
+}
+
+.thumbnail-wrapper {
+    position: absolute;
+}
+
+.thumbnail-wrapper .glyphicon {
+    /*position the play glyphicon correctly*/
+    position: absolute;
+    top: 60px;
+    left: 90px;
+    font-size: 69px;
+    color: white;
+    /*give the play icon a background color to make it stand out against the video backdrop*/
+    background-color: rgba(0,0,0,0.7);
+    /*make the border circular to fit snug with the play icon*/
+    border: 0.1px solid rgba(0,0,0,0.7);
+    border-radius: 100%;
+}
+
+@media (min-width: 425px) {
+    .video-player {
+        width: 398px;
+        height: 243px;  
+    }
+}
+
+@media (min-width: 691px) {
+    .video-player {
+        width: 664px;
+        height: 339px;    
+    }
+}
+
+@media (min-width: 768px) {
+    .video-cover-container {
+        /*fixes margin on larger screens for proper grid layout effect*/
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .video-heading {
+        /*lessens spacing on larger screens*/
+        margin: 10px auto;        
+    }
+}
+
+@media (min-width: 1749px) {
+    .video-thumbnail {
+        /*increase the size of the album covers on larger screens*/
+        height: 262px;
+        width: 350px;
+    }
+    .video-cover-container {
+        /*old value*/
+        /*height: 287px;*/
+        height: 262px;
+        width: 350px; 
+    }
+    .thumbnail-wrapper .glyphicon {
+        /*position the play glyphicon correctly*/
+        position: absolute;
+        top: 84px;
+        left: 130px;
+        font-size: 90px;
+    }
+}
+
+/* PHOTO GALLERY STYLES
+-------------------------------------------------- */
+#photo-gallery-section {
+    /*this helps keep the photo gallery rows snug with the margin, but with the images not overlapping*/
+    max-width: 90%;
+    margin: 0 auto;
+}
+.lightgallery-thumbnail-link img {
+    /*display: block and margin: auto centers the images on smaller screens*/
+    display: block;
+    margin: 0 auto;
+}
+
+.lightgallery-heading {
+    text-align: center;
+}   
+
+@media (min-width: 768px) {
+    .lightgallery-thumbnail-link {
+        display: block;
+        /*padding: 30px 0 30px 40px;*/
+        margin: 0 auto;
+    }
+    
+    .lightgallery-heading {
+        /*padding: 0 0 0 40px;*/
+        /*bring heading over to the left on larger screens*/
+        text-align: left;
+    }   
+
+    .lightgallery-thumbnail-link img {
+        /*reset the margin to properly line up images and heading*/
+        margin: 0;
+        /*stops overlap between 769px and 930px*/
+        height: 165px;
+        width: 165px;
+    }
+}
+
+@media (min-width: 930px) {
+    .lightgallery-thumbnail-link img {
+        /*grow the size of the image with the page*/
+        height: 200px;
+        width: 200px;
+    }    
+}
+
+@media (min-width: 1378px) {
+        .lightgallery-thumbnail-link img {
+        /*grow the size of the image with the page*/
+        height: 300px;
+        width: 300px;
+    }    
+}

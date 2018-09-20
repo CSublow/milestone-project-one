@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>The Monkees | Home</title>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End Favicon -->
+    <!-- jQuery for collapsible nav, this needs to be called first else there are issues with bootstrap detecting jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!--stylesheet-->
+    <link rel="stylesheet" href="assets/style.css" type="text/css" />
+    <!--ensure the page loads properly on mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- SCRIPTS -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- jQuery -->
+    <!--<script src="assets/js/jquery-1.9.1.min.js"></script>-->
+
+    <!-- MAY AS WELL DELETE THIS SOON BECAUSE IT REFERS TO SCRIPTS THAT DON'T EXIST -->
+    <!--<script src="bootstrap.min.js"></script>-->
+    <!--<script src="docs.min.js"></script>-->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!--<script src="ie10-viewport-bug-workaround.js"></script>-->
+
+    <!-- jssor slider scripts-->
+    <script src="assets/js/jssor.slider.min.js"></script>
+    <script src="assets/js/slider-configuration.js"></script>
+</head>
+
+<body>
+    <!--using container-fluid so the header moves with the viewport size-->
+    <header class="container-fluid">
+        <nav class="text-center navbar">
+            <!--Logo -->
+            <div class="row">
+                <a href="index.html"><img src="assets/images/logo.png" alt="The Monkees" id="main-logo"></a>
+            </div>
+            <!--Hamburger Icon -->
+            <div>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!--Navbar -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="tour.html">Tour</a></li>
+                    <li><a href="book-us.html">Book Us</a></li>
+                    <li><a href="music.html">Music</a></li>
+                    <li><a href="featured-video.html">Video</a></li>
+                    <li><a href="photo-gallery.html">Photo Gallery</a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="list-inline social-links text-center">
+            <li><a target="_blank" href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a target="_blank" href="https://www.twitter.com/"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a target="_blank" href="https://www.youtube.com/"><i class="fab fa-youtube-square"></i></a></li>
+        </ul>
+    </header>
+
+
+    <!-- Jssor Slider Begin -->
+    <!-- Taken from https://www.jssor.com/download-bootstrap-carousel-slider-example.html -->
+    <div style="min-height: 50px;">
+        <div id="slider1_container" style="visibility: hidden; position: relative; margin: 0 auto;
+        top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
+            <!-- Loading Screen -->
+            <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+                <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="/svg/loading/static-svg/spin.svg" />
+            </div>
+
+            <!-- Slides Container -->
+            <div data-u="slides" style="position: absolute; left: 0px; top: 0px; width: 1300px; height: 500px; overflow: hidden;">
+                <div>
+                    <img data-u="image" src="assets/images/hero/hero-slide-1.jpg" alt="The Monkees performing live" />
+                </div>
+                <div>
+                    <img data-u="image" src="assets/images/hero/hero-slide-2.jpg" alt="The Monkees sat in chairs, promotional photo" />
+                </div>
+                <div>
+                    <img data-u="image" src="assets/images/hero/hero-slide-3.png" alt="The Monkees drinking tea, promotional photo" />
+                </div>
+            </div>
+
+            <!--#region Bullet Navigator Skin Begin -->
+            <!-- Help: https://www.jssor.com/development/slider-with-bullet-navigator.html -->
+            <div data-u="navigator" class="jssorb031" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+                <div data-u="prototype" class="i" style="width:16px;height:16px;">
+                    <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                        <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                    </svg>
+                </div>
+            </div>
+            <!--#endregion Bullet Navigator Skin End -->
+
+            <!--#region Arrow Navigator Skin Begin -->
+            <!-- Help: https://www.jssor.com/development/slider-with-arrow-navigator.html -->
+            <div data-u="arrowleft" class="jssora051" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+                <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+                </svg>
+            </div>
+            <div data-u="arrowright" class="jssora051" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+                <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+                </svg>
+            </div>
+            <!--#endregion Arrow Navigator Skin End -->
+        </div>
+        <!-- Jssor Slider End -->
+    </div>
+
+
+    <div class="container-fluid main-wrapper">
+        <div class="row margin-top-30">
+            <!-- Album Cover -->
+            <section class="col-md-6">
+                <div class="feature-media-cover-container">
+                    <a href="album-extended-versions" target="_blank">
+                        <img src="assets/images/album-covers/Extended-Versions-cover.jpg" alt="The Monkees - Extended Versions album cover" class="feature-album-cover">
+                    </a>
+                </div>
+                <div class="text-center">
+                    <h2>Extended Versions</h2>
+                    <h3>Out Now!</h3>
+                </div>
+                <!--structural div for layout purposes-->
+                <!--<div class="col-xs-3"></div>-->
+                <div class="text-center album-buy-now">
+                    <a href="https://www.amazon.com/Extended-Versions-Monkees/dp/B0000V48P2/ref=sr_1_1?ie=UTF8&qid=1536670188&sr=8-1&keywords=extended+versions+the+monkees">Buy Now</a>
+                    <a href="/">More Info</a>
+                </div>
+                <!--<p class="album-description">Extended Versions is a 2003 live album by the Monkees recorded during their 35th Anniversary Tour in 2001. It features three of the original Monkees; Micky Dolenz, Davy Jones and Peter Tork.[1] The CD-only album includes live versions-->
+                <!--    of several of the band's hit songs including "Last Train to Clarksville", "Daydream Believer", and "I'm a Believer".</p>-->
+            </section>
+
+            <!--hide the hr tag on larger screens and the content already looks properly seperated-->
+            <hr class="hidden-md hidden-lg">
+
+            <!-- News Section -->
+            <section class="col-md-6 news-list-container">
+                <div class="index-news-wrapper">
+                    <h1 class="latest-news-h1">Latest News</h1>
+                    <ul class="news-list">
+                        <li>
+                            <a href="news-articles/news-article-1.html">
+                                <h2>The Monkees play at a cool festival</h2>
+                            </a>
+                            <p>12th August 2018</p>
+                        </li>
+                        <li>
+                            <a href="news-articles/news-article-2.html">
+                                <h2>The Monkees give interview to NME</h2>
+                            </a>
+                            <p>2nd August 2018</p>
+                        </li>
+                        <li>
+                            <a href="news-articles/news-article-3.html">
+                                <h2>New album in the works</h2>
+                            </a>
+                            <p>15th July 2018</p>
+                        </li>
+                        <li>
+                            <a href="news-articles/news-article-4.html">
+                                <h2>The Monkees top BBC poll</h2>
+                            </a>
+                            <p>5th July 2018</p>
+                        </li>
+                    </ul>
+                    <a href="news.html">
+                        <h3><a href="news.html">More News</a></h3>
+                    </a>
+                </div>
+            </section>
+            <!-- Structural div for layout purposes -->
+            <!-- APPEARS TO DO FUCK ALL -->
+            <!--<div class="col-sm-1"></div>-->
+            <!-- Album Description -->
+            <!--<section class="col-sm-6">-->
+            <!--</section>-->
+            <!-- Structural div for layout purposes -->
+            <!--<div class="col-sm-1"></div>-->
+        </div>
+    </div>
+
+    <footer>
+        <ul class="list-inline text-center">
+            <li><a href="/">Home</a></li>
+            <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+            <li><a href="https://www.twitter.com/" target="_blank">Twitter</a></li>
+            <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

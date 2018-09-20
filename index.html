@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="description" content="The Monkees Official Website. New album, Forever, out now!">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Monkees | Home</title>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End Favicon -->
+    <!-- jQuery for collapsible nav, this needs to be called first else there are issues with bootstrap detecting jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP:400,700" rel="stylesheet">
+    <!--stylesheet-->
+    <link rel="stylesheet" href="assets/style.css" type="text/css" />
+    <!-- SCRIPTS
+    -------------------->
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- DONT THINK I NEED THIS OLD JQUERY SCRIPT DUE TO ALREADY IMPORTING V3 ABOVE-->
+    <!-- jQuery -->
+    <!--<script src="assets/js/jquery-1.9.1.min.js"></script>-->
+
+    <!-- MAY AS WELL DELETE THIS SOON BECAUSE IT REFERS TO SCRIPTS THAT DON'T EXIST -->
+    <!--<script src="bootstrap.min.js"></script>-->
+    <!--<script src="docs.min.js"></script>-->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!--<script src="ie10-viewport-bug-workaround.js"></script>-->
+
+    <!-- Jssor slider scripts-->
+    <script src="assets/js/jssor.slider.min.js"></script>
+    <script src="assets/js/slider-configuration.js"></script>
+    <!-- Show/hide history btn script -->
+    <script src="assets/js/show-hide-history-btn.js"></script>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <!--using container-fluid so the header moves with the viewport size-->
+        <header class="container-fluid">
+            <nav class="text-center navbar">
+                <!--Logo -->
+                <div class="row header-row">
+                    <a href="index.html"><img src="assets/images/logo.png" alt="The Monkees" id="main-logo"></a>
+                </div>
+                <!--Hamburger Icon -->
+                <div>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                </div>
+                <!--Navbar -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="tour.html">Tour</a></li>
+                        <li><a href="book-us.html">Book Us</a></li>
+                        <li><a href="music.html">Music</a></li>
+                        <li><a href="featured-video.html">Video</a></li>
+                        <li><a href="photo-gallery.html">Photo Gallery</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <ul class="list-inline social-links text-center">
+                <li><a target="_blank" href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
+                <li><a target="_blank" href="https://www.twitter.com/"><i class="fab fa-twitter-square"></i></a></li>
+                <li><a target="_blank" href="https://www.youtube.com/"><i class="fab fa-youtube-square"></i></a></li>
+            </ul>
+        </header>
+
+
+        <!-- Jssor Slider Begin -->
+        <!-- Taken from https://www.jssor.com/download-bootstrap-carousel-slider-example.html with some modifications -->
+        <div style="min-height: 50px;">
+            <div id="slider1_container">
+                <!-- Loading Screen -->
+                <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+                    <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="/svg/loading/static-svg/spin.svg" />
+                </div>
+
+                <!-- Slides Container -->
+                <div data-u="slides" style="position: absolute; left: 0px; top: 0px; width: 1300px; height: 500px; overflow: hidden;">
+                    <div>
+                        <img data-u="image" src="assets/images/hero/hero-slide-1.jpg" alt="The Monkees performing live" />
+                    </div>
+                    <div>
+                        <img data-u="image" src="assets/images/hero/hero-slide-2.jpg" alt="The Monkees sat in chairs, promotional photo" />
+                    </div>
+                    <div>
+                        <img data-u="image" src="assets/images/hero/hero-slide-3.png" alt="The Monkees drinking tea, promotional photo" />
+                    </div>
+                </div>
+
+                <!--#region Bullet Navigator Skin Begin -->
+                <!-- Help: https://www.jssor.com/development/slider-with-bullet-navigator.html -->
+                <div data-u="navigator" class="jssorb031" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+                    <div data-u="prototype" class="i" style="width:16px;height:16px;">
+                        <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                        <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                    </svg>
+                    </div>
+                </div>
+                <!--#endregion Bullet Navigator Skin End -->
+
+                <!--#region Arrow Navigator Skin Begin -->
+                <!-- Help: https://www.jssor.com/development/slider-with-arrow-navigator.html -->
+                <div data-u="arrowleft" class="jssora051" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+                    <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+                </svg>
+                </div>
+                <div data-u="arrowright" class="jssora051" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+                    <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+                </svg>
+                </div>
+                <!--#endregion Arrow Navigator Skin End -->
+            </div>
+            <!-- Jssor Slider End -->
+        </div>
+
+
+        <main class="container-fluid main-wrapper">
+            <div class="row margin-top-30">
+                <!-- Album Cover -->
+                <section class="col-md-5 col-md-offset-1 feature-media-container">
+                    <div class="feature-media-cover-container">
+                        <a href="forever.html">
+                        <img src="assets/images/album-covers/forever-cover.jpg" alt="The Monkees - Forever album cover" class="feature-album-cover">
+                    </a>
+                    </div>
+                    <div class="text-center">
+                        <h2>Forever</h2>
+                        <h3>Out Now!</h3>
+                    </div>
+                    <div class="text-center album-buy-now">
+                        <a href="https://www.amazon.com">Buy Now</a>
+                        <a href="/music-pages/forever.html">More Info</a>
+                    </div>
+                </section>
+
+                <!--hide the hr tag on larger screens and the content already looks properly seperated-->
+                <hr class="hidden-md hidden-lg">
+
+                <!-- News Section -->
+                <section class="col-md-5 news-list-container">
+                    <div class="index-news-wrapper">
+                        <h1 class="latest-news-h1">Latest News</h1>
+                        <ul class="news-list">
+                            <li>
+                                <a href="news-articles/news-article-1.html">
+                                    <h3>The Monkees play at a cool festival</h2>
+                                </a>
+                                <p>12th August 2018</p>
+                            </li>
+                            <li>
+                                <a href="news-articles/news-article-2.html">
+                                    <h3>The Monkees give interview to NME</h2>
+                                </a>
+                                <p>2nd August 2018</p>
+                            </li>
+                            <li>
+                                <a href="news-articles/news-article-3.html">
+                                    <h3>New album in the works</h2>
+                                </a>
+                                <p>15th July 2018</p>
+                            </li>
+                            <li>
+                                <a href="news-articles/news-article-4.html">
+                                    <h3>The Monkees top BBC poll</h2>
+                                </a>
+                                <p>5th July 2018</p>
+                            </li>
+                        </ul>
+                        <a href="news.html">
+                            <h3>More News</h3>
+                        </a>
+                    </div>
+                </section>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                <section class="band-history">
+                    <h1 class="text-center">The Monkees - A 50 Year History</h1>
+                    <!--since the history section contains a lot of text, it is by default hidden on smaller screens-->
+                    <button data-toggle="collapse" data-target="#history-text" id="history-show-hide-btn" class="visible-xs">Click to Read</button>
+                    <div id="history-text" class="collapse">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus purus quam, vehicula a nisi eleifend, tempus fermentum neque. Mauris commodo fringilla mi eu suscipit. Nam ac commodo libero. Maecenas eget imperdiet eros. Vestibulum
+                            eu suscipit est, vel facilisis augue. Aenean volutpat facilisis ultrices. Vestibulum ultricies facilisis luctus. Nam porttitor diam in massa pretium accumsan. Nullam commodo eu purus non aliquam. Morbi id leo eu lectus vulputate
+                            consequat. Pellentesque mi mauris, posuere eu risus eu, suscipit condimentum justo.</p>
+                        <figure class="left-float-history-figure">
+                            <img src="/assets/images/history/dj.jpg" alt="Photo of Davy Jones">
+                            <figcaption>
+                                Davy Jones in 196X
+                            </figcaption>
+                        </figure>
+                        <p>Fusce ut commodo libero, at porta orci. Etiam et feugiat massa. Ut nec lectus sed nulla tristique viverra. Nam urna felis, faucibus ut rhoncus id, faucibus quis tortor. Nulla volutpat libero eu lorem varius, vitae ultricies nisi
+                            commodo. Aenean pharetra semper sodales. Sed elementum egestas ultrices. In eget elit eget turpis mollis eleifend id vel justo. Vestibulum viverra suscipit rhoncus. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                            Phasellus fermentum faucibus viverra. Fusce sit amet ligula ullamcorper, tristique nunc et, tincidunt urna. Fusce rutrum eget risus sed porta.</p>
+                        <figure class="right-float-history-figure">
+                            <img src="/assets/images/history/md.jpg" alt="Photo of Micky Dolenz Jones">
+                            <figcaption>
+                                Micky Dolenz was the Xth member of the group
+                            </figcaption>
+                        </figure>
+                        <p>Proin tempor neque ac velit efficitur pellentesque. Etiam eleifend risus consequat libero semper lacinia vitae at nulla. Praesent venenatis sed elit a lacinia. Suspendisse blandit ullamcorper nunc, at eleifend felis iaculis nec.
+                            Nulla convallis leo vitae urna suscipit, at bibendum arcu suscipit. Donec tincidunt mi ac egestas tincidunt. Ut dapibus tempus dolor in vulputate. Pellentesque mollis nulla est, vel faucibus ipsum molestie vel. Vivamus dapibus
+                            at est rhoncus efficitur. Duis convallis, erat vitae feugiat congue, justo justo sagittis dui, gravida convallis magna felis in sapien. Praesent sit amet ante sit amet elit faucibus sagittis. Donec nec hendrerit ex, ac luctus
+                            diam. Phasellus suscipit felis vitae eros bibendum, vitae condimentum urna molestie. Mauris vel risus lobortis quam dignissim interdum id eget neque. Duis accumsan lacus leo, eu ultrices augue dignissim at. Suspendisse ultricies
+                            quam id mi tempus feugiat.
+                        </p>
+                        <figure class="left-float-history-figure">
+                            <img src="/assets/images/history/mn.jpg" alt="Photo of Micheal Nesmith">
+                            <figcaption>
+                                Micheal Nesmith helped The Monkees with X
+                            </figcaption>
+                        </figure>
+                        <p>Curabitur ultricies pretium nisi id venenatis. Cras pharetra lectus dolor, eu lobortis elit vehicula vel. Vivamus efficitur ultrices leo vitae varius. Donec viverra suscipit mauris. Morbi venenatis ac purus non ultricies. Nullam
+                            a tristique elit. Nam nibh ligula, gravida a consequat vitae, dapibus non lacus. Proin ac massa ipsum. Cras feugiat leo ut auctor condimentum. Maecenas non maximus lectus. Pellentesque habitant morbi tristique senectus et netus
+                            et malesuada fames ac turpis egestas.</p>
+                        <figure class="right-float-history-figure">
+                            <img src="/assets/images/history/pt.jpg" alt="Photo of Peter Tork">
+                            <figcaption>
+                                Peter Tork was particularly loved by fans
+                            </figcaption>
+                        </figure>
+                        <p>Proin faucibus ligula in arcu pharetra tincidunt. Etiam aliquet ipsum ac posuere tristique. Sed at dapibus mauris. Fusce convallis, orci dictum convallis vehicula, lacus mi efficitur leo, eu ullamcorper lectus elit vehicula ante.
+                            Proin metus diam, pharetra in ligula sit amet, viverra fringilla arcu. Mauris sed porta tortor, ac semper arcu. Ut feugiat vehicula erat a vehicula. Suspendisse ac justo vitae massa euismod pharetra. Donec ut sapien sem. Nullam
+                            ut neque ut sem gravida pellentesque aliquet quis est.</p>
+                        <p>Duis feugiat ac ligula sed vulputate. Duis augue arcu, tempor quis ultrices at, lacinia id nibh. Vestibulum ligula odio, pulvinar sed facilisis sed, dictum vel dui. Etiam eu feugiat libero, sit amet bibendum ligula. Vivamus at
+                            lorem tellus. Nunc vel ullamcorper sapien. Sed magna velit, suscipit et fringilla vitae, elementum sit amet dui. Pellentesque eu commodo quam. Duis feugiat arcu eu dignissim fermentum. Fusce consectetur posuere quam eget fermentum.
+                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                        <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent sed nisl eu leo facilisis molestie. Nunc ac sollicitudin velit, a eleifend orci. Vivamus ac risus et nibh dapibus dapibus vitae non
+                            augue. Nunc imperdiet nec enim vitae dapibus. Nulla placerat quam velit, quis mollis tellus ultrices ac. Vestibulum finibus ligula est, imperdiet hendrerit nisl iaculis et. Nunc interdum cursus eros in porta. Sed vel ultrices
+                            urna. In egestas eleifend nulla non aliquet. Vivamus gravida nisi ac ex consectetur, a rutrum felis consequat. Cras placerat suscipit nisl in ultrices.</p>
+                        <figure>
+                            <img src="/assets/images/history/band.jpg" alt="Photo of the full band">
+                            <figcaption>
+                                Here's to another 50 years!
+                            </figcaption>
+                        </figure>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <!-- Footer -->
+        <footer>
+            <ul class="list-inline text-center">
+                <li><a href="/">Home</a></li>
+                <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://www.twitter.com/" target="_blank">Twitter</a></li>
+                <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+            </ul>
+        </footer>
+        <script>
+            // KIND OF WORKS
+            // $('#hamburger').click(function() {
+            //     $('header').css({
+            //         'background-position': '0% 127%'
+            //     });
+            // });
+
+            //THIS WORKS BETTER
+            // $('#hamburger').bind('click', function() {
+            //     window.setTimeout(function() {
+            //         $('header').toggleClass('bg-image-drop');
+            //     }, 400);
+            //     });
+        </script>
+    </div>
+</body>
+
+</html>
