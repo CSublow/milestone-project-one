@@ -633,7 +633,6 @@ figure figcaption {
     margin: 15px auto;
     display: block;
     width: 100%;
-    border: 1px solid black;
 }
 
 @media (min-width: 768px) {
