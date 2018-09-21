@@ -442,7 +442,8 @@ figure figcaption {
 -------------------------------------------------- */
 #news-article-1-image,
 #news-article-5-image,
-#news-article-7-image {
+#news-article-7-image,
+#news-article-8-image {
     width: 225px;
     margin: 20px auto;
     display: block;
@@ -471,7 +472,8 @@ figure figcaption {
     #news-article-1-image,
     #news-article-3-image,
     #news-article-4-image-2,
-    #news-article-7-image {
+    #news-article-7-image,
+    #news-article-8-image {
         width: 300px;
     }
 }
@@ -491,7 +493,7 @@ figure figcaption {
     #news-article-7-image {
         float: left;
         margin: 0 10px 10px 0;
-        /*make image full width on larger screens*/
+        /*make images default width on larger screens*/
         width: auto;
     }
     #news-article-4-image-2 {
@@ -509,6 +511,11 @@ figure figcaption {
 @media (min-width: 1020px) {
     #news-article-3-image {
         width: 500px;
+    }
+    #news-article-8-image {
+        float: left;
+        margin: 0 10px 17px 0;
+        width: 360px;
     }
 }
 

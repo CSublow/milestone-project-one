@@ -48,11 +48,10 @@ news-article-4-1
 https://i.ytimg.com/vi/gxbuWx8AYr8/maxresdefault.jpg
 news-article-5
 https://images-na.ssl-images-amazon.com/images/I/31E2ltXlHWL._SY355_.jpg
-news-article-6
-
 news-article-7
-
+https://www.rollingstone.com/wp-content/uploads/2018/06/rs-6848-20120828-micky-624x-1346184544.jpg?crop=900:600&width=440
 news-article-8
+http://www.stickpng.com/img/icons-logos-emojis/question-marks/double-question-mark
 
 PHOTO GALLERY
 photo-gallery-1
