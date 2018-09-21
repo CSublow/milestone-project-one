@@ -441,8 +441,9 @@ figure figcaption {
 /* NEWS PAGE IMAGES
 -------------------------------------------------- */
 #news-article-1-image,
-#news-article-5-image {
-    width: 200px;
+#news-article-5-image,
+#news-article-7-image {
+    width: 225px;
     margin: 20px auto;
     display: block;
 }
@@ -466,15 +467,12 @@ figure figcaption {
 }
 
 @media (min-width: 435px) {
+    /*increase the size of images on larger screens*/
+    #news-article-1-image,
     #news-article-3-image,
-    #news-article-4-image-2 {
+    #news-article-4-image-2,
+    #news-article-7-image {
         width: 300px;
-    }
-}
-@media (min-width: 480px) {
-    #news-article-1-image {
-        /*increase the size of the image on larger screens*/
-        width: 400px;
     }
 }
 
@@ -489,7 +487,8 @@ figure figcaption {
         width: 600px;
     }
     #news-article-2-image,
-    #news-article-4-image {
+    #news-article-4-image,
+    #news-article-7-image {
         float: left;
         margin: 0 10px 10px 0;
         /*make image full width on larger screens*/
