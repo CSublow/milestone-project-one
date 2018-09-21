@@ -4,6 +4,7 @@
 
 /* --- STRUCTURAL
 -------------------------------------------------- */
+/*required to ensure footer stays at the bottom of viewport*/
 html {
     position: relative;
     min-height: 100%;
@@ -16,6 +17,8 @@ body {
     font-family: 'Noto Serif JP', sans-serif;
     background-image: url(/assets/images/full-bloom-even-lighter.png);
 }
+
+/*default color for all site links is black*/
 a, a:focus, a:hover {
     font-weight: bold;
     color: #000000;
@@ -84,6 +87,11 @@ h1, h2, h3, h4, h5, h6 {
     height: 66px;    
 }
 
+/*style links*/
+.album-buy-now a, .album-buy-now a:focus, .album-buy-now a:hover {
+    color: #018aff;
+}
+
 .navbar-nav {
     float: none;
     margin: 0 auto;
@@ -144,11 +152,13 @@ h1, h2, h3, h4, h5, h6 {
     margin: 38px 0 0 0;
 }
 
-.subpage-navigation a,
-.bottom-subpage-navigation a {
+.subpage-navigation a, .subpage-navigation a:focus, .subpage-navigation a:hover,
+.bottom-subpage-navigation a, .bottom-subpage-navigation a:focus, .bottom-subpage-navigation a:hover {
     /*allows the nav buttons to line up evenly*/
     width: 70px;
     display: inline-block;
+    /*style the footer links the same color as the main nav*/
+    color: #018aff;
 }
 
 @media (min-width: 768px) {
@@ -417,6 +427,9 @@ figure figcaption {
     /*remove bootstrap's default float property to properly center the news article*/
     float: none;
 }
+.news-article a, .news-article a:focus, .news-article a:hover {
+    color: #018aff;
+}
 
 @media (min-width: 768px) {
     .news-article {
@@ -427,12 +440,14 @@ figure figcaption {
 
 /* NEWS PAGE IMAGES
 -------------------------------------------------- */
-#news-article-1-image {
+#news-article-1-image,
+#news-article-5-image {
     width: 200px;
     margin: 20px auto;
     display: block;
 }
-#news-article-2-image {
+#news-article-2-image,
+#news-article-4-image {
     float: none;
     width: 213px;
     margin: 0 auto 10px;
@@ -444,8 +459,15 @@ figure figcaption {
     width: 239px;
 }
 
+#news-article-4-image-2 {
+    width: 190px;
+    margin: 10px auto;
+    display: block;
+}
+
 @media (min-width: 435px) {
-    #news-article-3-image {
+    #news-article-3-image,
+    #news-article-4-image-2 {
         width: 300px;
     }
 }
@@ -466,11 +488,22 @@ figure figcaption {
         /*increase the size of the image on larger screens*/
         width: 600px;
     }
-    #news-article-2-image {
+    #news-article-2-image,
+    #news-article-4-image {
         float: left;
         margin: 0 10px 10px 0;
         /*make image full width on larger screens*/
         width: auto;
+    }
+    #news-article-4-image-2 {
+        width: 300px;
+        float: right;
+        margin: 0 0 10px 10px;
+    }
+    #news-article-5-image {
+        float: left;
+        margin: 0 10px 10px 0;
+        width: 242px;
     }
 }
 
@@ -485,10 +518,6 @@ figure figcaption {
         width: 800px;
     }
 }
-
-/*.news-article img {*/
-/*    border: 1px solid black;*/
-/*}*/
 
 /* TOUR STYLES
 -------------------------------------------------- */

@@ -43,9 +43,11 @@ https://ksassets.timeincuk.net/wp/uploads/sites/55/2016/10/nme-logo-BonW-desktop
 news-article-3
 http://www.monkeeslivealmanac.com/uploads/7/8/9/5/7895731/3138629_orig.jpg
 news-article-4
-
+https://upload.wikimedia.org/wikipedia/commons/a/ad/BBC_Four.svg
+news-article-4-1
+https://i.ytimg.com/vi/gxbuWx8AYr8/maxresdefault.jpg
 news-article-5
-
+https://images-na.ssl-images-amazon.com/images/I/31E2ltXlHWL._SY355_.jpg
 news-article-6
 
 news-article-7
