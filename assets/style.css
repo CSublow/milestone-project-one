@@ -155,7 +155,7 @@ h1, h2, h3, h4, h5, h6 {
 .subpage-navigation a, .subpage-navigation a:focus, .subpage-navigation a:hover,
 .bottom-subpage-navigation a, .bottom-subpage-navigation a:focus, .bottom-subpage-navigation a:hover {
     /*allows the nav buttons to line up evenly*/
-    width: 70px;
+    width: 87px;
     display: inline-block;
     /*style the footer links the same color as the main nav*/
     color: #018aff;
