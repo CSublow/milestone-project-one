@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="description" content="The Monkees Official Website. Featured videos of The Monkees.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Monkees | Video</title>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End Favicon -->
+    <!-- jQuery for collapsible nav, this needs to be called first else there are issues with bootstrap detecting jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!--stylesheet-->
+    <link rel="stylesheet" href="assets/style.css" type="text/css" />
+    <!--ensure the page loads properly on mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- SCRIPTS -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- jQuery -->
+    <script src="assets/js/jquery-1.9.1.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!--using container-fluid so the header moves with the viewport size-->
+        <header class="container-fluid">
+            <nav class="text-center navbar">
+                <!--Logo -->
+                <div class="row">
+                    <a href="index.html"><img src="assets/images/logo.png" alt="The Monkees" id="main-logo"></a>
+                </div>
+                <!--Hamburger Icon -->
+                <div>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                </div>
+                <!--Navbar -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="tour.html">Tour</a></li>
+                        <li><a href="book-us.html">Book Us</a></li>
+                        <li><a href="music.html">Music</a></li>
+                        <li><a href="featured-video.html">Video</a></li>
+                        <li><a href="photo-gallery.html">Photo Gallery</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <ul class="list-inline social-links text-center">
+                <li><a target="_blank" href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
+                <li><a target="_blank" href="https://www.twitter.com/"><i class="fab fa-twitter-square"></i></a></li>
+                <li><a target="_blank" href="https://www.youtube.com/"><i class="fab fa-youtube-square"></i></a></li>
+            </ul>
+        </header>
+
+        <main class="container-fluid main-wrapper">
+            <div class="row page-title text-center">
+                <h1>Video</h1>
+            </div>
+            <!-- Subpage Navigation -->
+            <div class="subpage-navigation text-center">
+                <a href="/">Previous</a>
+                <!--There is no "overview" page for the videos, but the middle link is kept in the markup in order to keep the next/previous buttons in their familiar places-->
+                <a href="/" class="invisible"></a>
+                <a href="more-of-the-monkees.html">Next</a>
+            </div>
+
+            <section>
+                <div class="row margin-top-30">
+                    <!-- Featured Video -->
+                    <div class="feature-media-container">
+                        <iframe class="video-player" src="https://www.youtube.com/embed/xvqeSJlgaNk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <h3>Daydream Believer - Official Music Video</h3>
+                    </div>
+                </div>
+                <!-- Other Videos -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="/video-pages/im-a-believer-video.html">
+                            <div class="video-cover-container">
+                                <div class="thumbnail-wrapper">
+                                    <!--bootstrap glyphicon used to hint at the image being a link to a video-->
+                                    <i class="glyphicon glyphicon-play-circle"></i>
+                                    <img src="http://img.youtube.com/vi/AZYPlNuljHE/0.jpg" alt="YouTube video thumbail, I'm A Believer - Official Live Video" class="video-thumbnail">
+                                </div>
+                            </div>
+                            <h4 class="video-heading">I'm A Believer - Official Live Video</h4>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="/video-pages/last-train-to-clarksville-video.html">
+                            <div class="video-cover-container">
+                                <div class="thumbnail-wrapper">
+                                    <!--bootstrap glyphicon used to hint at the image being a link to a video-->
+                                    <i class="glyphicon glyphicon-play-circle"></i>
+                                    <img src="http://img.youtube.com/vi/CDBFev_XfYA/0.jpg" alt="YouTube video thumbail, Last Train To Clarksville - Official Live Video" class="video-thumbnail">
+                                </div>
+                            </div>
+                            <h4 class="video-heading">Last Train To Clarksville - Official Live Video</h4>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="/video-pages/pleasant-valley-sunday-video.html">
+                            <div class="video-cover-container">
+                                <div class="thumbnail-wrapper">
+                                    <!--bootstrap glyphicon used to hint at the image being a link to a video-->
+                                    <i class="glyphicon glyphicon-play-circle"></i>
+                                    <img src="http://img.youtube.com/vi/boJlejbuyw0/0.jpg" alt="YouTube video thumbail, Pleasant Valley Sunday" class="video-thumbnail">
+                                </div>
+                            </div>
+                            <h4 class="video-heading">Pleasant Valley Sunday</h4>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <ul class="list-inline text-center">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://www.twitter.com/" target="_blank">Twitter</a></li>
+                <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>
