@@ -716,10 +716,9 @@ figure figcaption {
 
 .video-cover-container {
     height: 200px;
-    /*old value*/
-    /*height: 245px;*/
     width: 267px; 
-    margin: 46px auto;
+    /*correct spacing between video elements*/
+    margin: 46px auto 0;
     display: block;
 }
 
@@ -759,12 +758,12 @@ figure figcaption {
     }
 }
 
-@media (min-width: 768px) {
-    .video-cover-container {
+/*@media (min-width: 768px) {*/
+/*    .video-cover-container {*/
         /*fixes margin on larger screens for proper grid layout effect*/
-        margin: 0 auto;
-    }
-}
+/*        margin: 0 auto;*/
+/*    }*/
+/*}*/
 
 @media (min-width: 992px) {
     .video-heading {
