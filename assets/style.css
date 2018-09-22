@@ -814,6 +814,10 @@ figure figcaption {
     text-align: center;
 }   
 
+.caption {
+    text-align: center;
+}
+
 @media (min-width: 768px) {
     .lightgallery-thumbnail-link {
         display: block;
@@ -834,6 +838,10 @@ figure figcaption {
         height: 165px;
         width: 165px;
     }
+    .caption {
+        /*left align caption on larger screens*/
+        text-align: left;
+    }
 }
 
 @media (min-width: 930px) {
@@ -842,12 +850,20 @@ figure figcaption {
         height: 200px;
         width: 200px;
     }    
+    .caption {
+        /*prevent the caption from being wider than the image*/
+        max-width: 200px;
+    }
 }
 
 @media (min-width: 1378px) {
-        .lightgallery-thumbnail-link img {
+    .lightgallery-thumbnail-link img {
         /*grow the size of the image with the page*/
         height: 300px;
         width: 300px;
-    }    
+    }
+    .caption {
+        /*prevent the caption from being wider than the image*/
+        max-width: 300px;
+    }
 }
