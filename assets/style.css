@@ -776,13 +776,6 @@ figure figcaption {
     }
 }
 
-/*@media (min-width: 768px) {*/
-/*    .video-cover-container {*/
-        /*fixes margin on larger screens for proper grid layout effect*/
-/*        margin: 0 auto;*/
-/*    }*/
-/*}*/
-
 @media (min-width: 992px) {
     .video-heading {
         /*lessens spacing on larger screens*/
