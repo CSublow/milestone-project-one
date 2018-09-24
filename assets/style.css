@@ -278,6 +278,22 @@ h1, h2, h3, h4, h5, h6 {
 
 /* --- MEDIA STYLES
 -------------------------------------------------- */
+.feature-media-container {
+    /*ensures proper alignment especially needed on xs screens, overriding BS classes*/
+    padding-left: 0;
+    padding-right: 0;
+}
+.feature-media-container img,
+.media-cover-container img {
+   border: 1px solid black; 
+}
+.feature-media-container h3,
+.feature-media-container h4 {
+    /*overwrite default bootstrap margin, too much for the album heading*/
+    margin-top: 10px;
+    text-align: center;
+}
+
 .feature-media-cover-container {
     /*this centres the album cover within its container*/
     margin: 0 auto;
@@ -285,16 +301,6 @@ h1, h2, h3, h4, h5, h6 {
     width: 300px;
 }
 
-.feature-media-container img,
-.media-cover-container img {
-   border: 1px solid black; 
-}
-.feature-media-container h3,
-.feature-media-container h4 {
-    /*overwrite default bootstrap margin, too much for the album h2*/
-    margin-top: 10px;
-    text-align: center;
-}
 .feature-album-cover {
     width: 300px;
     height: 300px;
