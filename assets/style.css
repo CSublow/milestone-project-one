@@ -24,6 +24,7 @@ a, a:focus, a:hover {
     color: #000000;
 }
 
+/*seperate wrapper within body tag to allow flower background images to stay with the content and not wander off on very large screens*/
 .wrapper {
     max-width: 1904px;
     margin: 0 auto;
@@ -110,6 +111,11 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 1px solid black;
 }
 
+.active a {
+    /*adds visual indicator of where the user is currently in the site*/
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
 .icon-bar {
     background-color: black;
 }
@@ -432,6 +438,10 @@ figure figcaption {
 }
 .news-article a, .news-article a:focus, .news-article a:hover {
     color: #018aff;
+}
+.news-article h4 {
+    /*removes margin to ensure articles with a h4 are visually similiar to other articles*/
+    margin-top: 0;
 }
 
 @media (min-width: 768px) {
