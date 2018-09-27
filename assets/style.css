@@ -98,11 +98,6 @@ h5, h6 {
     height: 66px;    
 }
 
-/*style links*/
-.album-buy-now a, .album-buy-now a:focus, .album-buy-now a:hover {
-    color: #018aff;
-}
-
 .navbar-nav {
     float: none;
     margin: 0 auto;
@@ -167,8 +162,6 @@ h5, h6 {
     /*allows the nav buttons to line up evenly*/
     width: 87px;
     display: inline-block;
-    /*style the footer links the same color as the main nav*/
-    color: #018aff;
 }
 
 @media (min-width: 768px) {
@@ -685,9 +678,6 @@ figure figcaption {
 .music-description h3 {
     margin-top: 0;
     text-align: center;
-}
-.music-description a, .music-description a:focus, .music-description a:hover {
-    color: #018aff;
 }
 
 .spotify-player {
