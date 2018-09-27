@@ -116,11 +116,6 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 1px solid black;
 }
 
-.active a {
-    /*adds visual indicator of where the user is currently in the site*/
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
-}
 .icon-bar {
     background-color: black;
 }
@@ -192,8 +187,10 @@ h1, h2, h3, h4, h5, h6 {
         border-right: 1px solid black;
         border-bottom: 0;
     }
-    .navbar-nav>li:last-child {
-        border-right: 1px solid black;    
+    .active a {
+        /*gives visual indication of where user currently is in the nav on larger screens*/
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
     }
 }
 
