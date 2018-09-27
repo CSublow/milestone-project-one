@@ -725,6 +725,7 @@ figure figcaption {
     display: block;
     width: 300px;
     height: 183px;
+    border: 1px solid black;
 }
 
 .video-thumbnail {
@@ -738,6 +739,7 @@ figure figcaption {
     /*correct spacing between video elements*/
     margin: 46px auto 0;
     display: block;
+    border: 1px solid black;
 }
 
 .video-heading {
