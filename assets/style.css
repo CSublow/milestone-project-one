@@ -752,7 +752,7 @@ figure figcaption {
     /*position the play glyphicon correctly*/
     position: absolute;
     top: 60px;
-    left: 90px;
+    left: 101px;
     font-size: 69px;
     color: white;
     /*give the play icon a background color to make it stand out against the video backdrop*/
