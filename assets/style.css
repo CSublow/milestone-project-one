@@ -68,6 +68,11 @@ footer li {
     max-width: 1904px;
 }
 
+hr {
+    /*overwrite default BS styles*/
+    border-top: 1px solid #e2e2e2;
+}
+
 @media (min-width: 768px) {
     .wrapper {
         /*adjust the size of the background images on larger screens*/
