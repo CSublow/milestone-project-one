@@ -15,6 +15,24 @@ In addition, the developer has identified a number of other objectives that the 
 All of these objectives must be achieved in a visual style that matches The Monkees' legacy 1960s aesthetic, utilising the relevant technologies to achieve a professional-looking website.
 
 ## UX
+
+The primary users of this website are going to be fans of The Monkees. These fans will vary in regards their familiarity with The Monkees' music, ranging from truly hardcore fans, to fans less acquainted who may only be familiar with one or two songs. In addition, users such as journalists may use the website in order to source news material, and potential clients may be looking to hire The Monkees for private live performances.
+
+A number of user stories have been generated in order to shed light on the type of experience different users expect.
+
+**Hardcore fan, likes going to live performances**
+This type of fan is very well acquainted with The Monkees and their music. This fan is primarily interested in finding information on The Monkees' publicly available live performances and where they can buy tickets.
+
+**Newly acquainted fan, wants background history and music**
+This type of fan may only be familiar with The Monkees as a name, or only knows one or two songs and has only recently decided that they like this band. This type of fan will want to hear music, gather information and perhaps view wider multimedia content such as videos and images. For this type of fan, the website must serve as a promotional tool that draws the fan into a deeper engagement with The Monkees as a brand. In addition, this type of fan, who is unlikely to be connected to The Monkees' social media, may also wish to see a central hub of social media links with which the fan can connect.
+
+**Blog writer/Journalist**
+This user may not even be a fan of The Monkees, but they write for a popular Internet blog or traditional newspaper. This user will be primarily viewing the news section, using the articles as the basis for content hosted on their own platforms. They will wish to see clearly organised news content, with perhaps an obvious way to contact The Monkees' management for press statements and clarifications.
+
+**Potential Client**
+This user wishes to book The Monkees for a private performance. They will wish to see testimonals that confirm The Monkees are a good choice, and will want a clear and simple method of contacting the band.
+
+
  
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
