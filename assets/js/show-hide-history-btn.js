@@ -1,4 +1,4 @@
-/* This script hides most of the history text on smaller screens, displaying the full history text only to users who want to read it */
+/* This script changes the text of the show/hide history button to match the history text's current hidden/visible state */
 $(function() {
     $("#history-show-hide-btn").click(function () {
         $(this).text(function(i, text) {
