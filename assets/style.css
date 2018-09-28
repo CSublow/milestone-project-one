@@ -51,10 +51,6 @@ footer li {
 .margin-top-30 {
     margin-top: 30px
 }
-.margin-top-30-fix {
-    /*reduces the space between featured album and album rows on music page*/
-    margin-top: 0;
-}
 
 .margin-top-60 {
     margin-top: 60px;
@@ -77,10 +73,6 @@ hr {
     .wrapper {
         /*adjust the size of the background images on larger screens*/
         background-size: 216px;
-    }
-    .margin-top-30-fix {
-        /*grants the correct space on larger screens*/
-        margin-top: 30px;
     }
 }
 h1, h2, h3, h4 {
