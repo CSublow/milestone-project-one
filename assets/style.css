@@ -56,8 +56,8 @@ footer li {
     margin-top: 60px;
 }
 
-.row-margin-bottom {
-    margin-bottom: 20px;
+.margin-bottom-30 {
+    margin-bottom: 30px;
 }
 
 .main-wrapper {
@@ -584,15 +584,38 @@ figure figcaption {
 
 /* BOOK US STYLES
 -------------------------------------------------- */
+.testimonials-container {
+    max-width: 993px;
+    margin: 0 auto;
+    display: block;
+}
+
+.img-border-radius-15 {
+    border-radius: 15%;
+}
+
+.blockquote-footer {
+    /*this class overwrites the footer width declared elsewhere as it causes issues with horizontal scrolling on mobile*/
+    width: auto;
+}
+
 .book-us-form {
     max-width: 904px;
     margin: 20px auto;
 }
 
-.book-us-description {
+.contact-form-description {
     margin: 0 auto;
     display: block;
     max-width: 72%;
+}
+
+@media(min-width: 992px) {
+    blockquote {
+        /*ensures the blockquote footer text lines up with the one next to it*/
+        min-height: 140px;
+    }
+      
 }
 
 /* MUSIC STYLES
