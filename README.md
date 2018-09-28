@@ -52,10 +52,12 @@ On viewports larger than 767px, the page the user is currently on is marked with
 In addition to the navigation links, there are external links to The Monkees' social media channels that are located directly below the main navigation. When click/tapped on these open a new browser tab to then take the user to that social media channel.
 
 ### Footer
-The footer is also consistent across all site pages. The footer consists of 4 links; Home, Facebook, Twitter and Youtube. The Home link takes the user back to index.html. The other links take the user to the corresponding social network, which opens in a new browser tab so as to prevent the user forgetting what page they have come from
+The footer is also consistent across all site pages. The footer consists of 4 links; Home, Facebook, Twitter and Youtube. The Home link takes the user back to index.html. The other links take the user to the corresponding social network, which opens in a new browser tab so as to prevent the user forgetting what page they have come from.
 
 ### index.html
-As per normal convention this page acts as the site's home page
+As per normal convention this page acts as the site's home page. Below the main navigation the user will encounter a large and eye catching hero slider based off Jssor's Bootstrap jQuery slider. The slider is responsive and also touch-enabled for the benefit of mobile and other touch-enabled devices.
+
+Below the Jssor slider the user will encounter a Bootstrap row with 2 columns. The left column contains the latest music release from The Monkees, with links to the album page and an external "Buy Now" link that takes the user to amazon.com. The right column contains latest news, allowing the user to navigate to the individual news articles, or go to news.html which contains a full list of news stories.
  
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
