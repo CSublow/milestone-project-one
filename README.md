@@ -18,7 +18,7 @@ All of these objectives must be achieved in a visual style that matches The Monk
 
 The primary users of this website are going to be fans of The Monkees. These fans will vary in regards their familiarity with The Monkees' music, ranging from truly hardcore fans, to fans less acquainted who may only be familiar with one or two songs. In addition, users such as journalists may use the website in order to source news material, and potential clients may be looking to hire The Monkees for private live performances.
 
-A number of user stories have been generated in order to shed light on the type of experience different users expect.
+A number of user stories have been generated in order to shed light on the type of experience different users expect:
 
 **Hardcore fan, likes going to live performances**
 This type of fan is very well acquainted with The Monkees and their music. This fan is primarily interested in finding information on The Monkees' publicly available live performances and where they can buy tickets.
@@ -27,7 +27,7 @@ This type of fan is very well acquainted with The Monkees and their music. This 
 This type of fan may only be familiar with The Monkees as a name, or only knows one or two songs and has only recently decided that they like this band. This type of fan will want to hear music, gather information and perhaps view wider multimedia content such as videos and images. For this type of fan, the website must serve as a promotional tool that draws the fan into a deeper engagement with The Monkees as a brand. In addition, this type of fan, who is unlikely to be connected to The Monkees' social media, may also wish to see a central hub of social media links with which the fan can connect.
 
 **Blog writer/Journalist**
-This user may not even be a fan of The Monkees, but they write for a popular Internet blog or traditional newspaper. This user will be primarily viewing the news section, using the articles as the basis for content hosted on their own platforms. They will wish to see clearly organised news content, with perhaps an obvious way to contact The Monkees' management for press statements and clarifications.
+This user may not be a fan of The Monkees, but they write for a popular Internet blog or traditional newspaper. This user will be primarily viewing the news section, using the articles as the basis for content hosted on their own platforms. They will wish to see clearly organised news content, with an obvious method of contacting The Monkees' management for press statements and clarifications.
 
 **Potential Client**
 This user wishes to book The Monkees for a private performance. They will wish to see testimonals that confirm The Monkees are a good choice, and will want a clear and simple method of contacting the band.
@@ -38,8 +38,7 @@ Prior to work beginning on the website, wireframes were created in order to aid 
 The finished project diverts from the wireframes on a number of points, these are mentioned in detail in the Features section.
 
 ## Features
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+The website is constituted of 26 html pages. 7 of these (index.html, news.html, tour.html, book-us.html, music.html, featured-video.html and photo-gallery.html) are located within the project's root directory and are directly accessible via the site's main navigation. Of the remaining 19 html pages, 8 constitute news articles that are found within the news-articles directory, 7 are music pages found with the music-pages directory, and 3 are video pages found with the video-pages directory. There is also a dummy action-page.html that the user is taken to when they submit the form on book-us.html.
  
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
