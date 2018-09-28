@@ -2,15 +2,15 @@
 
 This project represents a fictional scenario in which the famous 1960s rock band The Monkees asks me (the developer) to create a band website that fulfils a number of stated objectives. These objectives are:
 
-    1. Provide a place for fans and prospective fans to listen to select recordings from their back catalogue and any new material.
-    2. Publicise their availability to perform at private events, such as weddings and private parties.
-    3. Provides links to wider social media, including Facebook, Twitter and YouTube.
+1. Provide a place for fans and prospective fans to listen to select recordings from their back catalogue and any new material.
+2. Publicise their availability to perform at private events, such as weddings and private parties.
+3. Provides links to wider social media, including Facebook, Twitter and YouTube.
 
 In addition, the developer has identified a number of other objectives that the website should fulfil, in keeping with users' expectations of how a website for a household name band such as The Monkees should look and what functionality it should possess. These additional objectives are:
 
-    4. Provide a platform on which the band can publicise relevant news and maintain older news stories in an archive-like format.
-    5. Provide information on the band's publicly available live performances, with links enabling the user to buy tickets from third-party ticket vendors.
-    6. Showcase relevant multimedia, featuring not only audio but image and video content.
+4. Provide a platform on which the band can publicise relevant news and maintain older news stories in an archive-like format.
+5. Provide information on the band's publicly available live performances, with links enabling the user to buy tickets from third-party ticket vendors.
+6. Showcase relevant multimedia, featuring not only audio but image and video content.
 
 All of these objectives must be achieved in a visual style that matches The Monkees' legacy 1960s aesthetic, utilising the relevant technologies to achieve a professional-looking website.
 
@@ -32,14 +32,10 @@ This user may not even be a fan of The Monkees, but they write for a popular Int
 **Potential Client**
 This user wishes to book The Monkees for a private performance. They will wish to see testimonals that confirm The Monkees are a good choice, and will want a clear and simple method of contacting the band.
 
+### Wireframes
+Prior to work beginning on the website, wireframes were created in order to aid the design progress and provide direction during actual coding. These can be found in the "mockups" folder in the root directory of the project.
 
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+The finished project diverts from the wireframes on a number of points, these are mentioned in detail in the Features section.
 
 ## Features
 
