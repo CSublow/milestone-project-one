@@ -310,6 +310,7 @@ h5, h6 {
     /*ensures proper alignment especially needed on xs screens, overriding BS classes*/
     padding-left: 0;
     padding-right: 0;
+    margin-bottom: 10px;
 }
 .feature-media-container img,
 .media-cover-container img {
