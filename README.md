@@ -58,6 +58,12 @@ The footer is also consistent across all site pages. The footer consists of 4 li
 As per normal convention this page acts as the site's home page. Below the main navigation the user will encounter a large and eye catching hero slider based off Jssor's Bootstrap jQuery slider. The slider is responsive and also touch-enabled for the benefit of mobile and other touch-enabled devices.
 
 Below the Jssor slider the user will encounter a Bootstrap row with 2 columns. The left column contains the latest music release from The Monkees, with links to the album page and an external "Buy Now" link that takes the user to amazon.com. The right column contains latest news, allowing the user to navigate to the individual news articles, or go to news.html which contains a full list of news stories.
+
+Below the first Bootstrap row, the user encounters the History section which uses lorem ipsum to simulate a brief description of the band's history, along with embedded images of the individual band members as well as a group photo at the end of the section. This deviates from the original wireframes in that initially the History section would have had its own dedicated html page. The decision was made to integrate the History section onto index.html for two reasons:
+
+Firstly, this fleshes out the content on index.html, which without the history section contains sparse content. Although this is not necessarily a bad choice (compare for example the sparsely filled out [Guns N' Roses homepage](https://www.gunsnroses.com/ "Guns N' Roses Homepage")), it was felt that The Monkees, with their long history, should have their history content as a central feature of their website.
+
+Secondly, an integrated History section reduces the size of the project and the size of the main navigation. A smaller navigation in particular reduces the chance of overloading the user with too many options, thus an integrated History section provides a boost to the site's overall usability.
  
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
