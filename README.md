@@ -110,7 +110,13 @@ For some/all of your features, you may choose to reference the specific project 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+Some features are left open to the idea of implementation, but were not featured in this release.
+
+**Social share buttons on news articles**
+All of the major social networks provide the ability for developers to specify how they wish website pages to be shared, as well as the ability to implement specific social media sharing buttons on pages. This feature was not implemented because it depends on the final url of the finished project, which was not clear at the time of coding.
+
+**Newsletter popup on index.html**
+The idea to have a promotional popup promoting The Monkees' newsletter on the website's homepage was considered, inspired by similiar functionality on the [Led Zeppelin homepage](http://www.ledzeppelin.com/ "Led Zeppelin Homepage"). However, this functionality was considered to be beyond the project's requirements, and would also constitute dummy functionality since there are no server-side processes currently active on this project.
 
 ## Technologies Used
 
