@@ -396,7 +396,7 @@ h5, h6 {
 /* INDEX HISTORY SECTION
 -------------------------------------------------- */
 .band-history p,
-#history-text-p-1 {
+#history-text-p-1 p {
     margin: 9px 57px;
 }
 
@@ -425,7 +425,8 @@ h5, h6 {
 	background:-webkit-linear-gradient(top, #d1d1d1 0%,#ECECEC 100%);    
 }
 
-#history-text {
+#history-text,
+#history-text-p-1 {
     max-width: 991px;
     margin: 0 auto;
     text-align: justify;
@@ -460,7 +461,7 @@ figure figcaption {
 @media (min-width: 900px) {
     /*reset the p margin and apply it to the whole div on larger screens for proper layout*/
     .band-history p,
-    #history-text-p-1 {
+    #history-text-p-1 p {
         margin: 12px 0;
     }
     .band-history {
