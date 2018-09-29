@@ -80,8 +80,26 @@ This page contains a responsive table generated with Bootstrap's list-inline cla
 ### book-us.html
 The Book Us page is comprised of two components. The "Testimonials" section contains two quotes from previous clients of The Monkees achieved using Bootstrap media objects. There is also a contact form on the page that uses built in HTML5 validation to ensure correct imput of the Contact Name, Contact Email and Your Message fields which takes the user to action-page.html when they submit the form.
 
+The finished book-us.html page differs from the wireframe in that the testimonials section was implemented in the finished product. This decision was taken during the consideration of additional user stories that took place after the project was being coded. It was felt that prospective clients of The Monkees would need to see some sort of marketing in order to increase the chance of them making a booking.
+
 ### action-page.html
-This is a dummy action page which does not utilise any server-side language but simulates the process the user would go through when they submit the contact form. This page consists of a "thank you" message.
+This is a dummy action page which does not utilise any server-side functionality but simulates the process the user would go through when they submit the contact form. This page consists of a "thank you" message.
+
+No wireframe was created for this page due to its simple format making a wireframe unnecessary.
+
+### music.html
+This page acts as a hub for the music subpages. It comprises of the featured album cover image (also displayed on index.html) and album heading displayed at a prominent position towards the top of the page, along with other albums displayed three per row going down the page. This layout is responsive, and collapses to a one album per row stacked layout on smaller viewports. Each of the album images and headings is a clickable link that takes the user through to its respective music subpage.
+
+### music page (subpage)
+Each of the music subpages possesses the same layout. The first row consists of the album cover image and a release date along with an album description (written in lorem ipsum). The second row consists of a spotify widget that enables the user to play the album in their browser. THe responsive layout collapses on smaller screens, so that the album image, the description, and the spotify player are stacked on top of each other.
+
+A slight deviation from the wireframes exist in that on the finished product the spotify widget is below the rest of the content whereas, in the wireframe it was positioned to the right of the album image and directly below the album description. This approach was adopted due to it being discovered during coding that the spotify widget does not work well when its size is small. In order for the widget to be large it had to be positioned below the rest of the content.
+
+### video pages (featured-video.html and subpages)
+The video pages all feature the same layout. The currently loaded video is displayed using a YouTube iframe towards the top of the page. Below the iframe, YouTube img thumbnails are used to create links to other video pages, with glyphicon-play icons overlayed on the thumbnails to indicate to the user that these links will take them to the video content. On small viewports the default three thumbnails per row is collapsed to one on top of the other stacked.
+
+### photo-gallery.html
+This page contains image media, implemented using the lightgallery jQuery plugin. The page consists of two rows of images with a title heading, each representing a separate jQuery slideshow. The lightgallery functionality enables the user to click/tap on an image to make it fullscreen, with the ability to swipe or click through the other images in the slideshow. On smaller screens, the default row of four images is collapsed to each image being stacked.
  
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
