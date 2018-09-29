@@ -61,9 +61,27 @@ Below the Jssor slider the user will encounter a Bootstrap row with 2 columns. T
 
 Below the first Bootstrap row, the user encounters the History section which uses lorem ipsum to simulate a brief description of the band's history, along with embedded images of the individual band members as well as a group photo at the end of the section. This deviates from the original wireframes in that initially the History section would have had its own dedicated html page. The decision was made to integrate the History section onto index.html for two reasons:
 
-Firstly, this fleshes out the content on index.html, which without the history section contains sparse content. Although this is not necessarily a bad choice (compare for example the sparsely filled out [Guns N' Roses homepage](https://www.gunsnroses.com/ "Guns N' Roses Homepage")), it was felt that The Monkees, with their long history, should have their history content as a central feature of their website.
+Firstly, this fleshes out the content on index.html, which without the history section contains sparse content. Although this is not necessarily a bad choice (compare for example the sparsely filled out [Guns N' Roses homepage](https://www.gunsnroses.com/ "Guns N' Roses Homepage")), it was felt that The Monkees, with their long history, should have their History content as a central feature of their website.
 
 Secondly, an integrated History section reduces the size of the project and the size of the main navigation. A smaller navigation in particular reduces the chance of overloading the user with too many options, thus an integrated History section provides a boost to the site's overall usability.
+
+### news.html
+This page acts as a central hub of news articles. The page is minimal, consisting of two Bootstrap columns of 4 news heading each, with an <aside> element at the bottom of the page containing information for journalists and blog writers on how to get in touch for press statements. Each news heading links to a seperate news page.
+
+### subpage navigation
+All of the subpages in the site (news articles, music pages and video pages) have a sub navigation that is located directly below the page title h1 and is repeated at the bottom of each subpage so that the user doesn't have to scroll up in order to access the sub navigation. This allows the user to navigate to the next or previous piece of content without heading back to the main page, with all subpages also possessing a link to go back to the main page. The video pages on the site work a bit differently; although they possess a sub navigation, the layout of the video pages allows the user to access any other video page from all the video pages by using the video thumbnail links, so there is no "All Videos" link.
+
+### news-article (subpage)
+The news articles all feature a unique layout; they contain a different number of paragraphs and most have at least one image (although one news article possesses two). This simulates the layout of news articles varying with the content.
+
+### tour.html
+This page contains a responsive table generated with Bootstrap's list-inline classs. It features a number of tour dates with the date of each performance, location, and a link to buy tickets from a third party vendor.
+
+### book-us.html
+The Book Us page is comprised of two components. The "Testimonials" section contains two quotes from previous clients of The Monkees achieved using Bootstrap media objects. There is also a contact form on the page that uses built in HTML5 validation to ensure correct imput of the Contact Name, Contact Email and Your Message fields which takes the user to action-page.html when they submit the form.
+
+### action-page.html
+This is a dummy action page which does not utilise any server-side language but simulates the process the user would go through when they submit the contact form. This page consists of a "thank you" message.
  
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
