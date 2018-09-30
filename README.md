@@ -168,6 +168,11 @@ The video pages make use of the embed feature available on YouTube videos.
 Lightgallery is a customisable media slideshow based on jQuery that is utilised by this project on photo-gallery.html
 
 ## Testing
+### Code Validation
+
+
+
+
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
