@@ -856,7 +856,7 @@ figure figcaption {
     /*give the play icon a background color to make it stand out against the video backdrop*/
     background-color: rgba(0,0,0,0.7);
     /*make the border circular to fit snug with the play icon*/
-    border: 0.1px solid rgba(0,0,0,0.7);
+    border: 0.1px solid;
     border-radius: 100%;
 }
 
