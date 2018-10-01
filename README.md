@@ -167,6 +167,9 @@ The video pages make use of the embed feature available on YouTube videos.
 ### [Lightgallery 1.6.11](http://sachinchoolur.github.io/lightGallery/) 
 Lightgallery is a customisable media slideshow based on jQuery that is utilised by this project on photo-gallery.html
 
+### [Optimizilla](https://imagecompressor.com/) 
+Used for compression of some website images
+
 ## Testing
 ### Code Validation
 
