@@ -24,15 +24,10 @@ a, a:focus, a:hover {
     color: #000000;
 }
 
-/*seperate wrapper within body tag to allow flower background images to stay with the content and not wander off on very large screens*/
-/*.wrapper {*/
-/*    max-width: 1904px;*/
-/*    margin: 0 auto;*/
-    /*background-image: url(/assets/images/flowers-bg.png), url('/assets/images/flowers-bg-right.png');*/
-/*    background-repeat: no-repeat;*/
-/*    background-position: 0% 0%, 100% 0%;*/
-/*    background-size: 98px;*/
-/*}*/
+.wrapper {
+    max-width: 1904px;
+    margin: 0 auto;
+}
 
 header {
     background-image: url(/assets/images/bg-img.jpg);
@@ -45,10 +40,10 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    /*background-color: #f5f5f5;*/
     font-family: 'Spirax', cursive;
     /*stops footer wandering off to the right on very large screens*/
     max-width: 1904px;
+    border-top: 2px solid black;
 }
 footer li {
     margin: 0 1% 0 1%;
@@ -107,6 +102,8 @@ h5, h6 {
     margin: 0 auto;
     display: block;
     text-align: center;
+    /*although the background-color is overlaid with the background image, declaring it ensures the nav is still clearly visible if the background-image takes time to load*/
+    background-color: white;
     background-image: url(/assets/images/full-bloom.png);
     border: 1px solid black;
 }
