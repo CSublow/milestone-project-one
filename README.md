@@ -47,9 +47,7 @@ The website is constituted of 26 html pages. 7 of these (index.html, news.html, 
 ### Main Navigation
 The main navigation is consistent across all pages. It consists of 7 links labelled Home, News, Tour, Book Us, Music, Video, and Photo Gallery. The navigation is achieved with Bootstrap and is responsive, collapsing on all viewports less than 768px wide. When the navigation is collapsed it can be revealed if the user clicks or taps on the hamburger icon.
 
-On viewports larger than 767px, the page the user is currently on is marked with a box to aid the user's orientation around the website on larger viewports. This feature is maintained when the user is visiting a subpage; for example, if the user is currently on forever.html, a music subpage, then then music link in the main navigation will be marked with a box.
-
-In addition to the navigation links, there are external links to The Monkees' social media channels that are located directly below the main navigation. When click/tapped on these open a new browser tab to then take the user to that social media channel.
+In addition to the site navigation links, there are external links to The Monkees' social media channels that are located directly below the main navigation. When click/tapped on these open a new browser tab to then take the user to that social media channel.
 
 ### Footer
 The footer is also consistent across all site pages. The footer consists of 4 links; Home, Facebook, Twitter and Youtube. The Home link takes the user back to index.html. The other links take the user to the corresponding social network, which opens in a new browser tab so as to prevent the user forgetting what page they have come from.
@@ -69,7 +67,9 @@ Secondly, an integrated History section reduces the size of the project and the 
 This page acts as a central hub of news articles. The page is minimal, consisting of two Bootstrap columns of 4 news heading each, with an <aside> element at the bottom of the page containing information for journalists and blog writers on how to get in touch with the band for press statements. Each news heading links to a seperate news page.
 
 ### subpage navigation
-All of the subpages in the site (news articles, music pages and video pages) have a sub navigation that is located directly below the page title <h1> element and is repeated at the bottom of each subpage so that the user doesn't have to scroll up in order to access the sub navigation, improving site usability and accessibility. This allows the user to navigate to the next or previous piece of content without heading back to the main page, with all subpages also possessing a link to go back to the main page. The video pages on the site work a bit differently; although they possess a sub navigation, the layout of the video pages allows the user to access any other video page from all of the video pages by using the video thumbnail links, so there is no "All Videos" link on the video pages.
+All of the subpages in the site (news articles, music pages and video pages) have a sub navigation that is located directly below the page header element and is repeated at the bottom of each subpage so that the user doesn't have to scroll up in order to access the sub navigation, improving site usability and accessibility. This allows the user to navigate to the next or previous piece of content without heading back to the main page, with all subpages also possessing a link to go back to the main page. The video pages on the site work a bit differently; although they possess a sub navigation, the layout of the video pages allows the user to access any other video page from all of the video pages by using the video thumbnail links, so there is no "All Videos" link on the video pages.
+
+A deviation from the wireframes exist in that for the music and news-article subpages, the sub navigation on the finished release sits below the header whereas in the wireframes it is positioned below the page title. This change was implemented when validating the code through the [W3C validator](https://validator.w3.org/) and discovering that article elements should contain nested headings. It was therefore judged to be a better accessibility decision to position the page headings within the main content elements. This change was not carried over to the video subpages since they contain much less content and do not have a unique page title.
 
 ### news-article (subpage)
 The news articles all feature a unique layout; they contain a different number of paragraphs and most have at least one image (although one news article possesses two). This simulates the layout of news articles varying with the content.
@@ -136,7 +136,7 @@ This type of user is able to navigate to book-us.html. They are able to see a sm
 The project's markup uses HTML5, and makes as much use of HTML5 semantics as possible using W3C standards.
 
 ### [CSS3](https://www.w3.org/standards/webdesign/htmlcss)
-The markup is styled using CSS3, which is maintained in separate css files where posible in keeping with the standard of separating structure and presentation.
+The markup is styled using CSS3, which is maintained in separate css files where possible in keeping with the standard of separating structure and presentation.
 
 ### [Bootstrap 3](https://getbootstrap.com/docs/3.3/)
 The Bootstrap 3 framework was used in order to simplify the process of generating the website's structure and ensuring its responsiveness.
@@ -150,7 +150,7 @@ jQuery is utilised by the project for a number of areas of functionality.
 1. Boootstrap depends on jQuery for its Javascript components, including the collapsed hamburger navigation icon.
 2. jQuery is used to implement the Jssor slider on index.html.
 3. jQuery is used to change the text of the show/hide history text button on index.html to reflect the text's current hidden or visible state.
-4. The image slider on photo-gallery.html depends on jQuery for the slideshow functionality.
+4. The image slider on photo-gallery.html depends on jQuery for slideshow functionality.
 
 ### [Font Awesome 5.3.1](https://fontawesome.com/)
 The project uses Font Awesome to generate the social media icons found in the header element of each page.
@@ -165,35 +165,38 @@ The music subpages use this Spotify iframe in order to embed audio playback.
 The video pages make use of the embed feature available on YouTube videos.
 
 ### [Lightgallery 1.6.11](http://sachinchoolur.github.io/lightGallery/) 
-Lightgallery is a customisable media slideshow based on jQuery that is utilised by this project on photo-gallery.html
+Lightgallery is a customisable media slideshow based on jQuery that is utilised by this project on photo-gallery.html.
 
 ### [Optimizilla](https://imagecompressor.com/) 
-Used for compression of some website images
+Used for compression of some website images.
 
 ## Testing
 ### Code Validation
+The W3C code validators for [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) were used to check markup validity. These tools helped locate some markup issues, including <h3> tags incorrectly closed with </h4>, along with identifying obsolete code, such as <script type="javascript">. These tools helped resolve any errors in the markup. There is a warning for index.html specifying that the page's language has been declared incorrectly, but this is believed to be on account of the lorem ipsum that is in heavy use on index.html.
 
+### User Stories Testing
+Each of the user stories identified in the UX section was simulated. The results of these tests are as follows:
 
+**Hardcore fan, likes going to live performances**
 
+Upon landing on the homepage, I am able to see Tour in the main navigation. Clicking/tapping this link takes me to tour.html. I am able to see the information displayed in the tour dates table, and if I click on any of the "Buy Tickets" buttons, I am taken to a website where I may purchase tickets. This new window opens in a new tab, keeping me on The Monkees' website so that I don't forget what page I have come from.
 
+**Newly acquainted fan, wants background history and music**
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Landing on the homepage, my attention is drawn to the large hero slider. The responsive nature of the slider means I am able to view it on both desktop and mobile. Scrolling down the homepage, I am encounter a link to some music and some recent news. I am able to follow these links if I choose to. Towards the bottom of the page, I can read some history of The Monkees. On mobile, I can tap the "Read More" button to continue reading the history section if I wish to, and I do not get frustrated by too much text if I am not interested in reading the history of The Monkees since this section starts collapsed on smaller viewports. I can clearly see "Music", "Video" and "Photo Gallery" in the main navigation. Following these links allows me to view the multimedia content there, and I don't encounter any problems. On the music subpages, since I am a Spotify user I am able to open the embedded player directly in my Spotify app. Simulating a non-Spotify user, I am able to access 30 second previews of the tracks, with the option to go to full length tracks available to me if I create an account with Spotify. Finally, I can see social media links in the main navigation, clicking on these opens the respective social media channels in new tabs.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+**Blog writer/Journalist**
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+As this type of user I am able to clearly see News in the main navigation. Clicking this link takes me through to news.html, and after a quick scan of the page I can see an email address that I can use to contact The Monkees regarding a recent news story. Clicking this email address opens up my mail client on my device.
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+**Potential Client**
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+As this type of user I can see Book Us in the main navigation. Using this link takes me to book-us.html. I am reassured by the testimonials from recent clients, and the contact form validates correctly, ensuring that I don't leave any field blank and that my email address is in the correct format. Failing to fill all contact form fields, or entering an email address without an @ symbol, prevents me from submitting the form and presents me with an error message on all tested browsers. Upon submitting the form I am taken to a page that confirms that the form was successfully sent.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+### Browser and Screen Size Testing
+The project was primarily developed on Google Chrome version v69.0.3497 on a Windows PC with a default maximised screen size of 1936px. The project was developed mobile-first, so the look of the project was tailored to all screen sizes above 320px. The website was also tested on Firefox v62.0 and Edge v42.17134.1.0 with no issues detected during testing.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+In addition to modern browser testing, a tool from [browserling](https://www.browserling.com/internet-explorer-testing) was used in order to simulate the website running on IE9. The only issue found was that the Spotify player does not play audio. On further investigation this was discovered to be due to the Spotify player [not being supported in IE](https://support.spotify.com/uk/using_spotify/the_basics/webplayer/)
 
 ## Deployment
 
