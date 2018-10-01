@@ -157,7 +157,6 @@ h5, h6 {
     /*the icons touch each other when stacked vertically on smaller screen sizes. This fixes this*/
     margin-top: 10px;
     color: #000000;
-    border: 1px solid black;
     border-radius: 25%;
     background-color: white;
 }
@@ -167,7 +166,7 @@ h5, h6 {
 }
 
 .subpage-navigation {
-    margin: 15px 0 25px 0;
+    margin: 25px 0 0 0;
 }
 
 .bottom-subpage-navigation {
