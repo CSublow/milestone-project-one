@@ -170,6 +170,9 @@ Lightgallery is a customisable media slideshow based on jQuery that is utilised 
 ### [Optimizilla](https://imagecompressor.com/) 
 Used for compression of some website images.
 
+### [lipsum.com](https://www.lipsum.com/)
+Used to generate the project's lorem ipsum.
+
 ## Testing
 ### Code Validation
 The W3C code validators for [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) were used to check markup validity. These tools helped locate some markup issues, including <h3> tags incorrectly closed with </h4>, along with identifying obsolete code, such as <script type="javascript">. These tools helped resolve any errors in the markup. There is a warning for index.html specifying that the page's language has been declared incorrectly, but this is believed to be on account of the lorem ipsum that is in heavy use on index.html.
@@ -194,7 +197,7 @@ As this type of user I am able to clearly see News in the main navigation. Click
 As this type of user I can see Book Us in the main navigation. Using this link takes me to book-us.html. I am reassured by the testimonials from recent clients, and the contact form validates correctly, ensuring that I don't leave any field blank and that my email address is in the correct format. Failing to fill all contact form fields, or entering an email address without an @ symbol, prevents me from submitting the form and presents me with an error message on all tested browsers. Upon submitting the form I am taken to a page that confirms that the form was successfully sent.
 
 ### Browser and Screen Size Testing
-The project was primarily developed on Google Chrome version v69.0.3497 on a Windows PC with a default maximised screen size of 1936px. The project was developed mobile-first, so the look of the project was tailored to all screen sizes above 320px. The website was also tested on Firefox v62.0 and Edge v42.17134.1.0 with no issues detected during testing.
+The project was primarily developed on Google Chrome version v69.0.3497 on a Windows PC with a default maximised screen size of 1936px. The project was developed mobile-first, so the look of the project was tailored to all screen sizes above 320px with continuous testing during development to ensure that the site continued to be responsive. The website was also tested on Firefox v62.0 and Edge v42.17134.1.0 with no issues detected during testing.
 
 In addition to modern browser testing, a tool from [browserling](https://www.browserling.com/internet-explorer-testing) was used in order to simulate the website running on IE9. The only issue found was that the Spotify player does not play audio. On further investigation this was discovered to be due to the Spotify player [not being supported in IE](https://support.spotify.com/uk/using_spotify/the_basics/webplayer/)
 
@@ -212,12 +215,84 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ## Credits
 
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-
 ### Media
-- The photos used in this site were obtained from ...
+All images used in this project which were not provided with the assessment brief are referenced here.
+
+Nav and body background image
+https://www.toptal.com/designers/subtlepatterns/full-bloom-pattern/
+Header background image
+http://longwallpapers.com/retro-wallpapers-high-quality/
+
+Monkees logo
+http://www.clker.com/clipart-411039.html
+
+Favicon
+https://www.amazon.com/The-logo-Guitar-Button/dp/B0028MGECG
+
+ALBUM IMAGE REFERENCES
+Forever
+https://www.monkeeslivealmanac.com/blog/budget-priced-compilation-to-be-released-in-august
+More of the Monkees
+http://1.bp.blogspot.com/-4WNtUuW6hFM/TyghBigQ7FI/AAAAAAAAjzg/fEtFgZB4AxU/s1600/3.jpg
+Headquarters
+https://monkees.coolcherrycream.com/picturedb/albums/album-covers
+The Monkees
+https://monkees.coolcherrycream.com/picturedb/albums/album-covers
+Instant Replay
+https://monkees.coolcherrycream.com/picturedb/albums/album-covers
+Pool It
+https://monkees.coolcherrycream.com/picturedb/albums/album-covers
+Good Times
+https://monkees.coolcherrycream.com/picturedb/albums/album-covers
+
+HERO SLIDER
+Hero image 2
+http://comforttv.blogspot.com/2015/07/the-20-best-monkees-songs-and-5-worst.html
+
+Hero image 3
+http://psychedelichippiemusic.blogspot.com/2013/10/the-monkees.html
+
+NEWS ARTICLE IMAGES
+news-article-1
+http://img2.rtve.es/imagenes/tendencias-mad-cool-festival-2017-01-06-17/1496312608313.jpg
+news-article-2
+https://ksassets.timeincuk.net/wp/uploads/sites/55/2016/10/nme-logo-BonW-desktop-x2-b.png
+news-article-3
+http://www.monkeeslivealmanac.com/uploads/7/8/9/5/7895731/3138629_orig.jpg
+news-article-4
+https://upload.wikimedia.org/wikipedia/commons/a/ad/BBC_Four.svg
+news-article-4-1
+https://i.ytimg.com/vi/gxbuWx8AYr8/maxresdefault.jpg
+news-article-5
+https://images-na.ssl-images-amazon.com/images/I/31E2ltXlHWL._SY355_.jpg
+news-article-7
+https://www.rollingstone.com/wp-content/uploads/2018/06/rs-6848-20120828-micky-624x-1346184544.jpg?crop=900:600&width=440
+news-article-8
+http://www.stickpng.com/img/icons-logos-emojis/question-marks/double-question-mark
+
+BOOK US TESTIMONIALS
+John Smith
+https://c1.staticflickr.com/4/3231/3290148587_767458eb9c_b.jpg
+Jane Doe
+https://orig00.deviantart.net/4e8e/f/2015/318/7/7/yo_by_themajestynextdoor-d9gpmv7.jpg
+
+PHOTO GALLERY
+monkees-tv-show
+https://www.mprnews.org/story/2018/01/04/monkees_no_1
+the-monkees-196X
+https://parade.com/224998/nancyberk/showbiz-analysis-with-the-monkees-micky-dolenz/
+the-monkees-studio-session
+http://www.zoomerradio.ca/uncategorized/may-31-1966-the-monkees-began-filming-their-first-tv-series/
+daydream-believer-still
+https://mashable.com/2016/02/05/monkees-new-album-tour/?europe=true
+micky-dolenz
+https://en.wikipedia.org/wiki/Micky_Dolenz#/media/File:Micky_Dolenz_at_the_2009_Tribeca_Film_Festival.jpg
+micheal-nesmith
+https://medium.com/@jeremylr/still-rollin-with-the-flow-twists-and-turns-with-smart-monkee-michael-nesmith-29f46b206dd2
+peter-tork
+https://en.wikipedia.org/wiki/Peter_Tork#/media/File:WikiTork.jpg
+davy-jones
+https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_675,w_1200,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1492810233/cheats/2012/02/29/monkees-singer-davy-jones-dies/davy-jones-monkees-dies-cheat_f36ft2
 
 ### Acknowledgements
-
-- I received inspiration for this project from X
+I recieved inspiration for this project from a number of band websites around the web, in particular the [Alice In Chains](http://aliceinchains.com/), [Guns N' Roses](https://www.gunsnroses.com/), [Foo Fighters](https://foofighters.com/) and [Led Zeppelin](http://www.ledzeppelin.com/) websites.
