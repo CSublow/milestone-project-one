@@ -202,6 +202,8 @@ The project was primarily developed on Google Chrome version v69.0.3497 on a Win
 In addition to modern browser testing, a tool from [browserling](https://www.browserling.com/internet-explorer-testing) was used in order to simulate the website running on IE9. The only issue found was that the Spotify player does not play audio. On further investigation this was discovered to be due to the Spotify player [not being supported in IE](https://support.spotify.com/uk/using_spotify/the_basics/webplayer/)
 
 ## Deployment
+The project is deployed on GitHub Pages.
+
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
