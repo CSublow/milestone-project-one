@@ -296,5 +296,3 @@ https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_675,w_1
 
 ### Acknowledgements
 I recieved inspiration for this project from a number of band websites around the web, in particular the [Alice In Chains](http://aliceinchains.com/), [Guns N' Roses](https://www.gunsnroses.com/), [Foo Fighters](https://foofighters.com/) and [Led Zeppelin](http://www.ledzeppelin.com/) websites.
-
-TEST TEST TEST
