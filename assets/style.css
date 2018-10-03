@@ -15,7 +15,7 @@ body {
     margin-bottom: 80px;
     min-width: 266px;
     font-family: 'Noto Serif JP', sans-serif;
-    background-image: url(/images/full-bloom.png);
+    background-image: url(images//full-bloom.png);
 }
 
 /*default color for all site links is black*/
@@ -30,7 +30,7 @@ a, a:focus, a:hover {
 }
 
 header {
-    background-image: url(/images/bg-img.jpg);
+    background-image: url(images//bg-img.jpg);
     background-size: cover;
     border-bottom: 2px solid black;
     max-width: 1904px;
@@ -104,7 +104,7 @@ h5, h6 {
     text-align: center;
     /*although the background-color is overlaid with the background image, declaring it ensures the nav is still clearly visible if the background-image takes time to load*/
     background-color: white;
-    background-image: url(/images/full-bloom.png);
+    background-image: url(images//full-bloom.png);
     border: 1px solid black;
 }
 .navbar-nav>li {
