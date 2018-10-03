@@ -201,19 +201,11 @@ The project was primarily developed on Google Chrome version v69.0.3497 on a Win
 
 In addition to modern browser testing, a tool from [browserling](https://www.browserling.com/internet-explorer-testing) was used in order to simulate the website running on IE9. The only issue found was that the Spotify player does not play audio. On further investigation this was discovered to be due to the Spotify player [not being supported in IE](https://support.spotify.com/uk/using_spotify/the_basics/webplayer/)
 
+### Known Issues
+An issue occurs intermittently on the video pages, where the YouTube iframe occasionally fails to load. This problem appears unique to Chrome, as it never occured on any other tested browsers. It also appears to be a [documented issue](https://stackoverflow.com/questions/12009423/what-does-status-canceled-for-a-resource-mean-in-chrome-developer-tools). The issue was not rectified in this release due to the time it would take to debug and it only occuring in about 1 in every 10 page loads.
+
 ## Deployment
-The project is deployed on GitHub Pages.
-
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+The project is deployed on GitHub Pages, available [here](https://dhamma1991.github.io/milestone-project-one/index.html). An issue occured when first deploying; the src path system on GitHub Pages was found to be stricter than on c9, with links that began with a '/' breaking. A site wide modification of the links had to be completed before the website would function properly on GitHub Pages.
 
 ## Credits
 
