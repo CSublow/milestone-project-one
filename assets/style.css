@@ -143,19 +143,20 @@ h5, h6 {
 
 /*target the social icons in the header*/
 .social-links li a i {
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
     /*give the icons more room to breathe*/
     padding: 12px 0;
     /*adjust the size and position of the icons*/
-    line-height: 7px;
+    line-height: 16px;
     font-size: 1.7em;
     /*center the font (icons) within the container div*/
     text-align: center;
     /*the icons touch each other when stacked vertically on smaller screen sizes. This fixes this*/
     margin-top: 10px;
     color: #000000;
-    border-radius: 25%;
+    /*border-radius: 50% works with equal height and width properties to give a circle effect*/
+    border-radius: 50%;
     background-color: white;
 }
 
