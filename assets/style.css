@@ -400,13 +400,15 @@ h5, h6 {
     display: table;
     margin: 0 auto;
 }
-/*set margins for headings for better alignment*/
 .index-news-wrapper h1 {
-    margin: 0;   
+    /*set margin for heading for better alignment*/
+    margin: 0;
+    /*border style and min-height so border looks good*/
+    border-bottom: 1px solid;
+    min-height: 50px;
 }
 
 /*center align the news article titles and dates*/
-/*.news-article h1,*/
 .news-article h3 {
     text-align: center;
 }
