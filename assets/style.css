@@ -72,6 +72,9 @@ hr {
     border-top: 1px solid #e2e2e2;
 }
 
+h1 {
+    text-align: center;
+}
 h1, h2, h3, h4 {
     font-family: 'Spirax';
     font-weight: 600;
@@ -164,10 +167,6 @@ h5, h6 {
     /*border-radius: 50% works with equal height and width properties to give a circle effect*/
     border-radius: 50%;
     background-color: white;
-}
-
-.page-title {
-    margin-bottom: 20px;
 }
 
 .subpage-navigation {
@@ -407,7 +406,7 @@ h5, h6 {
 }
 
 /*center align the news article titles and dates*/
-.news-article h1,
+/*.news-article h1,*/
 .news-article h3 {
     text-align: center;
 }
