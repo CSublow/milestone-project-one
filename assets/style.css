@@ -401,17 +401,16 @@ h5, h6 {
     display: table;
     margin: 0 auto;
 }
+.index-news-wrapper h1 {
+    /*reset margin-top so the heading is more snug with the hero slider*/
+    margin-top: 0;    
+}
 
 .news-list,
 .news-list-container {
     list-style: none;
     padding: 0 10px 0 0;
     text-align: center;
-}
-
-.latest-news-h1 {
-    /*reset margin-top so the heading is more snug with the hero slider*/
-    margin-top: 0;
 }
 
 /*align the news items left on larger screens*/
