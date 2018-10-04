@@ -212,80 +212,140 @@ The project is deployed on GitHub Pages, available [here](https://dhamma1991.git
 ### Media
 All images used in this project which were not provided with the assessment brief are referenced here.
 
-Nav and body background image
+**Nav and body background image**
+
 https://www.toptal.com/designers/subtlepatterns/full-bloom-pattern/
-Header background image
+
+**Header background image**
+
 http://longwallpapers.com/retro-wallpapers-high-quality/
 
-Monkees logo
+**Monkees logo**
+
 http://www.clker.com/clipart-411039.html
 
-Favicon
+**Favicon**
+
 https://www.amazon.com/The-logo-Guitar-Button/dp/B0028MGECG
 
-ALBUM IMAGE REFERENCES
-Forever
+**ALBUM IMAGE REFERENCES**
+
+**Forever**
+
 https://www.monkeeslivealmanac.com/blog/budget-priced-compilation-to-be-released-in-august
-More of the Monkees
+
+**More of the Monkees**
+
 http://1.bp.blogspot.com/-4WNtUuW6hFM/TyghBigQ7FI/AAAAAAAAjzg/fEtFgZB4AxU/s1600/3.jpg
-Headquarters
-https://monkees.coolcherrycream.com/picturedb/albums/album-covers
-The Monkees
-https://monkees.coolcherrycream.com/picturedb/albums/album-covers
-Instant Replay
-https://monkees.coolcherrycream.com/picturedb/albums/album-covers
-Pool It
-https://monkees.coolcherrycream.com/picturedb/albums/album-covers
-Good Times
+
+**Headquarters**
+
 https://monkees.coolcherrycream.com/picturedb/albums/album-covers
 
-HERO SLIDER
-Hero image 2
+**The Monkees**
+
+https://monkees.coolcherrycream.com/picturedb/albums/album-covers
+
+**Instant Replay**
+
+https://monkees.coolcherrycream.com/picturedb/albums/album-covers
+
+**Pool It**
+
+https://monkees.coolcherrycream.com/picturedb/albums/album-covers
+
+**Good Times**
+
+https://monkees.coolcherrycream.com/picturedb/albums/album-covers
+
+**HERO SLIDER**
+
+**Hero image 2**
+
 http://comforttv.blogspot.com/2015/07/the-20-best-monkees-songs-and-5-worst.html
 
-Hero image 3
+**Hero image 3**
+
 http://psychedelichippiemusic.blogspot.com/2013/10/the-monkees.html
 
-NEWS ARTICLE IMAGES
-news-article-1
+**NEWS ARTICLE IMAGES**
+
+**news-article-1**
+
 http://img2.rtve.es/imagenes/tendencias-mad-cool-festival-2017-01-06-17/1496312608313.jpg
-news-article-2
+
+**news-article-2**
+
 https://ksassets.timeincuk.net/wp/uploads/sites/55/2016/10/nme-logo-BonW-desktop-x2-b.png
-news-article-3
+
+**news-article-3**
+
 http://www.monkeeslivealmanac.com/uploads/7/8/9/5/7895731/3138629_orig.jpg
-news-article-4
+
+**news-article-4**
+
 https://upload.wikimedia.org/wikipedia/commons/a/ad/BBC_Four.svg
-news-article-4-1
+
+**news-article-4-1**
+
 https://i.ytimg.com/vi/gxbuWx8AYr8/maxresdefault.jpg
-news-article-5
+
+**news-article-5**
+
 https://images-na.ssl-images-amazon.com/images/I/31E2ltXlHWL._SY355_.jpg
-news-article-7
+
+**news-article-7**
+
 https://www.rollingstone.com/wp-content/uploads/2018/06/rs-6848-20120828-micky-624x-1346184544.jpg?crop=900:600&width=440
-news-article-8
+
+**news-article-8**
+
 http://www.stickpng.com/img/icons-logos-emojis/question-marks/double-question-mark
 
-BOOK US TESTIMONIALS
-John Smith
+
+**BOOK US TESTIMONIALS**
+
+**John Smith**
+
 https://c1.staticflickr.com/4/3231/3290148587_767458eb9c_b.jpg
-Jane Doe
+
+**Jane Doe**
+
 https://orig00.deviantart.net/4e8e/f/2015/318/7/7/yo_by_themajestynextdoor-d9gpmv7.jpg
 
-PHOTO GALLERY
-monkees-tv-show
+
+**PHOTO GALLERY**
+
+**monkees-tv-show**
+
 https://www.mprnews.org/story/2018/01/04/monkees_no_1
-the-monkees-196X
+
+**the-monkees-196X**
+
 https://parade.com/224998/nancyberk/showbiz-analysis-with-the-monkees-micky-dolenz/
-the-monkees-studio-session
+
+**the-monkees-studio-session**
+
 http://www.zoomerradio.ca/uncategorized/may-31-1966-the-monkees-began-filming-their-first-tv-series/
-daydream-believer-still
+
+**daydream-believer-still**
+
 https://mashable.com/2016/02/05/monkees-new-album-tour/?europe=true
-micky-dolenz
+
+**micky-dolenz**
+
 https://en.wikipedia.org/wiki/Micky_Dolenz#/media/File:Micky_Dolenz_at_the_2009_Tribeca_Film_Festival.jpg
-micheal-nesmith
+
+**micheal-nesmith**
+
 https://medium.com/@jeremylr/still-rollin-with-the-flow-twists-and-turns-with-smart-monkee-michael-nesmith-29f46b206dd2
-peter-tork
+
+**peter-tork**
+
 https://en.wikipedia.org/wiki/Peter_Tork#/media/File:WikiTork.jpg
-davy-jones
+
+**davy-jones**
+
 https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_675,w_1200,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1492810233/cheats/2012/02/29/monkees-singer-davy-jones-dies/davy-jones-monkees-dies-cheat_f36ft2
 
 ### Acknowledgements
