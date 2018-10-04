@@ -47,7 +47,7 @@ footer {
 }
 footer li {
     margin: 10px 1% 0 1%;
-    font-size: 1.3em;
+    font-size: 0.95em;
 }
 
 .margin-top-30 {
@@ -71,13 +71,6 @@ hr {
     border-top: 1px solid #e2e2e2;
 }
 
-@media (min-width: 768px) {
-    .wrapper {
-        /*adjust the size of the background images on larger screens*/
-        background-size: 216px;
-    }
-}
-
 h1, h2, h3, h4 {
     font-family: 'Spirax';
     font-weight: 600;
@@ -86,6 +79,18 @@ h1, h2, h3, h4 {
 }
 h5, h6 {
     font-weight: 600;
+}
+
+@media (min-width: 514px) {
+   footer li {
+    font-size: 1.3em;
+} 
+}
+@media (min-width: 768px) {
+    .wrapper {
+        /*adjust the size of the background images on larger screens*/
+        background-size: 216px;
+    }
 }
 
 /* --- HEADER AND NAVIGATION
