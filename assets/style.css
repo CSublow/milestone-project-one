@@ -847,7 +847,7 @@ figure img {
 
 .video-heading {
     text-align: center;
-    margin: 10px auto 55px;
+    margin: 10px auto 0;
     /*prevent the heading text from being larger than the image thumbnails*/
     max-width: 266px;
 }
