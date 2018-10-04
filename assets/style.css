@@ -206,11 +206,6 @@ h5, h6 {
     .navbar-nav {
         width: fit-content;
     }
-    /*.active a {*/
-        /*gives visual indication of where user currently is in the nav on larger screens*/
-    /*    border-top: 1px solid black;*/
-    /*    border-bottom: 1px solid black;*/
-    /*}*/
 }
 
 /* --- JSSOR SLIDER CSS
@@ -394,8 +389,13 @@ h5, h6 {
     }
 }
 
-/* INDEX NEWS SECTION
+/* UPPER INDEX ROW SECTION
 -------------------------------------------------- */
+.upper-index-row {
+    max-width: 1414px;
+    margin: 30px auto;
+}
+
 .index-news-wrapper {
     /*centre the news items within their container*/
     display: table;
