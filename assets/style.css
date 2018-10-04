@@ -30,7 +30,7 @@ a, a:focus, a:hover {
 }
 
 header {
-    background-image: url(images//bg-img.jpg);
+    background-image: url(images/bg-img.jpg);
     background-size: cover;
     border-bottom: 2px solid black;
     max-width: 1904px;
@@ -420,7 +420,7 @@ h5, h6 {
 -------------------------------------------------- */
 .band-history p,
 #history-text-p-1 p {
-    margin: 9px 57px;
+    margin: 9px 33px;
 }
 
 /*button styles taken from https://codepen.io/pedox/pen/Kfzso*/
