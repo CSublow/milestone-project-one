@@ -405,9 +405,11 @@ h5, h6 {
 .index-news-wrapper h1 {
     margin: 0;   
 }
-.news-list h3,
-.news-list-container h3 {
-    margin: 20px 0 5px 0;
+
+/*center align the news article titles and dates*/
+.news-article h1,
+.news-article h3 {
+    text-align: center;
 }
 
 .news-list,
@@ -415,6 +417,10 @@ h5, h6 {
     list-style: none;
     padding: 0 10px 0 0;
     text-align: center;
+}
+.news-list h3,
+.news-list-container h3 {
+    margin: 20px 0 5px 0;
 }
 /*.news-list h3 {*/
     /*override default h3 margins for correct alignment of the news-list h3s*/
