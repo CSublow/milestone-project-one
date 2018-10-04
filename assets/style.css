@@ -468,12 +468,6 @@ figure img {
     display: block;
     border: 1px solid black;
 }
-figure figcaption {
-    text-align: center;
-    font-style: italic;
-    max-width: 245px;
-    margin: 0 auto;
-}
 
 @media (min-width: 768px) {
     #history-text {
