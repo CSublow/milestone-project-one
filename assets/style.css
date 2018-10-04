@@ -469,6 +469,10 @@ figure img {
     border: 1px solid black;
 }
 
+.book-us-cta a {
+    color: #0089ff;
+}
+
 @media (min-width: 768px) {
     #history-text {
         /*this ensures the text always shows on larger screens*/
