@@ -645,6 +645,11 @@ figure img {
 .blockquote-footer {
     /*this class overwrites the footer width declared elsewhere as it causes issues with horizontal scrolling on mobile*/
     width: auto;
+    /*overwrite default footer font*/
+    font-family: 'Noto Serif JP', sans-serif;
+    /*overwrite default BS styles*/
+    color: #000;
+    font-size: 100%;
 }
 
 .book-us-form {
