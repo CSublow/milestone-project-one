@@ -46,7 +46,7 @@ footer {
     border-top: 2px solid black;
 }
 footer li {
-    margin: 0 1% 0 1%;
+    margin: 10px 1% 0 1%;
     font-size: 1.3em;
 }
 
@@ -666,7 +666,7 @@ figure img {
 
 @media(min-width: 992px) {
     blockquote {
-        /*ensures the blockquote footer text lines up with the one next to it*/
+        /*ensures the blockquote footers line up with each other*/
         min-height: 140px;
     }
       
