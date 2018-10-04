@@ -401,9 +401,13 @@ h5, h6 {
     display: table;
     margin: 0 auto;
 }
+/*set margins for headings for better alignment*/
 .index-news-wrapper h1 {
-    /*reset margin-top so the heading is more snug with the hero slider*/
-    margin-top: 0;    
+    margin: 0;   
+}
+.news-list h3,
+.news-list-container h3 {
+    margin: 20px 0 5px 0;
 }
 
 .news-list,
@@ -412,9 +416,12 @@ h5, h6 {
     padding: 0 10px 0 0;
     text-align: center;
 }
+/*.news-list h3 {*/
+    /*override default h3 margins for correct alignment of the news-list h3s*/
+/*    margin: 20px 0 5px 0;*/
+/*}*/
 
 /*align the news items left on larger screens*/
-
 @media (min-width: 992px) {
     .news-list,
     .news-list-container {
