@@ -78,13 +78,11 @@ hr {
     }
 }
 
-h1 {
-    margin-left: 10px;
-    margin-right: 10px;
-}
 h1, h2, h3, h4 {
     font-family: 'Spirax';
     font-weight: 600;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 h5, h6 {
     font-weight: 600;
