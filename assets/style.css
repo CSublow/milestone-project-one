@@ -31,8 +31,7 @@ a, a:focus, a:hover {
 
 /*target only the main footer on every page and not other instances of the <footer> element*/
 .wrapper > footer {
-    background-image: url(images/bg-img.jpg);
-    background-size: cover;
+    background-color: #fff3c1;
 }
 footer {
     position: absolute;
