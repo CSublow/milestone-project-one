@@ -29,13 +29,11 @@ a, a:focus, a:hover {
     margin: 0 auto;
 }
 
-header {
+/*target only the main footer on every page and not other instances of the <footer> element*/
+.wrapper > footer {
     background-image: url(images/bg-img.jpg);
     background-size: cover;
-    border-bottom: 2px solid black;
-    max-width: 1904px;
 }
-
 footer {
     position: absolute;
     bottom: 0;
@@ -125,6 +123,13 @@ h5, h6 {
 
 /* --- HEADER AND NAVIGATION
 -------------------------------------------------- */
+header {
+    background-image: url(images/bg-img.jpg);
+    background-size: cover;
+    border-bottom: 2px solid black;
+    max-width: 1904px;
+}
+
 #main-logo {
     width: 125px;
     height: 66px;    
