@@ -536,6 +536,11 @@ figure img {
 .tour-date {
     margin-bottom: 10px;
 }
+.tour-date time {
+    font-family: 'Spirax';
+    font-weight: 600;
+    font-size: 24px;
+}
 
 .tour-location {
     margin-bottom: 10px;
