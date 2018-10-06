@@ -534,12 +534,22 @@ figure img {
 /* TOUR STYLES
 -------------------------------------------------- */
 .tour-element {
+    /* correct spacing */
     margin-bottom: 10px;
 }
 .tour-element time {
     font-family: 'Spirax';
     font-weight: 600;
     font-size: 24px;
+}
+.tour-element h2 {
+    /*smaller font size than default h2 for better presentation*/
+    font-size: 24px;
+}
+
+.tour-list a {
+    /*overwrite default margin for .site-button for better layout*/
+    margin: 0 auto;
 }
 
 /* BOOK US STYLES
