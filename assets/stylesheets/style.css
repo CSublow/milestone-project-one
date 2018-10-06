@@ -317,6 +317,10 @@ header {
     min-height: 50px;
 }
 
+.news-article h1 {
+    /*less margin on this h1 so that the title and time are more compact visually*/
+    margin-bottom: 5px;
+}
 .news-article time {
     /*center align the news article date*/
     text-align: center;
@@ -337,10 +341,6 @@ header {
 .news-list-container h3 {
     margin: 20px 0 5px 0;
 }
-/*.news-list h3 {*/
-    /*override default h3 margins for correct alignment of the news-list h3s*/
-/*    margin: 20px 0 5px 0;*/
-/*}*/
 
 /*align the news items left on larger screens*/
 @media (min-width: 992px) {
