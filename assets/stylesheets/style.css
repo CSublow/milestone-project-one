@@ -658,7 +658,10 @@ figure img {
     padding-left: 30px;
     margin: 0 35px;
 }
-.music-description h3 {
+.music-description h2 {
+    /*reduce h2 font size for this type of heading for visual stylistic reasons*/
+    font-size: 24px;
+    /*align the heading*/
     margin-top: 0;
     text-align: center;
 }
@@ -695,9 +698,6 @@ figure img {
     .music-description {
         width: 36.3%;
         margin: 0;
-        text-align: left;
-    }
-    .music-description h3 {
         text-align: left;
     }
 }
