@@ -533,21 +533,13 @@ figure img {
 
 /* TOUR STYLES
 -------------------------------------------------- */
-.tour-date {
+.tour-element {
     margin-bottom: 10px;
 }
-.tour-date time {
+.tour-element time {
     font-family: 'Spirax';
     font-weight: 600;
     font-size: 24px;
-}
-
-.tour-location {
-    margin-bottom: 10px;
-}
-
-.buy-tickets-btn {
-    margin-bottom: 10px;
 }
 
 /* BOOK US STYLES
