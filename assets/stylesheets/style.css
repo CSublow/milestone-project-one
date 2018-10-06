@@ -4,8 +4,8 @@
 
 /* --- STRUCTURAL
 -------------------------------------------------- */
-/*required to ensure footer stays at the bottom of viewport*/
 html {
+    /*required to ensure footer stays at the bottom of viewport*/
     position: relative;
     min-height: 100%;
 }
@@ -534,7 +534,7 @@ figure img {
 /* TOUR STYLES
 -------------------------------------------------- */
 .tour-element {
-    /* correct spacing */
+    /*correct spacing*/
     margin-bottom: 10px;
 }
 .tour-element time {
@@ -682,8 +682,6 @@ figure img {
 @media (min-width: 768px) {
     /*make the album cover bigger and bolder on larger screens*/
     .subpage-media-cover-container {
-        /*center the album cover when columns collapse*/
-        /*margin: 0 auto 20px;*/
         display: block;
         width: 315px;
     }
@@ -699,7 +697,6 @@ figure img {
 
 @media (min-width: 992px) {
     .subpage-media-cover-container {
-        /*album cover left aligned on larger screens*/
         margin: 0;
     }
     .music-description {
@@ -710,10 +707,10 @@ figure img {
 }
 
 @media (min-width: 1200px) {
-    /*make the album cover even bigger and bolder on the largest screens*/
     .subpage-media-cover-container {
         margin: 0;
         display: block;
+        /*make the album cover even bigger and bolder on the largest screens*/
         width: 400px;
     }
     .subpage-album-cover {
