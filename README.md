@@ -52,12 +52,12 @@ In addition to the site navigation links, there are external links to The Monkee
 In the wireframes for this project the navigation consisted of 8 links, rather than the 7 that were implemented. The reasons for this change are elaborated on in the **index.html** section below.
 
 ### Footer
-The footer is also consistent across all site pages. The footer consists of 4 links; Home, Facebook, Twitter and Youtube. The Home link takes the user back to index.html. The other links take the user to the corresponding social network, which opens in a new browser tab so as to prevent the user forgetting what page they have come from.
+The footer is also consistent across all site pages. The footer consists of 5 links; Home, Book Us, Facebook, Twitter and Youtube. The Home link takes the user back to index.html. The Book Us link takes the user to the Book Us page, this link serving as an additional call to action. The other links take the user to the corresponding social network, which opens in a new browser tab so as to prevent the user forgetting what page they have come from.
 
 ### index.html
 As per normal convention this page acts as the site's home page. Below the main navigation the user will encounter a large and eye catching hero slider based off Jssor's Bootstrap jQuery slider. The slider is responsive and also touch-enabled for the benefit of mobile and other touch-enabled devices.
 
-Below the Jssor slider the user will encounter a Bootstrap row with 2 columns. The left column contains the latest music release from The Monkees, with links to the album page and an external "Buy Now" link that takes the user to amazon.com. The right column contains latest news, allowing the user to navigate to the individual news articles, or go to news.html which contains a full list of news stories.
+Below the Jssor slider the user will encounter a Bootstrap row with 2 columns. The left column contains the latest music release from The Monkees, with links to the album page and an external "Buy Now" link that takes the user to amazon.com. The right column contains latest news, allowing the user to navigate to the individual news articles, or go to news.html which contains a full list of news stories. All the news entries are dated, and these, along with all dates on the site are formatted using the <time> element. Where needed the appropriate datetime attribute is added to <time> to increase the machine-readability of the app's dates.
 
 Below the first Bootstrap row, the user encounters the History section which uses lorem ipsum to simulate a brief description of the band's history, along with embedded images of the individual band members as well as a group photo at the end of the section. This deviates from the original wireframes in that initially the History section would have had its own dedicated html page. The decision was made to integrate the History section onto index.html for three reasons:
 
@@ -65,7 +65,7 @@ Firstly, this fleshes out the content on index.html, which without the history s
 
 Secondly, an integrated History section reduces the size of the project and the size of the main navigation. A smaller navigation in particular reduces the chance of overloading the user with too many options, thus an integrated History section provides a boost to the site's overall usability.
 
-Thirdly, the History section provides a good place to implement an additional "Book Us" call to action aside from the main navigation. Combining the index and history pages makes it more likely that the user will see this call to action, since almost all users of the site are going to land on the home page first. Having multiple calls to action on a webpage is [good UX](https://goodui.org/).
+Thirdly, the History section provides a good place to implement an additional "Book Us" call to action aside from the main navigation and footer. Combining the index and history pages makes it more likely that the user will see this call to action, since almost all users of the site are going to land on the home page first. Having multiple calls to action on a webpage is [good UX](https://goodui.org/).
 
 ### news.html
 This page acts as a central hub of news articles. The page is minimal, consisting of two Bootstrap columns of 4 news heading each, with an <aside> element at the bottom of the page containing information for journalists and blog writers on how to get in touch with the band for press statements. Each news heading links to a seperate news page.
