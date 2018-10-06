@@ -317,9 +317,12 @@ header {
     min-height: 50px;
 }
 
-/*center align the news article titles and dates*/
-.news-article h3 {
+.news-article h2 {
+    /*center align the news article date*/
     text-align: center;
+    /*make this particular use of h3 a smaller font size for stylistic reason*/
+    /*not just using a smaller heading tag for semantic reasons*/
+    font-size: 20px;
 }
 
 .news-list,
