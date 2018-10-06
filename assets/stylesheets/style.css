@@ -258,6 +258,12 @@ header {
     /*correct spacing between the links*/
     margin: 0 10px 0 10px;
 }
+.feature-media-container h2 span {
+    /*visually style the "Out Now" text*/
+    margin-top: 7px;
+    display: block;
+    font-size: 0.8em;
+}
 
 .feature-media-cover-container {
     /*this centres the album cover within its container*/
