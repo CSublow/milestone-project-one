@@ -304,14 +304,17 @@ header {
         margin: 0 auto 70px;
         width: 200px;  
     }
+    .album-cover-container h2 {
+        /*this font size is a better fit for the smaller album covers*/
+        font-size: 20px;
+    }
     .album-cover {
         height: 200px;
         width: 200px;
     }
 }
 
-@media (min-width: 1200px) {
-    /*make the album cover even bigger and bolder on the largest screens*/
+@media (min-width: 1291px) {
     .feature-media-music-container {
         width: 400px;
     }
@@ -319,13 +322,14 @@ header {
         width: 400px;
         height: 400px;
     }
-}
-
-@media (min-width: 1291px) {
     .album-cover {
         /*increase the size of the album covers on larger screens*/
         height: 300px;
         width: 300px;
+    }
+    .album-cover-container h2 {
+        /*bump the font size up with the album covers*/
+        font-size: 30px;
     }
     .album-cover-container {
         width: 300px; 
