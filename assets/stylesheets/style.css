@@ -657,7 +657,6 @@ figure img {
 }
 
 .music-description {
-    /*padding-left: 30px;*/
     margin: 0 5px;
 }
 .music-description h2 {
@@ -695,6 +694,10 @@ figure img {
     .min-width-album-fix {
         /*this prevents description and album cover overlapping*/
         min-width: 315px;
+    }
+    .music-description {
+        /*keeps the description away from the album cover on larger viewports*/
+        padding-left: 30px;
     }
 }
 
