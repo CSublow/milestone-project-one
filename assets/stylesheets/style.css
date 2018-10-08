@@ -767,6 +767,8 @@ figure img {
     margin: 10px auto 0;
     /*prevent the heading text from being larger than the image thumbnails*/
     max-width: 266px;
+    /*make the video thumbnail headings a smaller text size than the main headings*/
+    font-size: 20px;
 }
 
 .thumbnail-wrapper {
