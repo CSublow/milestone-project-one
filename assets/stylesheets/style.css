@@ -657,15 +657,18 @@ figure img {
 }
 
 .music-description {
-    padding-left: 30px;
+    /*padding-left: 30px;*/
     margin: 0 5px;
 }
 .music-description h2 {
     /*reduce h2 font size for this type of heading for visual stylistic reasons*/
     font-size: 24px;
     /*align the heading*/
-    margin-top: 0;
+    margin: 0 0 10px 0;
     text-align: center;
+    /*border styles*/
+    border-top: 1px solid black;
+    padding-top: 10px;
 }
 .music-description p {
     /*control the width of the paragraphs, noticeable on smaller viewports*/
