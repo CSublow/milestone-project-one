@@ -344,7 +344,13 @@ header {
     text-align: center;
 }
 
-/*ensures all the headings including the "More News" heading are aligned properly*/
+/*ensures all the headings on index.html and news.html including the "More News" heading are aligned properly*/
+.news-list h2,
+.news-list-container h2 {
+    margin: 20px 0 5px 0;
+    /*could just use h3 for these headings to have font-size: 24px but it is better semantics to use a h2 in this case*/
+    font-size: 24px;
+}
 .news-list h3,
 .news-list-container h3 {
     margin: 20px 0 5px 0;
