@@ -267,14 +267,14 @@ header {
     /*this centres the album cover within its container and apply correct spacing*/
     margin: 0 auto 70px;
     display: block;
-    width: 300px;
+    width: 270px;
 }
 
 .feature-album-cover {
-    width: 300px;
+    width: 270px;
 }
 .media-cover-container {
-    width: 300px; 
+    width: 270px; 
     margin: 0px auto 80px;
     display: block;
 }
@@ -289,8 +289,7 @@ header {
 }
 
 .album-cover {
-    height: 300px;
-    width: 300px;
+    width: 270px;
 }
 
 @media (min-width: 768px) {
