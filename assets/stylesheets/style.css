@@ -406,11 +406,6 @@ header {
     text-align: justify;
 }
 
-figure {
-    /*stops messy layout of text next to image on smaller screens*/
-    display: block;
-    margin: 15px 0 10px 0;
-}
 figure img {
     /*ensures divs collapsed on smaller screens*/
     margin: 0 auto;
