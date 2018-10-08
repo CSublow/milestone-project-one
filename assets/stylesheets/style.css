@@ -356,10 +356,6 @@ header {
     min-height: 40px;
 }
 
-.news-article h1 {
-    /*less margin on this h1 so that the title and time are more compact visually*/
-    margin-bottom: 5px;
-}
 .news-article time {
     /*center align the news article date*/
     text-align: center;
@@ -367,7 +363,7 @@ header {
     /*visually style the date*/
     font-size: 20px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .news-list,
