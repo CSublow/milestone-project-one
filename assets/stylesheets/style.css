@@ -245,7 +245,7 @@ header {
     text-align: center;
 }
 .feature-media-container img,
-.media-cover-container img {
+.album-cover-container img {
    border: 1px solid black; 
 }
 .feature-media-container h2 {
@@ -274,12 +274,12 @@ header {
 .feature-album-cover {
     width: 270px;
 }
-.media-cover-container {
+.album-cover-container {
     width: 270px; 
     margin: 0px auto 40px;
     display: block;
 }
-.media-cover-container h2 {
+.album-cover-container h2 {
     text-align: center;
     margin-top: 10px;
 }
@@ -299,7 +299,7 @@ header {
         width: 315px;
         height: 315px;
     }
-    .media-cover-container {
+    .album-cover-container {
         /*fixes margin on larger screens for proper grid layout effect*/
         margin: 0 auto 70px;
         width: 200px;  
@@ -331,7 +331,7 @@ header {
         height: 300px;
         width: 300px;
     }
-    .media-cover-container {
+    .album-cover-container {
         width: 300px; 
     }
 }
