@@ -242,6 +242,7 @@ header {
     /*ensures proper alignment especially needed on xs screens, overriding BS classes*/
     padding-left: 0;
     padding-right: 0;
+    text-align: center;
 }
 .feature-media-container img,
 .media-cover-container img {
@@ -250,7 +251,7 @@ header {
 .feature-media-container h2 {
     /*overwrite default bootstrap margin, too much for the album heading*/
     margin-top: 10px;
-    text-align: center;
+    margin: 10px auto;
 }
 .feature-media-container a span {
     /*correct spacing between the links*/
