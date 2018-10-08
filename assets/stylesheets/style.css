@@ -315,10 +315,10 @@ header {
     display: table;
     margin: 0 auto;
 }
-.index-news-wrapper h1 {
+.index-news-wrapper h2 {
     /*set margin for heading for better alignment*/
     margin: 0;
-    /*border style and min-height so border looks good*/
+    /*border style and set min-height so the border looks good*/
     border-bottom: 1px solid;
     min-height: 50px;
 }
@@ -343,6 +343,8 @@ header {
     padding: 0 10px 0 0;
     text-align: center;
 }
+
+/*ensures all the headings including the "More News" heading are aligned properly*/
 .news-list h3,
 .news-list-container h3 {
     margin: 20px 0 5px 0;
