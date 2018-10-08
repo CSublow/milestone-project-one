@@ -440,6 +440,10 @@ figure img {
         height: inherit!important;
         display: block!important;
     }
+    .band-history h2 {
+        /*margin needs to be auto on larger screens so that the heading stays centred*/
+        margin: 0 auto;
+    }
 }
 
 @media (min-width: 900px) {
