@@ -643,7 +643,8 @@ figure img {
       
 }
 
-/* MUSIC SUBPAGE STYLES */
+/* MUSIC SUBPAGE STYLES
+-------------------------------------------------- */
 .subpage-media-cover-container {
     /*this centres the album cover within its container*/
     margin: 0 auto 25px;
