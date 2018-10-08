@@ -248,8 +248,6 @@ header {
    border: 1px solid black; 
 }
 .feature-media-container h2 {
-/*.feature-media-container h3,*/
-/*.feature-media-container h4 */ 
     /*overwrite default bootstrap margin, too much for the album heading*/
     margin-top: 10px;
     text-align: center;
@@ -267,17 +265,15 @@ header {
 
 .feature-media-cover-container {
     /*this centres the album cover within its container and apply correct spacing*/
-    margin: 0 auto 30px;
+    margin: 0 auto 70px;
     display: block;
     width: 300px;
 }
 
 .feature-album-cover {
     width: 300px;
-    height: 300px;
 }
 .media-cover-container {
-    height: 300px;
     width: 300px; 
     margin: 0px auto 80px;
     display: block;
@@ -300,7 +296,7 @@ header {
 @media (min-width: 768px) {
     /*make the album cover bigger and bolder on larger screens*/
     .feature-media-cover-container {
-        margin: 0 auto;
+        margin: 0 auto 70px;
         display: block;
         width: 315px;
     }
@@ -311,7 +307,6 @@ header {
     .media-cover-container {
         /*fixes margin on larger screens for proper grid layout effect*/
         margin: 0 auto 70px;
-        height: 230px;
         width: 200px;  
     }
     .margin-top-25 {
@@ -327,8 +322,6 @@ header {
 @media (min-width: 1200px) {
     /*make the album cover even bigger and bolder on the largest screens*/
     .feature-media-cover-container {
-        margin: 0 auto;
-        display: block;
         width: 400px;
     }
     .feature-album-cover {
@@ -344,7 +337,6 @@ header {
         width: 300px;
     }
     .media-cover-container {
-        height: 330px;
         width: 300px; 
     }
 }
