@@ -148,9 +148,8 @@ header {
     float: none;
     /*limit the size of the border*/
     max-width: 131px;
-    /*center align the items, max-width makes them align left*/
+    /*center align the items*/
     margin: 0 auto;
-    border-bottom: 1px solid black;
 }
 
 /*remove border left on first child for proper border effect*/
@@ -226,10 +225,6 @@ header {
     .navbar-nav>li {
         /*make the nav items into a row on larger screens*/
         display: inline-block;
-        /*correct border effect on larger screens*/
-        border-left: 1px solid black;
-        border-right: 1px solid black;
-        border-bottom: 0;
     }
     .navbar-nav {
         width: fit-content;
