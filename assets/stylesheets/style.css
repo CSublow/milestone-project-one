@@ -264,7 +264,7 @@ header {
     font-size: 0.8em;
 }
 
-.feature-media-cover-container {
+.feature-media-music-container {
     /*this centres the album cover within its container and apply correct spacing*/
     margin: 0 auto 70px;
     display: block;
@@ -295,7 +295,7 @@ header {
 
 @media (min-width: 768px) {
     /*make the album cover bigger and bolder on larger screens*/
-    .feature-media-cover-container {
+    .feature-media-music-container {
         margin: 0 auto 70px;
         display: block;
         width: 315px;
@@ -321,7 +321,7 @@ header {
 
 @media (min-width: 1200px) {
     /*make the album cover even bigger and bolder on the largest screens*/
-    .feature-media-cover-container {
+    .feature-media-music-container {
         width: 400px;
     }
     .feature-album-cover {
