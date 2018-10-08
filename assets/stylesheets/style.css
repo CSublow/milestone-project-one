@@ -407,7 +407,6 @@ header {
 }
 
 figure img {
-    /*ensures divs collapsed on smaller screens*/
     margin: 0 auto;
     display: block;
     border: 1px solid black;
@@ -442,9 +441,6 @@ figure img {
     }
     .band-history {
         margin: 0 57px;
-    }
-    figure {
-        margin: 0 20px 0 0;
     }
     figure img {
         vertical-align: top;        
