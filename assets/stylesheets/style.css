@@ -405,7 +405,7 @@ header {
 .band-history h2 {
     border-top: 4px groove;
     max-width: 1252px;
-    margin: 0 auto;
+    margin: 0 5px;
     padding-top: 14px;
     text-align: center;
 }
