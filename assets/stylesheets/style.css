@@ -430,6 +430,11 @@ figure img {
     border: 1px solid black;
 }
 
+.book-us-cta {
+    font-size: 24px;
+    font-family: 'Spirax';
+    font-weight: bold;
+}
 .book-us-cta a {
     color: #0089ff;
 }
