@@ -793,12 +793,21 @@ figure img {
         width: 398px;
         height: 243px;  
     }
+    /*allows the video heading to sit on one line*/
+    .feature-media-container h2 {
+        max-width: 398px;
+    }
 }
 
 @media (min-width: 691px) {
     .video-player {
         width: 664px;
         height: 339px;    
+    }
+    /*grow the featured video heading*/
+    .feature-media-container h2 {
+        max-width: 664px;
+        font-size: 30px;
     }
 }
 
