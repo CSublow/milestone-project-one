@@ -672,6 +672,11 @@ figure img {
     margin-top: 0;
     text-align: center;
 }
+.music-description p {
+    /*control the width of the paragraphs, noticeable on smaller viewports*/
+    max-width: 700px;
+    margin: 0 auto;
+}
 
 .spotify-player {
     margin: 15px auto;
