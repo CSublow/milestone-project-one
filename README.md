@@ -177,6 +177,9 @@ Used for compression of some website images.
 ### [lipsum.com](https://www.lipsum.com/)
 Used to generate the project's lorem ipsum.
 
+### [jitbit.com Unused CSS Finder](https://www.jitbit.com/unusedcss/)
+Used to check the project's css for redundant selectors.
+
 ## Testing
 ### Code Validation
 The W3C code validators for [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) were used to check markup validity. These tools helped locate some markup issues, including h3 tags incorrectly closed with /h4, along with identifying obsolete code, such as <script type="javascript">. These tools helped resolve any errors in the markup. There is a warning for index.html specifying that the page's language has been declared incorrectly, but this is believed to be on account of the lorem ipsum that is in heavy use on index.html.
