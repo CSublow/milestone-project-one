@@ -478,11 +478,12 @@ figure img {
     float: none;
 }
 .news-article a, .news-article a:focus, .news-article a:hover {
+    /*make the links with the news articles obvious that they are links*/
     color: #018aff;
 }
-.news-article h4 {
-    /*removes margin to ensure articles with a h4 are visually similiar to other articles*/
-    margin-top: 0;
+.news-article h2 {
+    font-size: 18px;
+    margin-top: 10px;
 }
 
 @media (min-width: 768px) {
