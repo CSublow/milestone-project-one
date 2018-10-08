@@ -284,11 +284,6 @@ header {
     margin-top: 10px;
 }
 
-.media-cover-container-fix {
-    /*fixes layout issues with the uppermost container on the 2nd row*/
-    margin: -60px auto 0;
-}
-
 .album-cover {
     width: 270px;
 }
@@ -633,12 +628,6 @@ figure img {
 .book-us-form {
     max-width: 904px;
     margin: 20px auto;
-}
-
-.contact-form-description {
-    margin: 0 auto;
-    display: block;
-    max-width: 72%;
 }
 
 @media(min-width: 992px) {
