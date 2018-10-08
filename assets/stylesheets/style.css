@@ -304,10 +304,6 @@ header {
         margin: 0 auto 70px;
         width: 200px;  
     }
-    .margin-top-25 {
-        /*acts similiar to generic margin-top-30 class for proper layout*/
-        margin-top: 25px
-    }
     .album-cover {
         height: 200px;
         width: 200px;
