@@ -364,11 +364,12 @@ header {
 #history-text-p-1 p {
     margin: 9px 33px;
 }
-.band-history h1 {
+.band-history h2 {
     border-top: 4px groove;
     max-width: 1252px;
     margin: 0 auto;
     padding-top: 14px;
+    text-align: center;
 }
 
 #history-text,
@@ -403,7 +404,7 @@ figure img {
 }
 
 @media (min-width: 900px) {
-    /*reset the p margin and apply it to the whole div on larger screens for proper layout*/
+    /*modify the p margin and apply it to the whole div on larger screens for proper layout*/
     .band-history p,
     #history-text-p-1 p {
         margin: 12px 0;
