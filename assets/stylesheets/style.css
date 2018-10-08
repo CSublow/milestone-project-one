@@ -442,9 +442,6 @@ figure img {
     .band-history {
         margin: 0 57px;
     }
-    figure img {
-        vertical-align: top;        
-    }
     .left-float-history-figure {
         float: left;
         margin: 10px 10px 0 0;
