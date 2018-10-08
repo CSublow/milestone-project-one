@@ -449,6 +449,7 @@ figure img {
     .right-float-history-figure {
         float: right;
         margin: 10px 0 0 0;
+        /*using padding here on the right a it makes the text fit better*/
         padding: 0 0 0 20px;
     }
 }
