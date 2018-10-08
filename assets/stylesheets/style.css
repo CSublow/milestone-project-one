@@ -242,7 +242,6 @@ header {
     /*ensures proper alignment especially needed on xs screens, overriding BS classes*/
     padding-left: 0;
     padding-right: 0;
-    margin-bottom: 10px;
 }
 .feature-media-container img,
 .media-cover-container img {
@@ -267,8 +266,8 @@ header {
 }
 
 .feature-media-cover-container {
-    /*this centres the album cover within its container*/
-    margin: 0 auto;
+    /*this centres the album cover within its container and apply correct spacing*/
+    margin: 0 auto 30px;
     display: block;
     width: 300px;
 }
@@ -276,6 +275,26 @@ header {
 .feature-album-cover {
     width: 300px;
     height: 300px;
+}
+.media-cover-container {
+    height: 300px;
+    width: 300px; 
+    margin: 0px auto 80px;
+    display: block;
+}
+.media-cover-container h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.media-cover-container-fix {
+    /*fixes layout issues with the uppermost container on the 2nd row*/
+    margin: -60px auto 0;
+}
+
+.album-cover {
+    height: 300px;
+    width: 300px;
 }
 
 @media (min-width: 768px) {
@@ -289,6 +308,20 @@ header {
         width: 315px;
         height: 315px;
     }
+    .media-cover-container {
+        /*fixes margin on larger screens for proper grid layout effect*/
+        margin: 0 auto 70px;
+        height: 230px;
+        width: 200px;  
+    }
+    .margin-top-25 {
+        /*acts similiar to generic margin-top-30 class for proper layout*/
+        margin-top: 25px
+    }
+    .album-cover {
+        height: 200px;
+        width: 200px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -301,6 +334,18 @@ header {
     .feature-album-cover {
         width: 400px;
         height: 400px;
+    }
+}
+
+@media (min-width: 1291px) {
+    .album-cover {
+        /*increase the size of the album covers on larger screens*/
+        height: 300px;
+        width: 300px;
+    }
+    .media-cover-container {
+        height: 330px;
+        width: 300px; 
     }
 }
 
@@ -607,57 +652,6 @@ figure img {
         min-height: 140px;
     }
       
-}
-
-/* MUSIC STYLES
--------------------------------------------------- */
-.media-cover-container {
-    height: 330px;
-    width: 300px; 
-    margin: 46px auto;
-    display: block;
-}
-.media-cover-container h2 {
-    text-align: center;
-}
-
-.media-cover-container-fix {
-    /*fixes layout issues with the uppermost container on the 2nd row*/
-    margin: -60px auto 0;
-}
-
-.album-cover {
-    height: 300px;
-    width: 300px;
-}
-
-@media (min-width: 768px) {
-    .media-cover-container {
-        /*fixes margin on larger screens for proper grid layout effect*/
-        margin: 0 auto;
-        height: 230px;
-        width: 200px;  
-    }
-    .margin-top-25 {
-        /*acts similiar to generic margin-top-30 class for proper layout*/
-        margin-top: 25px
-    }
-    .album-cover {
-        height: 200px;
-        width: 200px;
-    }
-}
-
-@media (min-width: 1291px) {
-    .album-cover {
-        /*increase the size of the album covers on larger screens*/
-        height: 300px;
-        width: 300px;
-    }
-    .media-cover-container {
-        height: 330px;
-        width: 300px; 
-    }
 }
 
 /* MUSIC SUBPAGE STYLES */
