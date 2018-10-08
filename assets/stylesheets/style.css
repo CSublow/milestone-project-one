@@ -266,7 +266,7 @@ header {
 
 .feature-media-music-container {
     /*this centres the album cover within its container and apply correct spacing*/
-    margin: 0 auto 70px;
+    margin: 0 auto 40px;
     display: block;
     width: 270px;
 }
@@ -276,7 +276,7 @@ header {
 }
 .media-cover-container {
     width: 270px; 
-    margin: 0px auto 80px;
+    margin: 0px auto 40px;
     display: block;
 }
 .media-cover-container h2 {
