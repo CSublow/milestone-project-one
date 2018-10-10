@@ -407,7 +407,7 @@ header {
 }
 
 figure img {
-    margin: 0 auto;
+    margin: 0 auto 10px;
     display: block;
     border: 1px solid black;
 }
