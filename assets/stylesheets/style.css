@@ -427,20 +427,17 @@ figure img {
         height: inherit!important;
         display: block!important;
     }
+    .band-history {
+        margin: 0 57px;
+    }
     .band-history h2 {
         /*margin needs to be auto on larger screens so that the heading stays centred*/
         margin: 0 auto;
     }
-}
-
-@media (min-width: 900px) {
     /*modify the p margin and apply it to the whole div on larger screens for proper layout*/
     .band-history p,
     #history-text-p-1 p {
         margin: 12px 0;
-    }
-    .band-history {
-        margin: 0 57px;
     }
     .left-float-history-figure {
         float: left;
