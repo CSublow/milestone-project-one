@@ -485,9 +485,17 @@ article > time {
 }
 article section {
     text-align: left;
+    clear: both;
 }
 article section p {
     text-align: center;
+}
+
+@media (min-width: 551px) {
+    #news-article-2-p {
+        /*pushes the <hr> below both the paragraph and the image*/
+        min-height: 140px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -538,6 +546,10 @@ article section p {
 }
 
 @media (min-width: 551px) {
+    #news-article-2-image {
+        float: left;
+        margin: 0 10px 10px 0;
+    }
     #news-article-3-image {
         width: 450px;;
     }
@@ -549,11 +561,6 @@ article section p {
     }
 }
 @media (min-width: 992px) {
-    #news-article-1-image {
-        /*increase the size of the image on larger screens*/
-        /*width: 600px;*/
-    }
-    #news-article-2-image,
     #news-article-4-image,
     #news-article-7-image {
         float: left;
