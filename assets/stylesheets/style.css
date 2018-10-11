@@ -448,7 +448,7 @@ figure img {
 
 /* NEWS PAGE
 -------------------------------------------------- */
-.news-article {
+article {
     margin: 0 20px;
     display: block;
     max-width: 1000px;
@@ -456,15 +456,15 @@ figure img {
     float: none;
     text-align: justify;
 }
-.news-article a, .news-article a:focus, .news-article a:hover {
+article a, article a:focus, article a:hover {
     /*make the links with the news articles obvious that they are links*/
     color: #018aff;
 }
-.news-article h2 {
+article h2 {
     font-size: 18px;
     margin: 20px 0 10px;
 }
-.news-article > time {
+article > time {
     /*center align the news article dates*/
     text-align: center;
     display: block;
@@ -475,7 +475,7 @@ figure img {
 }
 
 @media (min-width: 768px) {
-    .news-article {
+    article {
         /*center the articles on larger screens*/
         margin: 0 auto;
     }
