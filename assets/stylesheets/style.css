@@ -366,8 +366,7 @@ header {
     text-align: center;
 }
 
-.news-list h2,
-.news-list-container h2 {
+.news-list h2 {
     /*ensures all the headings on index.html and news.html including the "More News" heading are aligned properly*/
     margin: 20px 0 5px 0;
     font-size: 30px;
