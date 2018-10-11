@@ -470,6 +470,7 @@ article a, article a:focus, article a:hover {
     color: #018aff;
 }
 article h2 {
+    font-family: 'Noto Serif JP', sans-serif;
     font-size: 18px;
     margin: 20px 0 10px;
     text-align: center;
