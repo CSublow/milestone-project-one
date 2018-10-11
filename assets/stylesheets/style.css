@@ -457,7 +457,7 @@ article {
     text-align: justify;
 }
 article a, article a:focus, article a:hover {
-    /*make the links with the news articles obvious that they are links*/
+    /*make the links with the news articles obvious that they are links through a bright color*/
     color: #018aff;
 }
 article h2 {
@@ -476,6 +476,9 @@ article > time {
 }
 article section {
     text-align: left;
+}
+article section p {
+    text-align: center;
 }
 
 @media (min-width: 768px) {
