@@ -349,7 +349,7 @@ header {
     min-height: 40px;
 }
 
-.news-article time {
+.news-article > time {
     /*center align the news article date*/
     text-align: center;
     display: block;
