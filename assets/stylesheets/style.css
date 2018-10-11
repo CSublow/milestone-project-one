@@ -413,7 +413,7 @@ figure img {
     font-size: 24px;
     font-family: 'Spirax';
     font-weight: bold;
-    margin-top: 50px;
+    margin: 50px 0 20px 0;
 }
 .book-us-cta a {
     color: #0089ff;
