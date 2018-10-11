@@ -568,6 +568,11 @@ article section p {
         margin: 0 10px 0px 0;
         width: 232px;
     }
+    #news-article-5-image {
+        float: left;
+        margin: 0 10px 10px 0;
+        width: 242px;
+    }
 }
 @media (min-width: 992px) {
     #news-article-7-image {
@@ -575,11 +580,6 @@ article section p {
         margin: 0 10px 10px 0;
         /*make images default width on larger screens*/
         width: auto;
-    }
-    #news-article-5-image {
-        float: left;
-        margin: 0 10px 10px 0;
-        width: 242px;
     }
 }
 
