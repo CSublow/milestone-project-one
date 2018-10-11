@@ -59,9 +59,9 @@ As per normal convention this page acts as the site's home page. Below the main 
 
 Below the Jssor slider the user will encounter a Bootstrap row with 2 columns. The left column contains the latest music release from The Monkees, with links to the album page and an external "Buy Now" link that takes the user to amazon.com. The right column contains latest news, allowing the user to navigate to the individual news articles, or go to news.html which contains a full list of news stories. All the news entries are dated, and these, along with all dates on the site are formatted using the <time> element. Where needed the appropriate datetime attribute is added to <time> to increase the machine-readability of the app's dates.
 
-Below the first Bootstrap row, the user encounters the History section which uses lorem ipsum to simulate a brief description of the band's history, along with embedded images of the individual band members as well as a group photo at the end of the section. This deviates from the original wireframes in that initially the History section would have had its own dedicated html page. The decision was made to integrate the History section onto index.html for three reasons:
+Below the first Bootstrap row, the user encounters the History section which gives a brief overview of the history of The Monkees, along with embedded images of the individual band members as well as a group photo at the end of the section. This deviates from the original wireframes in that initially the History section would have had its own dedicated html page. The decision was made to integrate the History section onto index.html for three reasons:
 
-Firstly, this fleshes out the content on index.html, which without the history section contains sparse content. Although this is not necessarily a bad choice (compare for example the sparsely filled out [Guns N' Roses homepage](https://www.gunsnroses.com/ "Guns N' Roses Homepage")), it was felt that The Monkees, with their long history, should have their History content as a central feature of their website.
+Firstly, this fleshes out the content on index.html, which without the inclusion of the history section contains sparse content. Although this is not necessarily a bad choice (compare for example the sparsely filled out [Guns N' Roses homepage](https://www.gunsnroses.com/ "Guns N' Roses Homepage")), it was felt that The Monkees, with a history stretching back over many decades, should have their History content as a central feature of their website.
 
 Secondly, an integrated History section reduces the size of the project and the size of the main navigation. A smaller navigation in particular reduces the chance of overloading the user with too many options, thus an integrated History section provides a boost to the site's overall usability.
 
@@ -174,9 +174,6 @@ Lightgallery is a customisable media slideshow based on jQuery that is utilised 
 ### [Optimizilla](https://imagecompressor.com/) 
 Used for compression of some website images.
 
-### [lipsum.com](https://www.lipsum.com/)
-Used to generate the project's lorem ipsum.
-
 ### [jitbit.com Unused CSS Finder](https://www.jitbit.com/unusedcss/)
 Used to check the project's css for redundant selectors.
 
@@ -215,6 +212,11 @@ An issue occurs intermittently on the video pages, where the YouTube iframe occa
 The project is deployed on GitHub Pages, available [here](https://dhamma1991.github.io/milestone-project-one/index.html). An issue occured when first deploying; the src path system on GitHub Pages was found to be stricter than on c9, with links that began with a '/' breaking. A site wide modification of the links had to be completed before the website would function properly on GitHub Pages.
 
 ## Credits
+
+### Text Content
+
+History section on index.html
+https://en.wikipedia.org/wiki/The_Monkees
 
 ### Media
 All images used in this project which were not provided with the assessment brief are referenced here.
