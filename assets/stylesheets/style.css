@@ -505,6 +505,12 @@ article section p {
     }
 }
 
+@media (min-width: 1020px) {
+    #news-article-2-p {
+        min-height: 230px;
+    }
+}
+
 /* NEWS PAGE IMAGES
 -------------------------------------------------- */
 #news-article-1-image,
