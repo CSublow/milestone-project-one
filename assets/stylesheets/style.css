@@ -387,8 +387,7 @@ header {
 
 /* INDEX HISTORY SECTION
 -------------------------------------------------- */
-.band-history p,
-#history-text-p-1 p {
+.band-history p {
     margin: 9px 33px;
 }
 .band-history h2 {
@@ -399,8 +398,7 @@ header {
     text-align: center;
 }
 
-#history-text,
-#history-text-p-1 {
+#history-text {
     max-width: 991px;
     margin: 0 auto;
     text-align: justify;
@@ -428,11 +426,6 @@ figure img {
 }
 
 @media (min-width: 768px) {
-    #history-text {
-        /*this ensures the text always shows on larger screens*/
-        height: inherit!important;
-        display: block!important;
-    }
     .band-history {
         margin: 0 57px;
     }
@@ -441,8 +434,7 @@ figure img {
         margin: 0 auto;
     }
     /*modify the p margin and apply it to the whole div on larger screens for proper layout*/
-    .band-history p,
-    #history-text-p-1 p {
+    .band-history p {
         margin: 12px 0;
     }
     .left-float-history-figure {
