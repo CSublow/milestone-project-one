@@ -81,6 +81,10 @@ h1, h2, h3, h4 {
     margin-right: 10px;
 }
 
+ol {
+    padding-left: 23px;
+}
+
 /*Transitional Buttons by Vitaliy taken from https://www.designrush.com/resources/designskilz/cool-css-buttons/*/
 /*additional declarations added to reset properties specific to <button>*/
 .site-button {
