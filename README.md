@@ -177,6 +177,9 @@ Used for compression of some website images.
 ### [jitbit.com Unused CSS Finder](https://www.jitbit.com/unusedcss/)
 Used to check the project's css for redundant selectors.
 
+### [convertcase.net](https://convertcase.net/)
+Used to quickly format news article headings to correct style.
+
 ## Testing
 ### Code Validation
 The W3C code validators for [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) were used to check markup validity. These tools helped locate some markup issues, including h3 tags incorrectly closed with /h4, along with identifying obsolete code, such as <script type="javascript">. These tools helped resolve any errors in the markup. There is a warning for index.html specifying that the page's language has been declared incorrectly, but this is believed to be on account of the lorem ipsum that is in heavy use on index.html.
@@ -218,6 +221,34 @@ The project is deployed on GitHub Pages, available [here](https://dhamma1991.git
 **History section on index.html**
 
 https://en.wikipedia.org/wiki/The_Monkees
+
+**News Article 1**
+
+https://www.monkees.com/article/the-monkees-to-release-christmas-party-their-first-ever-holiday-album
+
+**News Article 2**
+
+https://www.monkees.com/article/new-dates-michael-nesmith-and-the-first-national-band-redux
+
+**News Article 3**
+
+https://www.monkees.com/article/now-streaming-the-rhino-podcast-the-monkees-with-micky-and-reissue-producer-andrew-sandoval
+
+**News Article 4**
+
+https://www.monkees.com/article/the-monkees-present-the-mike-micky-show
+
+**News Article 5**
+
+https://www.monkees.com/article/pre-order-the-archies-meet-the-monkees-comic-book
+
+**News Article 6**
+
+https://www.monkees.com/article/tickets-now-avail-michael-nesmith-the-first-national-band-return-to-the-stage
+
+**News Article 7**
+
+**News Article 8**
 
 ### Media
 All images used in this project which were not provided with the assessment brief are referenced here.
@@ -282,27 +313,27 @@ http://psychedelichippiemusic.blogspot.com/2013/10/the-monkees.html
 
 **news-article-1**
 
-http://img2.rtve.es/imagenes/tendencias-mad-cool-festival-2017-01-06-17/1496312608313.jpg
+https://www.monkees.com/sites/default/files/styles/large/public/monkeesxmas.jpg?itok=Z_QCnBOh
 
 **news-article-2**
 
-https://ksassets.timeincuk.net/wp/uploads/sites/55/2016/10/nme-logo-BonW-desktop-x2-b.png
+https://www.monkees.com/sites/default/files/styles/large/public/37117232_1854914371242431_7954927632951279616_n.jpg?itok=i5xp3454
 
 **news-article-3**
 
-http://www.monkeeslivealmanac.com/uploads/7/8/9/5/7895731/3138629_orig.jpg
+https://www.monkees.com/sites/default/files/styles/large/public/the-rhino-podcast-1400x1400_2.jpg?itok=HIDyAi0X
 
 **news-article-4**
 
-https://upload.wikimedia.org/wikipedia/commons/a/ad/BBC_Four.svg
-
-**news-article-4-1**
-
-https://i.ytimg.com/vi/gxbuWx8AYr8/maxresdefault.jpg
+https://www.monkees.com/sites/default/files/styles/large/public/monkees-present-crop-w-background%25255b3%25255d.jpg?itok=bsRxT8T8
 
 **news-article-5**
 
-https://images-na.ssl-images-amazon.com/images/I/31E2ltXlHWL._SY355_.jpg
+https://www.monkees.com/sites/default/files/styles/large/public/thearchies_4retvar-web.jpg?itok=XA0jrUg_
+
+**news-article-6**
+
+https://www.monkees.com/sites/default/files/styles/large/public/michaelnesmith.jpeg?itok=ILSmDix1
 
 **news-article-7**
 
@@ -359,4 +390,4 @@ https://en.wikipedia.org/wiki/Peter_Tork#/media/File:WikiTork.jpg
 https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_675,w_1200,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1492810233/cheats/2012/02/29/monkees-singer-davy-jones-dies/davy-jones-monkees-dies-cheat_f36ft2
 
 ### Acknowledgements
-I recieved inspiration for this project from a number of band websites around the web, in particular the [Alice In Chains](http://aliceinchains.com/), [Guns N' Roses](https://www.gunsnroses.com/), [Foo Fighters](https://foofighters.com/) and [Led Zeppelin](http://www.ledzeppelin.com/) websites.
+I recieved inspiration for this project from a number of band websites around the web, in particular the [Alice In Chains](http://aliceinchains.com/), [Guns N' Roses](https://www.gunsnroses.com/), [Foo Fighters](https://foofighters.com/) and [Led Zeppelin](http://www.ledzeppelin.com/) websites. [The Monkees Official Website](https://www.monkees.com/) was also an inspiration.
