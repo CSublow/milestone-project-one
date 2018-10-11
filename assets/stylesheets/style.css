@@ -387,6 +387,11 @@ header {
 
 /* INDEX HISTORY SECTION
 -------------------------------------------------- */
+.band-history {
+    max-width: 991px;
+    margin: 0 auto;
+    text-align: justify;
+}
 .band-history p {
     margin: 9px 33px;
 }
@@ -398,11 +403,11 @@ header {
     text-align: center;
 }
 
-#history-text {
-    max-width: 991px;
-    margin: 0 auto;
-    text-align: justify;
-}
+/*#history-text {*/
+/*    max-width: 991px;*/
+/*    margin: 0 auto;*/
+/*    text-align: justify;*/
+/*}*/
 
 figure img {
     margin: 0 auto 10px;
