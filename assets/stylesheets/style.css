@@ -516,6 +516,7 @@ article section p {
 -------------------------------------------------- */
 #news-article-1-image,
 #news-article-5-image,
+#news-article-6-image,
 #news-article-7-image,
 #news-article-8-image {
     width: 225px;
@@ -572,6 +573,10 @@ article section p {
         float: left;
         margin: 0 10px 10px 0;
         width: 242px;
+    }
+    #news-article-6-image {
+        float: right;
+        margin: 0 0 10px 10px;
     }
 }
 @media (min-width: 992px) {
