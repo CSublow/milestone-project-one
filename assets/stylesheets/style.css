@@ -85,6 +85,11 @@ ol {
     padding-left: 23px;
 }
 
+/*class used the list is ordered but no marker is wanted for stylistic reasons*/
+.no-marker {
+    list-style-type: none;
+}
+
 /*Transitional Buttons by Vitaliy taken from https://www.designrush.com/resources/designskilz/cool-css-buttons/*/
 /*additional declarations added to reset properties specific to <button>*/
 .site-button {
