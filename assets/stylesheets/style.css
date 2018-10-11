@@ -458,7 +458,7 @@ figure img {
 }
 .news-article h2 {
     font-size: 18px;
-    margin-top: 10px;
+    margin: 20px 0 10px;
 }
 .news-article > time {
     /*center align the news article dates*/
