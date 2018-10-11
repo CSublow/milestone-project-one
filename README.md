@@ -215,7 +215,8 @@ The project is deployed on GitHub Pages, available [here](https://dhamma1991.git
 
 ### Text Content
 
-History section on index.html
+**History section on index.html**
+
 https://en.wikipedia.org/wiki/The_Monkees
 
 ### Media
