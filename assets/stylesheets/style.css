@@ -533,10 +533,16 @@ article section p {
         width: 450px;;
     }
 }
+@media (min-width: 612px) {
+    #news-article-1-image {
+        float: left;
+        margin: 10px 10px 10px 0;
+    }
+}
 @media (min-width: 992px) {
     #news-article-1-image {
         /*increase the size of the image on larger screens*/
-        width: 600px;
+        /*width: 600px;*/
     }
     #news-article-2-image,
     #news-article-4-image,
