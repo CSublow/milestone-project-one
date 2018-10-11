@@ -463,6 +463,7 @@ article a, article a:focus, article a:hover {
 article h2 {
     font-size: 18px;
     margin: 20px 0 10px;
+    text-align: center;
 }
 article > time {
     /*center align the news article dates*/
@@ -472,6 +473,9 @@ article > time {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 20px;
+}
+article section {
+    text-align: left;
 }
 
 @media (min-width: 768px) {
