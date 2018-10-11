@@ -450,6 +450,7 @@ figure img {
     max-width: 1000px;
     /*remove bootstrap's default float property to properly center the news article*/
     float: none;
+    text-align: justify;
 }
 .news-article a, .news-article a:focus, .news-article a:hover {
     /*make the links with the news articles obvious that they are links*/
