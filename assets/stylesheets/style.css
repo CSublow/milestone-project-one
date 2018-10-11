@@ -89,6 +89,10 @@ ol {
 .no-marker {
     list-style-type: none;
 }
+.no-marker li {
+    /*ensures lists of this type have enough visual separation between li elements*/
+    margin-bottom: 15px;
+}
 
 /*Transitional Buttons by Vitaliy taken from https://www.designrush.com/resources/designskilz/cool-css-buttons/*/
 /*additional declarations added to reset properties specific to <button>*/
