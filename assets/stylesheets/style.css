@@ -366,6 +366,7 @@ header {
     text-align: center;
     /*keeps the index news-list aligned better with the history section below it*/
     max-width: 496px;
+    margin: 0 auto;
 }
 
 .news-list h2 {
