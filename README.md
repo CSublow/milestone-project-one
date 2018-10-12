@@ -153,8 +153,7 @@ jQuery is utilised by the project for a number of areas of functionality.
 
 1. Boootstrap depends on jQuery for its Javascript components, including the collapsed hamburger navigation icon.
 2. jQuery is used to implement the Jssor slider on index.html.
-3. jQuery is used to change the text of the show/hide history text button on index.html to reflect the text's current hidden or visible state.
-4. The image slider on photo-gallery.html depends on jQuery for slideshow functionality.
+3s. The image slider on photo-gallery.html depends on jQuery for slideshow functionality.
 
 ### [Font Awesome 5.3.1](https://fontawesome.com/)
 The project uses Font Awesome to generate the social media icons found in the header element of each page.
@@ -193,7 +192,7 @@ Upon landing on the homepage, I am able to see Tour in the main navigation. Clic
 
 **Newly acquainted fan, wants background history and music**
 
-Landing on the homepage, my attention is drawn to the large hero slider. The responsive nature of the slider means I am able to view it on both desktop and mobile. Scrolling down the homepage, I am encounter a link to some music and some recent news. I am able to follow these links if I choose to. Towards the bottom of the page, I can read some history of The Monkees. On mobile, I can tap the "Read More" button to continue reading the history section if I wish to, and I do not get frustrated by too much text if I am not interested in reading the history of The Monkees since this section starts collapsed on smaller viewports. I can clearly see "Music", "Video" and "Photo Gallery" in the main navigation. Following these links allows me to view the multimedia content there, and I don't encounter any problems. On the music subpages, since I am a Spotify user I am able to open the embedded player directly in my Spotify app. Simulating a non-Spotify user, I am able to access 30 second previews of the tracks, with the option to go to full length tracks available to me if I create an account with Spotify. Finally, I can see social media links in the main navigation, clicking on these opens the respective social media channels in new tabs.
+Landing on the homepage, my attention is drawn to the large hero slider. The responsive nature of the slider means I am able to view it on both desktop and mobile. Scrolling down the homepage, I am encounter a link to some music and some recent news. I am able to follow these links if I choose to. Towards the bottom of the page, I can read some history of The Monkees. I can clearly see "Music", "Video" and "Photo Gallery" in the main navigation. Following these links allows me to view the multimedia content there, and I don't encounter any problems. On the music subpages, since I am a Spotify user I am able to open the embedded player directly in my Spotify app. Simulating a non-Spotify user, I am able to access 30 second previews of the tracks, with the option to go to full length tracks available to me if I create an account with Spotify. Finally, I can see social media links in the main navigation, clicking on these opens the respective social media channels in new tabs.
 
 **Blog writer/Journalist**
 
