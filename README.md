@@ -248,6 +248,8 @@ https://www.monkees.com/article/tickets-now-avail-michael-nesmith-the-first-nati
 
 **News Article 7**
 
+https://www.monkees.com/article/announcing-more-of-the-monkees-super-deluxe-edition
+
 **News Article 8**
 
 ### Media
@@ -337,7 +339,7 @@ https://www.monkees.com/sites/default/files/styles/large/public/michaelnesmith.j
 
 **news-article-7**
 
-https://www.rollingstone.com/wp-content/uploads/2018/06/rs-6848-20120828-micky-624x-1346184544.jpg?crop=900:600&width=440
+https://www.monkees.com/sites/default/files/styles/large/public/more-of-the-monkees-prod-shot.jpg?itok=WmcySETk
 
 **news-article-8**
 
