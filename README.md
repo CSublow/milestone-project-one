@@ -222,6 +222,8 @@ The project is deployed on GitHub Pages, available [here](https://dhamma1991.git
 
 https://en.wikipedia.org/wiki/The_Monkees
 
+**NEWS ARTICLE TEXT**
+
 **News Article 1**
 
 https://www.monkees.com/article/the-monkees-to-release-christmas-party-their-first-ever-holiday-album
@@ -253,6 +255,8 @@ https://www.monkees.com/article/announcing-more-of-the-monkees-super-deluxe-edit
 **News Article 8**
 
 https://www.monkees.com/article/in-stores-now-summer-of-love
+
+**MUSIC SUBPAGE TEXT**  
 
 **forever.html**
 
