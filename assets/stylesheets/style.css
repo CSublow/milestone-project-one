@@ -691,7 +691,7 @@ article section p {
 .music-description p {
     /*control the width of the paragraphs, noticeable on smaller viewports*/
     max-width: 700px;
-    margin: 0 auto;
+    margin: 0 auto 10px;
 }
 
 .spotify-player {
