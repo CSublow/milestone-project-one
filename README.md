@@ -73,10 +73,10 @@ This page acts as a central hub of news articles. The page is minimal, consistin
 ### subpage navigation
 All of the subpages in the site (news articles, music pages and video pages) have a sub navigation that is located directly below the page header element and is repeated at the bottom of each subpage so that the user doesn't have to scroll up in order to access the sub navigation, improving site usability and accessibility. This allows the user to navigate to the next or previous piece of content without heading back to the main page. The video pages on the site work a bit differently; although they possess a sub navigation, the layout of the video pages allows the user to access any other video page from all of the video pages by using the video thumbnail links, so there is no "All Videos" link on the video pages like there is on the music and news article pages.
 
-A deviation from the wireframes exist in that for the music and news-article subpages, the sub navigation on the finished release sits below the header whereas in the wireframes it is positioned below the page title. This change was implemented when validating the code through the [W3C validator](https://validator.w3.org/) and discovering that article elements should contain nested headings. It was therefore judged to be a better accessibility decision to position the page headings within the main content elements. This change was not carried over to the video subpages since they contain much less content and do not have a unique page title.
+A deviation from the wireframes exist in that for the music and news-article subpages, the sub navigation on the finished project sits below the header and above the page title whereas in the wireframes it is positioned below the page title. This change was implemented when validating the code through the [W3C validator](https://validator.w3.org/) and discovering that article elements should contain nested headings. It was therefore judged to be a better  to position the page headings within the main article elements. This change was not carried over to the video subpages since they contain much less content and do not have a unique page title.
 
 ### news-article (subpage)
-The news articles all feature a unique layout; they contain a different number of paragraphs and most have at least one image (although one news article possesses two). This simulates the layout of news articles varying with the content.
+The news articles all feature a unique layout; they contain a different number of paragraphs and all have one image. All of the news articles feature links to external content, these opening in a new browser tab.
 
 ### tour.html
 This page contains a responsive table generated with Bootstrap's list-inline class. It features a number of tour dates with the date of each performance, location, and a link to buy tickets from a third party vendor.
@@ -95,7 +95,7 @@ No wireframe was created for this page due to its simple format making a wirefra
 This page acts as a hub for the music subpages. It comprises of the featured album cover image (also displayed on index.html) and album heading displayed at a prominent position towards the top of the page, along with other albums displayed three per row going down the page. This layout is responsive, and collapses to a one album per row stacked layout on smaller viewports. Each of the album images and headings is a link that takes the user through to its respective music subpage.
 
 ### music page (subpage)
-Each of the music subpages possesses the same layout. The first row consists of the album cover image and a release date along with an album description (written in lorem ipsum). The second row consists of a spotify widget that enables the user to play the album in their browser. The responsive layout collapses on smaller screens, so that the album image, the description, and the spotify player are stacked on top of each other.
+Each of the music subpages possesses the same layout. The first row consists of the album cover image and a release date along with a short album description. The second row consists of a spotify widget that enables the user to play the album in their browser. The responsive layout collapses on smaller screens, so that the album image, the description, and the spotify player are stacked on top of each other.
 
 A slight deviation from the wireframes exist in that on the finished product the spotify widget is below the rest of the content, whereas in the wireframe it was positioned to the right of the album image and directly below the album description. This approach was adopted due to it being discovered during coding that the spotify widget does not adapt well to small sizes. In order for the widget to be large enough to function correctly it had to be positioned below the rest of the content.
 
@@ -252,6 +252,36 @@ https://www.monkees.com/article/announcing-more-of-the-monkees-super-deluxe-edit
 
 **News Article 8**
 
+https://www.monkees.com/article/in-stores-now-summer-of-love
+
+**forever.html**
+
+https://www.rhino.com/product/forever
+
+**good-times.html**
+
+https://www.rhino.com/product/good-times
+
+**headquarters.html**
+
+https://www.amazon.com/Headquarters-Sessions-Monkees/dp/B000KAHJT0
+
+**instant-replay.html**
+
+http://monkees.wikia.com/wiki/Instant_Replay
+
+**more-of-the-monkees.html**
+
+https://www.amazon.com/More-Monkees/dp/B004GE818Y
+
+*pool-it.html**
+
+https://en.wikipedia.org/wiki/Pool_It!
+
+**the-monkees.html**
+
+https://en.wikipedia.org/wiki/The_Monkees_(album)
+
 ### Media
 All images used in this project which were not provided with the assessment brief are referenced here.
 
@@ -343,7 +373,7 @@ https://www.monkees.com/sites/default/files/styles/large/public/more-of-the-monk
 
 **news-article-8**
 
-http://www.stickpng.com/img/icons-logos-emojis/question-marks/double-question-mark
+https://www.monkees.com/sites/default/files/styles/large/public/081227937980.sml_.jpg.jpg?itok=I8kEGiIL
 
 
 **BOOK US TESTIMONIALS**
