@@ -210,6 +210,9 @@ In addition to modern browser testing, a tool from [browserling](https://www.bro
 ### Known Issues
 An issue occurs intermittently on the video pages, where the YouTube iframe occasionally fails to load. This problem appears unique to Chrome, as it never occured on any other tested browsers. It also appears to be a [documented issue](https://stackoverflow.com/questions/12009423/what-does-status-canceled-for-a-resource-mean-in-chrome-developer-tools). The issue was not rectified in this release due to the time it would take to debug and it only occuring in about 1 in every 10 page loads.
 
+###Other testing
+Family and friends of the developer from non-technical backgrounds were also asked to explore the site. The results of these tests revealed no issues and all of the users agreed that the site functions well.
+
 ## Deployment
 The project is deployed on GitHub Pages, available [here](https://dhamma1991.github.io/milestone-project-one/index.html). An issue occured when first deploying; the src path system on GitHub Pages was found to be stricter than on c9, with links that began with a '/' breaking. A site wide modification of the links had to be completed before the website would function properly on GitHub Pages.
 
