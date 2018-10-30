@@ -16,6 +16,7 @@ body {
     min-width: 266px;
     font-family: 'Noto Serif JP', sans-serif;
     background-image: url(../images/full-bloom.png);
+    color: #000000;
 }
 
 /*default color for all site links is black*/
