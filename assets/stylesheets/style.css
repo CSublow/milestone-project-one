@@ -357,8 +357,7 @@ header {
 .index-news-wrapper h2 {
     /*set margin for heading for better alignment*/
     margin: 0;
-    /*border style and set min-height so the border looks good*/
-    border-bottom: 1px solid;
+    /*set min-height for better spacing*/
     min-height: 40px;
 }
 
@@ -385,14 +384,25 @@ header {
 .upper-index-row hr {
     /*style the hr to be more in keeping the the history section/news border*/
     border-top: 4px groove;
-    margin: 20px 47px;
+    margin: 20px 0;
 }
 
-/*align the news items left on larger screens*/
+@media (min-width: 768px) {
+    .upper-index-row hr {
+    /*style the hr to be more in keeping the the history section/news border*/
+    border-top: 4px groove;
+    margin: 20px 47px;
+    }
+}
+
 @media (min-width: 992px) {
+    /*align the news items left on larger screens*/
     .news-list,
     .news-list-container {
         text-align: left;
+    }
+    .index-news-wrapper h2 {
+        border-bottom: 1px solid;
     }
 }
 
