@@ -382,6 +382,12 @@ header {
     margin: 20px 0 5px 0;
 }
 
+.upper-index-row hr {
+    /*style the hr to be more in keeping the the history section/news border*/
+    border-top: 4px groove;
+    margin: 20px 47px;
+}
+
 /*align the news items left on larger screens*/
 @media (min-width: 992px) {
     .news-list,
