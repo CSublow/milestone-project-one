@@ -131,7 +131,7 @@ This type of user is able to read the background history of The Monkees on index
 
 **Blog writer/Journalist**
 
-This type of user can find the content of interest to them on news.html and its subpages. They are given a clear method of contacting the band for further statements via the <aside> on news.html.
+This type of user can find the content of interest to them on news.html and its subpages. They are given a clear method of contacting the band for further statements via the aside on news.html.
 
 **Potential Client**
 
@@ -155,7 +155,7 @@ jQuery is utilised by the project for a number of areas of functionality.
 
 1. Boootstrap depends on jQuery for its Javascript components, including the collapsed hamburger navigation icon.
 2. jQuery is used to implement the Jssor slider on index.html.
-3s. The image slider on photo-gallery.html depends on jQuery for slideshow functionality.
+3. The image slider on photo-gallery.html depends on jQuery for slideshow functionality.
 
 ### [Font Awesome 5.3.1](https://fontawesome.com/)
 The project uses Font Awesome to generate the social media icons found in the header element of each page.
