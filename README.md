@@ -2,8 +2,8 @@
 
 This project represents a fictional scenario in which the famous 1960s rock band The Monkees asks me (the developer) to create a band website that fulfils a number of stated objectives. These objectives are:
 
-1. Provide a place for fans and prospective fans to listen to select recordings from their back catalogue and any new material.
-2. Publicise their availability to perform at private events, such as weddings and private parties.
+1. Provide a place for fans and prospective fans to listen to select recordings from The Monkees' back catalogue and any new material.
+2. Publicise The Monkees' availability to perform at private events, such as weddings and private parties.
 3. Provide links to wider social media, including Facebook, Twitter and YouTube.
 
 In addition, the developer has identified a number of other objectives that the website should fulfil, in keeping with users' expectations of how a website for a household name band such as The Monkees should look and what functionality it should possess. These additional objectives are:
@@ -49,12 +49,12 @@ The main navigation is consistent across all pages. It consists of 7 links label
 
 In addition to the site navigation links, there are external links to The Monkees' social media channels that are located directly below the main navigation. When click/tapped on these open a new browser tab to then take the user to that social media channel.
 
-In the wireframes for this project the navigation consisted of 8 links, rather than the 7 that were implemented. The reasons for this change are elaborated on in the **index.html** section below.
+In the wireframes for this project the navigation consisted of 8 links, rather than the 7 that were implemented. The reasons for this change are elaborated on in the [**index.html**](#index) section below.
 
 ### Footer
 The footer is also consistent across all site pages. The footer consists of 5 links; Home, Book Us, Facebook, Twitter and Youtube. The Home link takes the user back to index.html. The Book Us link takes the user to the Book Us page, this link serving as an additional call to action. The other links take the user to the corresponding social network, which opens in a new browser tab so as to prevent the user forgetting what page they have come from.
 
-### index.html
+### index.html <a name="index"></a>
 As per normal convention this page acts as the site's home page. Below the main navigation the user will encounter a large and eye catching hero slider based off Jssor's Bootstrap jQuery slider. The slider is responsive and also touch-enabled for the benefit of mobile and other touch-enabled devices.
 
 Below the Jssor slider the user will encounter a Bootstrap row with 2 columns. The left column contains the latest music release from The Monkees, with links to the album page and an external "Buy Now" link that takes the user to amazon.com. The right column contains latest news, allowing the user to navigate to the individual news articles, or go to news.html which contains a full list of news stories. All the news entries are dated, and these, along with all dates on the site are formatted using the <time> element. Where needed the appropriate datetime attribute is added to <time> to increase the machine-readability of the app's dates.
