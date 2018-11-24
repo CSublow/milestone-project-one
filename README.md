@@ -74,7 +74,7 @@ This page acts as a central hub of news articles. The page is minimal, consistin
 All of the subpages in the site (news articles, music pages and video pages) have a sub navigation that is located directly below the page header element and is repeated at the bottom of each subpage so that the user doesn't have to scroll up in order to access the sub navigation, improving site usability and accessibility. The sub navigation allows the user to navigate to the next or previous piece of content without heading back to the main page. The video pages on the site work a bit differently; although they possess a sub navigation, the layout of the video pages allows the user to access any other video page from all of the video pages by using the video thumbnail links, so there is no "All Videos" link.
 
 A deviation from the wireframes exist in that for the music and news-article subpages, the sub navigation on the finished project sits below the header and above the page title whereas in the wireframes it is positioned below the page title. This change was implemented when validating the code through the [W3C validator](https://validator.w3.org/) and discovering that article elements should contain nested headings. It was therefore judged to be better to position the page headings within the main article elements. This change was not carried over to the video subpages since they contain much less content and do not have a unique page title.
-
+<a name="news-article-subpage"></a>
 ### news-article (subpage)
 The news articles all feature a unique layout; they contain a different number of paragraphs, some have ordered lists and all have one image. The unique layout for each page is necessary in order to cater for the varying content. All of the news articles feature links to external content, these opening in a new browser tab. 
 
@@ -89,12 +89,12 @@ The Book Us page is comprised of two components. The "Testimonials" section cont
 The finished book-us.html page differs from the wireframe in that the testimonials section was implemented in the finished product. This decision was taken during the consideration of additional user stories that took place after the project was being coded. It was felt that prospective clients of The Monkees would need to see some sort of marketing in order to increase the chances of them making a booking.
 
 ### action-page.html
-This is a dummy action page which does not utilise any server-side functionality but simulates the process the user would go through when they submit the contact form. This page consists of a "thank you" message.
+This is a dummy action page which does not utilise any server-side functionality but simulates the process that the user would go through when they submit the contact form. This page consists of a "thank you" message.
 
 No wireframe was created for this page due to its simple format making a wireframe unnecessary.
 
 ### music.html
-This page acts as a hub for the music subpages. It comprises of the featured album cover image (also displayed on index.html) and album heading displayed at a prominent position towards the top of the page, along with other albums displayed three per row going down the page. This layout is responsive, and collapses to a one album per row stacked layout on smaller viewports. Each of the album images and headings is a link that takes the user through to its respective music subpage.
+This page acts as a hub for the music subpages. It comprises of the featured album cover image (also displayed on index.html) and album heading displayed at a prominent position towards the top of the page, along with other albums displayed three per row going down the page. This layout is responsive, and collapses to a one album per row stacked layout on smaller viewports. Each of the album images and headings is a link that takes the user through to the respective music subpage.
 
 ### music page (subpage)
 Each of the music subpages possesses the same layout. The first row consists of the album cover image and a release date along with a short album description. The second row consists of a spotify widget that enables the user to play the album in their browser. The responsive layout collapses on smaller screens, so that the album image, the description, and the spotify player are stacked on top of each other.
@@ -112,7 +112,7 @@ Some features are left open to the idea of implementation, but were not featured
 
 **Social share buttons on news articles**
 
-All of the major social networks provide the ability for developers to specify how they wish website pages to be shared, as well as the ability to implement specific social media sharing buttons on pages. This feature was not implemented because it depends on the final url of the finished project, which was not clear at the time of coding.
+All of the major social networks provide the ability for developers to specify how they wish website pages to be shared, as well as the ability to implement specific social media sharing buttons on pages. The reasons why this feature was not implemented are detailed in the [news-article (subpage)](news-article-subpage) section.
 
 **Newsletter popup on index.html**
 
