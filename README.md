@@ -112,7 +112,7 @@ Some features are left open to the idea of implementation, but were not featured
 
 **Social share buttons on news articles**
 
-All of the major social networks provide the ability for developers to specify how they wish website pages to be shared, as well as the ability to implement specific social media sharing buttons on pages. The reasons why this feature was not implemented are detailed in the [news-article (subpage)](news-article-subpage) section.
+All of the major social networks provide the ability for developers to specify how they wish website pages to be shared, as well as the ability to implement specific social media sharing buttons on pages. The reasons why this feature was not implemented are detailed in the [news-article (subpage)](#news-article-subpage) section.
 
 **Newsletter popup on index.html**
 
