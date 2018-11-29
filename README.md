@@ -181,6 +181,9 @@ Used to check the project's css for redundant selectors.
 ### [convertcase.net](https://convertcase.net/)
 Used to quickly format news article headings to correct style.
 
+### [Browserling](https://www.browserling.com/internet-explorer-testing)
+Used to test the app on IE9.
+
 ## Testing
 ### Code Validation
 The W3C code validators for [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) were used to check markup validity. These tools helped locate some markup issues, including h3 tags incorrectly closed with /h4, along with identifying obsolete code, such as <script type="javascript">. These tools helped resolve any errors in the markup and no warnings or errors present themselves on any of the html or css files.
@@ -194,7 +197,7 @@ Upon landing on the homepage, I am able to see Tour in the main navigation. Clic
 
 **Newly acquainted fan, wants background history and music**
 
-Landing on the homepage, my attention is drawn to the large hero slider. The responsive nature of the slider means I am able to view it on both desktop and mobile. Scrolling down the homepage, I am encounter a link to some music and some recent news. I am able to follow these links if I choose to. Towards the bottom of the page, I can read some history of The Monkees. I can clearly see "Music", "Video" and "Photo Gallery" in the main navigation. Following these links allows me to view the multimedia content there, and I don't encounter any problems. On the music subpages, since I am a Spotify user I am able to open the embedded player directly in my Spotify app. Simulating a non-Spotify user, I am able to access 30 second previews of the tracks, with the option to go to full length tracks available to me if I create an account with Spotify. Finally, I can see social media links in the main navigation, clicking on these opens the respective social media channels in new tabs.
+Landing on the homepage, my attention is drawn to the large hero slider. The responsive nature of the slider means I am able to view it on both desktop and mobile. Scrolling down the homepage, I encounter a link to some music and some recent news. I am able to follow these links if I choose to. Towards the bottom of the page, I can read some history of The Monkees. I can clearly see "Music", "Video" and "Photo Gallery" in the main navigation. Following these links allows me to view the multimedia content there, and I don't encounter any problems. On the music subpages, since I am a Spotify user I am able to open the embedded player directly in my Spotify app. Simulating a non-Spotify user, I am able to access 30 second previews of the tracks, with the option to go to full length tracks available to me if I create an account with Spotify. Finally, I can see social media links in the main navigation, clicking on these opens the respective social media channels in new tabs.
 
 **Blog writer/Journalist**
 
@@ -212,11 +215,11 @@ In addition to modern browser testing, a tool from [browserling](https://www.bro
 ### Known Issues
 An issue occurs intermittently on the video pages, where the YouTube iframe occasionally fails to load. This problem appears unique to Chrome, as it never occured on any other tested browsers. It also appears to be a [documented issue](https://stackoverflow.com/questions/12009423/what-does-status-canceled-for-a-resource-mean-in-chrome-developer-tools). The issue was not rectified in this release due to the time it would take to debug and it only occuring in about 1 in every 10 page loads.
 
-###Other testing
+### Other testing
 Family and friends of the developer from non-technical backgrounds were also asked to explore the site. The results of these tests revealed no issues and all of the users agreed that the site functions well.
 
 ## Deployment
-The project is deployed on GitHub Pages, available [here](https://dhamma1991.github.io/milestone-project-one/index.html). An issue occured when first deploying; the src path system on GitHub Pages was found to be stricter than on c9, with links that began with a '/' breaking. A site wide modification of the links had to be completed before the website would function properly on GitHub Pages.
+The project is deployed on GitHub Pages, available [here](https://dhamma1991.github.io/milestone-project-one/index.html). An issue occured when first deploying; the src path system on GitHub Pages was found to be stricter than on c9 where the project was developed, with links that began with a '/' breaking. A site wide modification of the links had to be completed before the website would function properly on GitHub Pages.
 
 ## Credits
 
@@ -282,7 +285,7 @@ http://monkees.wikia.com/wiki/Instant_Replay
 
 https://www.amazon.com/More-Monkees/dp/B004GE818Y
 
-*pool-it.html**
+**pool-it.html**
 
 https://en.wikipedia.org/wiki/Pool_It!
 
