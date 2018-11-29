@@ -947,3 +947,13 @@ article section p {
         width: 300px;
     }
 }
+
+.ie-test {
+    display: none;
+}
+
+@media screen and (min-width:0\0) { 
+    .ie-test {
+    display: block;
+    }
+}
