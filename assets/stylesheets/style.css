@@ -953,7 +953,7 @@ article section p {
 }
 
 @media screen and (min-width:0\0) { 
-    .ie-test {
-    display: block;
+    .ie-hidden {
+    display: none;
     }
 }
