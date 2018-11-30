@@ -960,6 +960,6 @@ article section p {
         display: none;
     }
     .ie-visible {
-        display: visible;
+        display: block;
     }
 }
