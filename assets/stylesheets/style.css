@@ -954,6 +954,10 @@ article section p {
 .ie-visible {
     display: none;
 }
+.ie-visible ol {
+    max-width: 500px;
+    margin: 0 auto;
+}
 
 @media screen and (min-width:0\0) { 
     .ie-hidden {
