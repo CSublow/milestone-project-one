@@ -948,8 +948,18 @@ article section p {
     }
 }
 
+/* IE STYLES
+-------------------------------------------------- */
+/* The spotify player on the music pages does not work on IE. To get around this, an <ol> element containing a tracklist is shown to users of the website who are using IE. The track list is hidden for all other browsers */
+.ie-visible {
+    display: none;
+}
+
 @media screen and (min-width:0\0) { 
     .ie-hidden {
-    display: none;
+        display: none;
+    }
+    .ie-visible {
+        display: visible;
     }
 }
