@@ -100,7 +100,7 @@ This page acts as a hub for the music subpages. It comprises of the featured alb
 Each of the music subpages possesses the same layout. The first row consists of the album cover image and a release date along with a short album description. The second row consists of a spotify widget that enables the user to play the album in their browser. The responsive layout collapses on smaller screens, so that the album image, the description, and the spotify player are stacked on top of each other.
 
 A slight deviation from the wireframes exist in that on the finished product the spotify widget is below the rest of the content, whereas in the wireframe it was positioned to the right of the album image and directly below the album description. This approach was adopted due to it being discovered during coding that the spotify widget does not adapt well to small sizes. In order for the widget to be large enough to function correctly it had to be positioned below the rest of the content.
-
+<a name="ie-feature"></a>
 For users using IE, the music subpages look a little different. The Spotify widget is unsupported in IE and does not render. Instead, users of IE see a simple track list formatted using an ol element. IE versions 9, 10 and 11 are supported.
 
 ### video pages (featured-video.html and subpages)
@@ -212,7 +212,7 @@ As this type of user I can see Book Us in the main navigation. Using this link t
 ### Browser and Screen Size Testing
 The project was primarily developed on Google Chrome version v69.0.3497 on a Windows PC with a default maximised screen size of 1936px. The project was developed mobile-first, so the look of the project was tailored to all screen sizes above 320px with continuous testing during development to ensure that the site continued to be responsive. The website was also tested on Firefox v62.0 and Edge v42.17134.1.0 with no issues detected during testing.
 
-In addition to modern browser testing, a tool from [browserling](https://www.browserling.com/internet-explorer-testing) was used in order to simulate the website running on IE9. The only issue found was that the Spotify player does not play audio. On further investigation this was discovered to be due to the Spotify player [not being supported in IE](https://support.spotify.com/uk/using_spotify/the_basics/webplayer/)
+In addition to modern browser testing, the app was tested on IE version 11.0.9600.19130. In addition, a tool from [browserling](https://www.browserling.com/internet-explorer-testing) was used in order to simulate the website running on IE9. The only issue found was that the Spotify player does not play audio. On further investigation this was discovered to be due to the Spotify player [not being supported in IE](https://support.spotify.com/uk/using_spotify/the_basics/webplayer/). This led to additional content being added for the benefit of IE users which is detailed [here](#ie-feature).
 
 ### Known Issues
 An issue occurs intermittently on the video pages, where the YouTube iframe occasionally fails to load. This problem appears unique to Chrome, as it never occured on any other tested browsers. It also appears to be a [documented issue](https://stackoverflow.com/questions/12009423/what-does-status-canceled-for-a-resource-mean-in-chrome-developer-tools). The issue was not rectified in this release due to the time it would take to debug and it only occuring in about 1 in every 10 page loads.
