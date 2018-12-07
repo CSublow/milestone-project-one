@@ -3,6 +3,7 @@
 ## Table Of Contents
 
 [1. Introduction](#introduction)
+[2. UX](#UX)
 
 <a name="introduction"></a>
 This project represents a fictional scenario in which the famous 1960s rock band The Monkees asks me (the developer) to create a band website that fulfils a number of stated objectives. These objectives are:
