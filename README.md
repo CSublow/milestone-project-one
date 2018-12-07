@@ -4,9 +4,17 @@
 
 [1. Introduction](#introduction)
 
+----------
+
 [2. UX](#UX)
 
-  [2.1 Wireframes](#Wireframes)
+[2.1 Wireframes](#Wireframes)
+
+[2.2 Main Navigation](#Main Navigation)
+
+----------
+
+[3. Features](#Features)
 
 <a name="introduction"></a>
 This project represents a fictional scenario in which the famous 1960s rock band The Monkees asks me (the developer) to create a band website that fulfils a number of stated objectives. These objectives are:
@@ -84,7 +92,7 @@ All of the subpages in the site (news articles, music pages and video pages) hav
 
 A deviation from the wireframes exist in that for the music and news-article subpages, the sub navigation on the finished project sits below the header and above the page title whereas in the wireframes it is positioned below the page title. This change was implemented when validating the code through the [W3C validator](https://validator.w3.org/) and discovering that article elements should contain nested headings. It was therefore judged to be better to position the page headings within the main article elements. This change was not carried over to the video subpages since they contain much less content and do not have a unique page title.
 <a name="news-article-subpage"></a>
-### news-article (subpage)
+### News Article (Subpage)
 The news articles all feature a unique layout; they contain a different number of paragraphs, some have ordered lists and all have one image. The unique layout for each page is necessary in order to cater for the varying content. All of the news articles feature links to external content, these opening in a new browser tab. 
 
 In the wireframes it was debated as to whether to include the full news articles or just snippets, with links to the full content hosted on external platforms. In the end it was decided to include the full content on the website, as this would flesh out the pages and keep the user engaged with the website. In addition, the wireframes included social media share buttons so that the user could easily share stories in a format specified by the developer. This feature was not included in the current release due to a lack of clarity in the early stages of the project as to what the final URL of the project would be. It was also judged to be a non-essential feature, as users are still able to share any of the pages on the website, the only downside being that the page sharing has not been tailored to best reflect the content as judged by the developer.
@@ -105,14 +113,14 @@ No wireframe was created for this page due to its simple format making a wirefra
 ### music.html
 This page acts as a hub for the music subpages. It comprises of the featured album cover image (also displayed on index.html) and album heading displayed at a prominent position towards the top of the page, along with other albums displayed three per row going down the page. This layout is responsive, and collapses to a one album per row stacked layout on smaller viewports. Each of the album images and headings is a link that takes the user through to the respective music subpage.
 
-### music page (subpage)
+### Music Page (Subpage)
 Each of the music subpages possesses the same layout. The first row consists of the album cover image and a release date along with a short album description. The second row consists of a spotify widget that enables the user to play the album in their browser. The responsive layout collapses on smaller screens, so that the album image, the description, and the spotify player are stacked on top of each other.
 
 A slight deviation from the wireframes exist in that on the finished product the spotify widget is below the rest of the content, whereas in the wireframe it was positioned to the right of the album image and directly below the album description. This approach was adopted due to it being discovered during coding that the spotify widget does not adapt well to small sizes. In order for the widget to be large enough to function correctly it had to be positioned below the rest of the content.
 <a name="ie-feature"></a>
 For users using IE, the music subpages look a little different. The Spotify widget is unsupported in IE and does not render. Instead, users of IE see a simple track list formatted using an ol element. IE versions 9, 10 and 11 are supported.
 
-### video pages (featured-video.html and subpages)
+### Video Pages (featured-video.html and Subpages)
 The video pages all feature the same layout. The currently loaded video is displayed using a YouTube iframe towards the top of the page. Below the iframe, YouTube img thumbnails are used to create links to other video pages, with glyphicon-play icons overlayed on the thumbnails to indicate to the user that these links will take them to the video content. On small viewports the default three thumbnails per row is collapsed to one on top of the other stacked.
 
 ### photo-gallery.html
