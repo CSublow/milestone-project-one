@@ -18,7 +18,14 @@
 
 [3.2 Footer](#Footer)
 
-[3.3 index.html](#index.html)
+[3.3 index.html](#index)
+
+START ADDING ANCHOR LINKS FOR THESE BELOW
+[3.4 news.html](#news)
+
+[3.5 Subpage Navigation](#subpagenavigation)
+
+[3.6 News Article Subpage](#newsarticle)
 
 <a name="introduction"></a>
 This project represents a fictional scenario in which the famous 1960s rock band The Monkees asks me (the developer) to create a band website that fulfils a number of stated objectives. These objectives are:
