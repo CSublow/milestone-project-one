@@ -58,7 +58,7 @@
 
 [5.4. Known Issues](#knownissues)
 
-[5.5. Other Testing][#other]
+[5.5. Other Testing](#other)
 
 ----------
 
