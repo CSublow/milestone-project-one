@@ -69,7 +69,9 @@
 [7. Credits](#Credits)
 
 [7.1. Text Content](#textcontent)
+
 [7.2. Media](#Media)
+
 [7.3. Acknowledgements](#Acknowledgements)
 
 --------------------
