@@ -262,9 +262,10 @@ Used to quickly format news article headings to correct style.
 Used to test the app on IE9.
 
 ## Testing
+<a name="codevalidation"></a>
 ### Code Validation
 The W3C code validators for [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) were used to check markup validity. These tools helped locate some markup issues, including h3 tags incorrectly closed with /h4, along with identifying obsolete code, such as <script type="javascript">. These tools helped resolve any errors in the markup and no warnings or errors present themselves on any of the html or css files.
-
+<a name="userstories"></a>
 ### User Stories Testing
 Each of the user stories identified in the UX section was simulated. The results of these tests are as follows:
 
@@ -283,15 +284,15 @@ As this type of user I am able to clearly see News in the main navigation. Click
 **Potential Client**
 
 As this type of user I can see Book Us in the main navigation. Using this link takes me to book-us.html. I am reassured by the testimonials from recent clients, and the contact form validates correctly, ensuring that I don't leave any field blank and that my email address is in the correct format. Failing to fill all contact form fields, or entering an email address without an @ symbol, prevents me from submitting the form and presents me with an error message on all tested browsers. Upon submitting the form I am taken to a page that confirms that the form was successfully sent.
-
+<a name="browser"></a>
 ### Browser and Responsiveness Testing
 The project was primarily developed on Google Chrome version v69.0.3497 on a Windows PC with a default maximised screen size of 1936px. The project was developed mobile-first, so the look of the project was tailored to all screen sizes above 320px with continuous testing during development to ensure that the site continued to be responsive. In addition to Google Chrome's developer tools simulating devices, a real iPhone 7 running iOS v11.3 was used to test the app with the native Safari browser. The website was also tested on Firefox v62.0, Safari v11.0.2 and Edge v42.17134.1.0. There were no browser cross-compatibility issues detected during testing and the app was found to run smoothly on all of the previously mentioned browsers.
 
 In addition to modern browser testing, the app was tested on IE version 11.0.9600.19130. In addition, a tool from [browserling](https://www.browserling.com/internet-explorer-testing) was used in order to simulate the website running on IE9. The only issue found was that the Spotify player does not display correctly. On further investigation this was discovered to be due to the Spotify player [not being supported in IE](https://support.spotify.com/uk/using_spotify/the_basics/webplayer/). This led to additional content being added for the benefit of IE users which is detailed [here](#ie-feature).
-
+<a name="knownissues"></a>
 ### Known Issues
 An issue occurs intermittently on the video pages, where the YouTube iframe occasionally fails to load. This problem appears unique to Chrome, as it never occured on any other tested browsers. It also appears to be a [documented issue](https://stackoverflow.com/questions/12009423/what-does-status-canceled-for-a-resource-mean-in-chrome-developer-tools). The issue was not rectified in this release due to the time it would take to debug and it only occuring in about 1 in every 10 page loads.
-
+<a name="other"></a>
 ### Other testing
 Family and friends of the developer from non-technical backgrounds were also asked to explore the site. The results of these tests revealed no issues and all of the users agreed that the site functions well.
 
@@ -299,7 +300,7 @@ Family and friends of the developer from non-technical backgrounds were also ask
 The project is deployed on GitHub Pages, available [here](https://dhamma1991.github.io/milestone-project-one/index.html). An issue occured when first deploying; the src path system on GitHub Pages was found to be stricter than on c9 where the project was developed, with links that began with a '/' breaking. A site wide modification of the links had to be completed before the website would function properly on GitHub Pages.
 
 ## Credits
-
+<a name="textcontent"></a>
 ### Text Content
 
 **History section on index.html**
