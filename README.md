@@ -213,7 +213,7 @@ This type of user can find the content of interest to them on news.html and its 
 **Potential Client**
 
 This type of user is able to navigate to book-us.html. They are able to see a small testimonial section which serves as marketing, and are then able to use a simple contact form in order to initiate the booking process or to obtain more information. The validation on the form helps ensures the user enters workable information.
-
+<a name="technologies"></a>
 ## Technologies Used
 ### [HTML5](https://www.w3.org/standards/webdesign/htmlcss)
 The project's markup uses HTML5, and makes as much use of HTML5 semantics as possible using W3C standards.
