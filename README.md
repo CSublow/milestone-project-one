@@ -8,24 +8,71 @@
 
 [2. UX](#UX)
 
-[2.1 Wireframes](#Wireframes)
+[2.1. Wireframes](#Wireframes)
 
 ----------
 
 [3. Features](#Features)
 
-[3.1 Main Navigation](#mainnavigation)
+[3.1. Main Navigation](#mainnavigation)
 
-[3.2 Footer](#Footer)
+[3.2. Footer](#Footer)
 
-[3.3 index.html](#index)
+[3.3. index.html](#index)
 
-START ADDING ANCHOR LINKS FOR THESE BELOW
-[3.4 news.html](#news)
+[3.4. news.html](#news)
 
-[3.5 Subpage Navigation](#subpagenavigation)
+[3.5. Subpage Navigation](#subpagenavigation)
 
-[3.6 News Article Subpage](#newsarticle)
+[3.6. News Article Subpage](#newsarticle)
+
+[3.7. tour.html](#tour)
+
+[3.8. book-us.html](#book)
+
+[3.9. action-page.html](#action)
+
+[3.10. music.html](#music)
+
+[3.11. Music Subpage](#musicsubpage)
+
+[3.12. Video Pages (featured-video.html and subpages)](#video)
+
+[3.13. photo-gallery.html](#photo)
+
+[3.14. Features Left to Implement](#featuresimplement)
+
+----------
+
+[4. Technologies Used](#technologies)
+
+----------
+
+[5. Testing](#Testing)
+
+[5.1. Code Validation](#codevalidation)
+
+[5.2. User Stories Testing](#userstories)
+
+[5.3. Browser and Responsiveness Testing](#browser)
+
+[5.4. Known Issues](#knownissues)
+
+[5.5. Other Testing][#other]
+
+----------
+
+[6. Deployment](#Deployment)
+
+----------
+
+[7. Credits](#Credits)
+
+[7.1. Text Content](#textcontent)
+[7.2. Media](#Media)
+[7.3. Acknowledgements](#Acknowledgements)
+
+--------------------
 
 <a name="introduction"></a>
 This project represents a fictional scenario in which the famous 1960s rock band The Monkees asks me (the developer) to create a band website that fulfils a number of stated objectives. These objectives are:
@@ -94,49 +141,49 @@ Firstly, this fleshes out the content on index.html, which without the inclusion
 Secondly, an integrated History section reduces the size of the project and the size of the main navigation. A smaller navigation in particular reduces the chance of overloading the user with too many options, thus an integrated History section provides a boost to the site's overall usability.
 
 Thirdly, the History section provides a good place to implement an additional "Book Us" call to action aside from the main navigation and footer. Combining the index and history pages makes it more likely that the user will see this call to action, since almost all users of the site are going to land on the home page first. Having multiple calls to action on a webpage is [good UX](https://goodui.org/).
-
+<a name="news"></a>
 ### news.html
 This page acts as a central hub of news articles. The page is minimal, consisting of two Bootstrap columns of 4 news heading each, with an aside element at the bottom of the page containing information for journalists and blog writers on how to get in touch with the band for press statements. Each news heading links to a seperate news page. A deviation from the wireframe exists here in that the aside element was added to the project during development. This came about as it was thought that journalist/blog-writer type users would want to see this feature.
-
+<a name="subpagenavigation"></a>
 ### Subpage Navigation
 All of the subpages in the site (news articles, music pages and video pages) have a sub navigation that is located directly below the page header element and is repeated at the bottom of each subpage so that the user doesn't have to scroll up in order to access the sub navigation, improving site usability and accessibility. The sub navigation allows the user to navigate to the next or previous piece of content without heading back to the main page. The video pages on the site work a bit differently; although they possess a sub navigation, the layout of the video pages allows the user to access any other video page from all of the video pages by using the video thumbnail links, so there is no "All Videos" link.
 
 A deviation from the wireframes exist in that for the music and news-article subpages, the sub navigation on the finished project sits below the header and above the page title whereas in the wireframes it is positioned below the page title. This change was implemented when validating the code through the [W3C validator](https://validator.w3.org/) and discovering that article elements should contain nested headings. It was therefore judged to be better to position the page headings within the main article elements. This change was not carried over to the video subpages since they contain much less content and do not have a unique page title.
 <a name="news-article-subpage"></a>
-### News Article (Subpage)
+### News Article Subpage
 The news articles all feature a unique layout; they contain a different number of paragraphs, some have ordered lists and all have one image. The unique layout for each page is necessary in order to cater for the varying content. All of the news articles feature links to external content, these opening in a new browser tab. 
 
 In the wireframes it was debated as to whether to include the full news articles or just snippets, with links to the full content hosted on external platforms. In the end it was decided to include the full content on the website, as this would flesh out the pages and keep the user engaged with the website. In addition, the wireframes included social media share buttons so that the user could easily share stories in a format specified by the developer. This feature was not included in the current release due to a lack of clarity in the early stages of the project as to what the final URL of the project would be. It was also judged to be a non-essential feature, as users are still able to share any of the pages on the website, the only downside being that the page sharing has not been tailored to best reflect the content as judged by the developer.
-
+<a name="tour"></a>
 ### tour.html
 This page contains a responsive table generated with Bootstrap's list-inline class. It features a number of tour dates with the date of each performance, location, and a link to buy tickets from a third party vendor.
-
+<a name="book"></a>
 ### book-us.html
 The Book Us page is comprised of two components. The "Testimonials" section contains two quotes from previous clients of The Monkees achieved using Bootstrap media objects. There is also a contact form on the page that uses built in HTML5 validation to ensure correct imput of the Contact Name, Contact Email and Your Message fields. The form's submit button takes the user to action-page.html.
 
 The finished book-us.html page differs from the wireframe in that the testimonials section was implemented in the finished product. This decision was taken during the consideration of additional user stories that took place after the project was being coded. It was felt that prospective clients of The Monkees would need to see some sort of marketing in order to increase the chances of them making a booking.
-
+<a name="action"></a>
 ### action-page.html
 This is a dummy action page which does not utilise any server-side functionality but simulates the process that the user would go through when they submit the contact form. This page consists of a "thank you" message.
 
 No wireframe was created for this page due to its simple format making a wireframe unnecessary.
-
+<a name="music"></a>
 ### music.html
 This page acts as a hub for the music subpages. It comprises of the featured album cover image (also displayed on index.html) and album heading displayed at a prominent position towards the top of the page, along with other albums displayed three per row going down the page. This layout is responsive, and collapses to a one album per row stacked layout on smaller viewports. Each of the album images and headings is a link that takes the user through to the respective music subpage.
-
-### Music Page (Subpage)
+<a name="musicsubpage"></a>
+### Music Subpage
 Each of the music subpages possesses the same layout. The first row consists of the album cover image and a release date along with a short album description. The second row consists of a spotify widget that enables the user to play the album in their browser. The responsive layout collapses on smaller screens, so that the album image, the description, and the spotify player are stacked on top of each other.
 
 A slight deviation from the wireframes exist in that on the finished product the spotify widget is below the rest of the content, whereas in the wireframe it was positioned to the right of the album image and directly below the album description. This approach was adopted due to it being discovered during coding that the spotify widget does not adapt well to small sizes. In order for the widget to be large enough to function correctly it had to be positioned below the rest of the content.
 <a name="ie-feature"></a>
 For users using IE, the music subpages look a little different. The Spotify widget is unsupported in IE and does not render. Instead, users of IE see a simple track list formatted using an ol element. IE versions 9, 10 and 11 are supported.
-
-### Video Pages (featured-video.html and Subpages)
+<a name="video"></a>
+### Video Pages (featured-video.html and subpages)
 The video pages all feature the same layout. The currently loaded video is displayed using a YouTube iframe towards the top of the page. Below the iframe, YouTube img thumbnails are used to create links to other video pages, with glyphicon-play icons overlayed on the thumbnails to indicate to the user that these links will take them to the video content. On small viewports the default three thumbnails per row is collapsed to one on top of the other stacked.
-
+<a name="photo"></a>
 ### photo-gallery.html
 This page contains image media, implemented using the lightgallery jQuery plugin. The page consists of two rows of images with a title heading, each representing a separate jQuery slideshow. The lightgallery functionality enables the user to click/tap on an image to make it fullscreen, with the ability to swipe or click through the other images in the slideshow. On smaller screens, the default row of four images is collapsed to each image being stacked.
-
+<a name="featuresimplement"></a>
 ### Features Left to Implement
 Some features are left open to the idea of implementation, but were not featured in this release.
 
@@ -237,7 +284,7 @@ As this type of user I am able to clearly see News in the main navigation. Click
 
 As this type of user I can see Book Us in the main navigation. Using this link takes me to book-us.html. I am reassured by the testimonials from recent clients, and the contact form validates correctly, ensuring that I don't leave any field blank and that my email address is in the correct format. Failing to fill all contact form fields, or entering an email address without an @ symbol, prevents me from submitting the form and presents me with an error message on all tested browsers. Upon submitting the form I am taken to a page that confirms that the form was successfully sent.
 
-### Browser and Screen Size Testing
+### Browser and Responsiveness Testing
 The project was primarily developed on Google Chrome version v69.0.3497 on a Windows PC with a default maximised screen size of 1936px. The project was developed mobile-first, so the look of the project was tailored to all screen sizes above 320px with continuous testing during development to ensure that the site continued to be responsive. In addition to Google Chrome's developer tools simulating devices, a real iPhone 7 running iOS v11.3 was used to test the app with the native Safari browser. The website was also tested on Firefox v62.0, Safari v11.0.2 and Edge v42.17134.1.0. There were no browser cross-compatibility issues detected during testing and the app was found to run smoothly on all of the previously mentioned browsers.
 
 In addition to modern browser testing, the app was tested on IE version 11.0.9600.19130. In addition, a tool from [browserling](https://www.browserling.com/internet-explorer-testing) was used in order to simulate the website running on IE9. The only issue found was that the Spotify player does not display correctly. On further investigation this was discovered to be due to the Spotify player [not being supported in IE](https://support.spotify.com/uk/using_spotify/the_basics/webplayer/). This led to additional content being added for the benefit of IE users which is detailed [here](#ie-feature).
