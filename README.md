@@ -179,7 +179,8 @@ Each of the music subpages possesses the same layout. The first row consists of 
 
 A slight deviation from the wireframes exist in that on the finished product the spotify widget is below the rest of the content, whereas in the wireframe it was positioned to the right of the album image and directly below the album description. This approach was adopted due to it being discovered during coding that the spotify widget does not adapt well to small sizes. In order for the widget to be large enough to function correctly it had to be positioned below the rest of the content.
 <a name="ie-feature"></a>
-For users using IE, the music subpages look a little different. The Spotify widget is unsupported in IE and does not render. Instead, users of IE see a simple track list formatted using an ol element. IE versions 9, 10 and 11 are supported.
+** IE Compatibility **
+For users using IE, the music subpages look a little different. The Spotify widget is unsupported in IE and does not render. Instead, users of IE see a simple track list formatted using an ol element. IE versions 9, 10 and 11 have been tested and function as intended.
 <a name="video"></a>
 ### Video Pages (featured-video.html and subpages)
 The video pages all feature the same layout. The currently loaded video is displayed using a YouTube iframe towards the top of the page. Below the iframe, YouTube img thumbnails are used to create links to other video pages, with glyphicon-play icons overlayed on the thumbnails to indicate to the user that these links will take them to the video content. On small viewports the default three thumbnails per row is collapsed to one on top of the other stacked.
