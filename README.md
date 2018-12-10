@@ -14,66 +14,65 @@
 
 [3. Features](#features)
 
-<<<<<<< HEAD
-[3.1. Main Navigation](#Main-Navigation)
+[3.1. Main Navigation](#main-navigation)
 
 [3.2. Footer](#footer)
 
-[3.3. index.html](#index.html)
+[3.3. index.html](#index)
 
-[3.4. news.html](#news.html)
+[3.4. news.html](#news)
 
 [3.5. Subpage Navigation](#subpage-navigation)
 
 [3.6. News Article Subpage](#news-article-subpage)
 
-[3.7. tour.html](#tour.html)
+[3.7. tour.html](#tour)
 
-[3.8. book-us.html](#book.html)
+[3.8. book-us.html](#book)
 
-[3.9. action-page.html](#action.html)
+[3.9. action-page.html](#action)
 
-[3.10. music.html](#music.html)
+[3.10. music.html](#music)
 
 [3.11. Music Subpage](#music-subpage)
 
 [3.12. Video Pages (featured-video.html and subpages)](#video)
 
-[3.13. photo-gallery.html](#photo.html)
+[3.13. photo-gallery.html](#photo)
 
 [3.14. Features Left to Implement](#features-left-to-implement)
 
 ----------
 
-[4. Technologies Used](#technologies)
+[4. Technologies Used](#technologies-used)
 
 ----------
 
 [5. Testing](#Testing)
 
-[5.1. Code Validation](#codevalidation)
+[5.1. Code Validation](#code-validation)
 
-[5.2. User Stories Testing](#userstories)
+[5.2. User Stories Testing](#user-stories-testing)
 
-[5.3. Browser and Responsiveness Testing](#browser)
+[5.3. Browser and Responsiveness Testing](#browser-and-responsiveness-testing)
 
-[5.4. Known Issues](#knownissues)
+[5.4. Known Issues](#known-issues)
 
-[5.5. Other Testing](#other)
-
-----------
-
-[6. Deployment](#Deployment)
+[5.5. Other Testing](#other-testing)
 
 ----------
 
-[7. Credits](#Credits)
+[6. Deployment](#deployment)
 
-[7.1. Text Content](#textcontent)
+----------
 
-[7.2. Media](#Media)
+[7. Credits](#credits)
 
-[7.3. Acknowledgements](#Acknowledgements)
+[7.1. Text Content](#text-content)
+
+[7.2. Media](#media)
+
+[7.3. Acknowledgements](#acknowledgements)
 
 --------------------
 
@@ -217,7 +216,7 @@ This type of user can find the content of interest to them on news.html and its 
 **Potential Client**
 
 This type of user is able to navigate to book-us.html. They are able to see a small testimonial section which serves as marketing, and are then able to use a simple contact form in order to initiate the booking process or to obtain more information. The validation on the form helps ensures the user enters workable information.
-<a name="technologies"></a>
+
 ## Technologies Used
 ### [HTML5](https://www.w3.org/standards/webdesign/htmlcss)
 The project's markup uses HTML5, and makes as much use of HTML5 semantics as possible using W3C standards.
@@ -266,7 +265,7 @@ Used to quickly format news article headings to correct style.
 Used to test the app on IE9.
 
 ## Testing
-<a name="codevalidation"></a>
+
 ### Code Validation
 The W3C code validators for [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) were used to check markup validity. These tools helped locate some markup issues, including h3 tags incorrectly closed with /h4, along with identifying obsolete code, such as <script type="javascript">. These tools helped resolve any errors in the markup and no warnings or errors present themselves on any of the html or css files.
 <a name="userstories"></a>
@@ -293,10 +292,10 @@ As this type of user I can see Book Us in the main navigation. Using this link t
 The project was primarily developed on Google Chrome version v69.0.3497 on a Windows PC with a default maximised screen size of 1936px. The project was developed mobile-first, so the look of the project was tailored to all screen sizes above 320px with continuous testing during development to ensure that the site continued to be responsive. In addition to Google Chrome's developer tools simulating devices, a real iPhone 7 running iOS v11.3 was used to test the app with the native Safari browser. The website was also tested on Firefox v62.0, Safari v11.0.2 and Edge v42.17134.1.0. There were no browser cross-compatibility issues detected during testing and the app was found to run smoothly on all of the previously mentioned browsers.
 
 In addition to modern browser testing, the app was tested on IE version 11.0.9600.19130. In addition, a tool from [browserling](https://www.browserling.com/internet-explorer-testing) was used in order to simulate the website running on IE9. The only issue found was that the Spotify player does not display correctly. On further investigation this was discovered to be due to the Spotify player [not being supported in IE](https://support.spotify.com/uk/using_spotify/the_basics/webplayer/). This led to additional content being added for the benefit of IE users which is detailed [here](#ie-feature).
-<a name="knownissues"></a>
+
 ### Known Issues
 An issue occurs intermittently on the video pages, where the YouTube iframe occasionally fails to load. This problem appears unique to Chrome, as it never occured on any other tested browsers. It also appears to be a [documented issue](https://stackoverflow.com/questions/12009423/what-does-status-canceled-for-a-resource-mean-in-chrome-developer-tools). The issue was not rectified in this release due to the time it would take to debug and it only occuring in about 1 in every 10 page loads.
-<a name="other"></a>
+
 ### Other testing
 Family and friends of the developer from non-technical backgrounds were also asked to explore the site. The results of these tests revealed no issues and all of the users agreed that the site functions well.
 
@@ -304,7 +303,7 @@ Family and friends of the developer from non-technical backgrounds were also ask
 The project is deployed on GitHub Pages, available [here](https://dhamma1991.github.io/milestone-project-one/index.html). An issue occured when first deploying; the src path system on GitHub Pages was found to be stricter than on c9 where the project was developed, with links that began with a '/' breaking. A site wide modification of the links had to be completed before the website would function properly on GitHub Pages.
 
 ## Credits
-<a name="textcontent"></a>
+
 ### Text Content
 
 **History section on index.html**
