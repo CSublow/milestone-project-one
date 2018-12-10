@@ -959,7 +959,7 @@ article section p {
     margin: 0 auto;
 }
 
-/* Target IE 10+ */
+/* Target IE 10+, although IE v9 also seems to be affected by these styles */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) { 
     .ie-hidden {
         display: none;
