@@ -178,8 +178,10 @@ This page acts as a hub for the music subpages. It comprises of the featured alb
 Each of the music subpages possesses the same layout. The first row consists of the album cover image and a release date along with a short album description. The second row consists of a spotify widget that enables the user to play the album in their browser. The responsive layout collapses on smaller screens, so that the album image, the description, and the spotify player are stacked on top of each other.
 
 A slight deviation from the wireframes exist in that on the finished product the spotify widget is below the rest of the content, whereas in the wireframe it was positioned to the right of the album image and directly below the album description. This approach was adopted due to it being discovered during coding that the spotify widget does not adapt well to small sizes. In order for the widget to be large enough to function correctly it had to be positioned below the rest of the content.
+
 <a name="ie-feature"></a>
-** IE Compatibility **
+**IE Compatibility**
+
 For users using IE, the music subpages look a little different. The Spotify widget is unsupported in IE and does not render. Instead, users of IE see a simple track list formatted using an ol element. IE versions 9, 10 and 11 have been tested and function as intended.
 <a name="video"></a>
 ### Video Pages (featured-video.html and subpages)
