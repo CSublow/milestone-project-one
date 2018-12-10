@@ -131,7 +131,7 @@ In the wireframes for this project the navigation consisted of 8 links, rather t
 
 ### Footer
 The footer is also consistent across all site pages. The footer consists of 5 links; Home, Book Us, Facebook, Twitter and Youtube. The Home link takes the user back to index.html. The Book Us link takes the user to the Book Us page, this link serving as an additional call to action. The other links take the user to the corresponding social network, which opens in a new browser tab so as to prevent the user forgetting what page they have come from.
-
+<a name="index"></a>
 ### index.html
 As per normal convention this page acts as the site's home page. Below the main navigation the user will encounter a large and eye catching hero slider based off Jssor's Bootstrap jQuery slider. The slider is responsive and also touch-enabled for the benefit of mobile and other touch-enabled devices.
 
@@ -144,7 +144,7 @@ Firstly, this fleshes out the content on index.html, which without the inclusion
 Secondly, an integrated History section reduces the size of the project and the size of the main navigation. A smaller navigation in particular reduces the chance of overloading the user with too many options, thus an integrated History section provides a boost to the site's overall usability.
 
 Thirdly, the History section provides a good place to implement an additional "Book Us" call to action aside from the main navigation and footer. Combining the index and history pages makes it more likely that the user will see this call to action, since almost all users of the site are going to land on the home page first. Having multiple calls to action on a webpage is [good UX](https://goodui.org/).
-
+<a name="news"></a>
 ### news.html
 This page acts as a central hub of news articles. The page is minimal, consisting of two Bootstrap columns of 4 news heading each, with an aside element at the bottom of the page containing information for journalists and blog writers on how to get in touch with the band for press statements. Each news heading links to a seperate news page. A deviation from the wireframe exists here in that the aside element was added to the project during development. This came about as it was thought that journalist/blog-writer type users would want to see this feature.
 
@@ -157,20 +157,20 @@ A deviation from the wireframes exist in that for the music and news-article sub
 The news articles all feature a unique layout; they contain a different number of paragraphs, some have ordered lists and all have one image. The unique layout for each page is necessary in order to cater for the varying content. All of the news articles feature links to external content, these opening in a new browser tab. 
 
 In the wireframes it was debated as to whether to include the full news articles or just snippets, with links to the full content hosted on external platforms. In the end it was decided to include the full content on the website, as this would flesh out the pages and keep the user engaged with the website. In addition, the wireframes included social media share buttons so that the user could easily share stories in a format specified by the developer. This feature was not included in the current release due to a lack of clarity in the early stages of the project as to what the final URL of the project would be. It was also judged to be a non-essential feature, as users are still able to share any of the pages on the website, the only downside being that the page sharing has not been tailored to best reflect the content as judged by the developer.
-
+<a name="tour"></a>
 ### tour.html
 This page contains a responsive table generated with Bootstrap's list-inline class. It features a number of tour dates with the date of each performance, location, and a link to buy tickets from a third party vendor.
-
+<a name="book"></a>
 ### book-us.html
 The Book Us page is comprised of two components. The "Testimonials" section contains two quotes from previous clients of The Monkees achieved using Bootstrap media objects. There is also a contact form on the page that uses built in HTML5 validation to ensure correct imput of the Contact Name, Contact Email and Your Message fields. The form's submit button takes the user to action-page.html.
 
 The finished book-us.html page differs from the wireframe in that the testimonials section was implemented in the finished product. This decision was taken during the consideration of additional user stories that took place after the project was being coded. It was felt that prospective clients of The Monkees would need to see some sort of marketing in order to increase the chances of them making a booking.
-
+<a name="action"></a>
 ### action-page.html
 This is a dummy action page which does not utilise any server-side functionality but simulates the process that the user would go through when they submit the contact form. This page consists of a "thank you" message.
 
 No wireframe was created for this page due to its simple format making a wireframe unnecessary.
-
+<a name="music"></a>
 ### music.html
 This page acts as a hub for the music subpages. It comprises of the featured album cover image (also displayed on index.html) and album heading displayed at a prominent position towards the top of the page, along with other albums displayed three per row going down the page. This layout is responsive, and collapses to a one album per row stacked layout on smaller viewports. Each of the album images and headings is a link that takes the user through to the respective music subpage.
 
@@ -183,7 +183,7 @@ For users using IE, the music subpages look a little different. The Spotify widg
 <a name="video"></a>
 ### Video Pages (featured-video.html and subpages)
 The video pages all feature the same layout. The currently loaded video is displayed using a YouTube iframe towards the top of the page. Below the iframe, YouTube img thumbnails are used to create links to other video pages, with glyphicon-play icons overlayed on the thumbnails to indicate to the user that these links will take them to the video content. On small viewports the default three thumbnails per row is collapsed to one on top of the other stacked.
-
+<a name="photo"></a>
 ### photo-gallery.html
 This page contains image media, implemented using the lightgallery jQuery plugin. The page consists of two rows of images with a title heading, each representing a separate jQuery slideshow. The lightgallery functionality enables the user to click/tap on an image to make it fullscreen, with the ability to swipe or click through the other images in the slideshow. On smaller screens, the default row of four images is collapsed to each image being stacked.
 
