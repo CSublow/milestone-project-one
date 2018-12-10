@@ -270,7 +270,7 @@ Used to test the app on IE9.
 ## Testing
 
 ### Code Validation
-The W3C code validators for [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) were used to check markup validity. These tools helped locate some markup issues, including h3 tags incorrectly closed with /h4, along with identifying obsolete code, such as <script type="javascript">. These tools helped resolve any errors in the markup and no warnings or errors present themselves on any of the html or css files.
+The W3C code validators for [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) were used to check markup validity. These tools helped locate some markup issues, including h3 tags incorrectly closed with /h4, along with identifying obsolete code, such as <script type="javascript">. This helped resolve any errors in the markup and no warnings or errors present themselves on any of the html or css files.
 <a name="userstories"></a>
 ### User Stories Testing
 Each of the user stories identified in the UX section was simulated. The results of these tests are as follows:
