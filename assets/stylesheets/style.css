@@ -959,6 +959,7 @@ article section p {
     margin: 0 auto;
 }
 
+/* Target IE 10+ */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) { 
     .ie-hidden {
         display: none;
