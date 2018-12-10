@@ -24,7 +24,7 @@
 
 [3.5. Subpage Navigation](#subpagenavigation)
 
-[3.6. News Article Subpage](#newsarticle)
+[3.6. News Article Subpage](#news-article-subpage)
 
 [3.7. tour.html](#tour)
 
