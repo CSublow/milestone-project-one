@@ -2,19 +2,19 @@
 
 ## Table Of Contents
 
-[1. Introduction](#Introduction)
+[1. Introduction](#introduction)
 
 ----------
 
-[2. UX](#UX)
+[2. UX](#ux)
 
-[2.1. Wireframes](#Wireframes)
+[2.1. Wireframes](#wireframes)
 
 ----------
 
 [3. Features](#Features)
 
-[3.1. Main Navigation](#mainnavigation)
+[3.1. Main Navigation](#main-navigation)
 
 [3.2. Footer](#Footer)
 
