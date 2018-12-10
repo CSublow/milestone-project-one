@@ -127,7 +127,7 @@ The main navigation is consistent across all pages. It consists of 7 links label
 
 In addition to the site navigation links, there are external links to The Monkees' social media channels that are located directly below the main navigation. When click/tapped on these open a new browser tab to then take the user to that social media channel.
 
-In the wireframes for this project the navigation consisted of 8 links, rather than the 7 that were implemented. The reasons for this change are elaborated on in the [**index.html**](#index) section below.
+In the wireframes for this project the navigation consisted of 8 links, rather than the 7 that were implemented. The reasons for this change are elaborated on in the [index.html](#index) section below.
 
 ### Footer
 The footer is also consistent across all site pages. The footer consists of 5 links; Home, Book Us, Facebook, Twitter and Youtube. The Home link takes the user back to index.html. The Book Us link takes the user to the Book Us page, this link serving as an additional call to action. The other links take the user to the corresponding social network, which opens in a new browser tab so as to prevent the user forgetting what page they have come from.
