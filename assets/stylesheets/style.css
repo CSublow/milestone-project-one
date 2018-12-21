@@ -462,7 +462,34 @@ figure img {
     color: #0089ff;
 }
 
+@media (min-width: 490px) {
+    /*first two images in history section. I want to stack images on the smallest media, as media size increases arrange into columns, and then eventually float with text*/
+    .index-image-flex {
+        min-height: 198px;
+        display: flex;
+        justify-content: center;
+    }
+    #dj {
+        position: absolute;
+        left: 10%;
+    }
+    #md {
+        position: absolute;
+        right: 10%;
+    }
+}
+
 @media (min-width: 768px) {
+    .index-image-flex {
+        /*reset to default*/
+        min-height: 0;
+        display: block;
+    }
+    #dj, #md {
+        /*reset to default and inherit from parent*/
+        position: static;
+        float: inherit;
+    }
     .band-history {
         margin: 0 57px;
     }
