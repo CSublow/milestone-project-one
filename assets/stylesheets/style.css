@@ -150,6 +150,7 @@ header {
     margin: 0 auto;
     display: block;
     text-align: center;
+    font-family: 'Arvo', serif;
     /*although the background-color is overlaid with the background image, declaring it ensures the nav is still clearly visible if the background-image takes time to load*/
     background-color: white;
     background-image: url(../images/full-bloom.png);
