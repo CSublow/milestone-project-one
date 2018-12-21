@@ -1,6 +1,6 @@
 /* GOOGLE FONTS
 -------------------------------------------------- */
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP:200,400,700|Spirax');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP:200,400,700|Spirax|Arvo');
 
 /* --- STRUCTURAL
 -------------------------------------------------- */
@@ -76,7 +76,7 @@ h1 {
     margin-bottom: 20px;
 }
 h1, h2, h3, h4 {
-    font-family: 'Spirax';
+    font-family: 'Arvo', serif;
     font-weight: 600;
     margin-left: 10px;
     margin-right: 10px;
