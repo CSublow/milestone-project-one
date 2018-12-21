@@ -258,6 +258,12 @@ header {
     }
 }
 
+@media print {
+    .social-links {
+        display: none;
+    }
+}
+
 /* --- MEDIA STYLES
 -------------------------------------------------- */
 .feature-media-container {
