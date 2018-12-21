@@ -486,9 +486,9 @@ figure img {
         display: block;
     }
     #dj, #md {
-        /*reset to default and inherit from parent*/
+        /*reset to default*/
         position: static;
-        float: inherit;
+        float: none;
     }
     .band-history {
         margin: 0 57px;
