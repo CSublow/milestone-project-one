@@ -130,6 +130,13 @@ ol {
         background-size: 216px;
     }
 }
+/*on larger screens, wrap the footer in a border on all but the bottom side*/
+@media (min-width: 1905px) {
+    footer {
+        border: 2px solid black;
+        border-bottom: 0;
+    }
+}
 
 /* --- HEADER AND NAVIGATION
 -------------------------------------------------- */
@@ -241,6 +248,13 @@ header {
     }
     .navbar-nav {
         width: fit-content;
+    }
+}
+/*on larger screens, wrap the header in a border on all but the top side*/
+@media (min-width: 1905px) {
+    header {
+        border: 2px solid black;
+        border-top: 0;
     }
 }
 
